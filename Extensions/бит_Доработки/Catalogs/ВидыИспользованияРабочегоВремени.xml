@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b68cea08-ba43-48dd-b838-7529e2ae6f9d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыИспользованияРабочегоВремени" category="Object">
+				<xr:TypeId>90f6f13a-714f-45e2-bd5e-1d238bbc48ba</xr:TypeId>
+				<xr:ValueId>21bff5ec-c171-4d29-9089-a2dd723b5be9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыИспользованияРабочегоВремени" category="Ref">
+				<xr:TypeId>ddcbe3e2-2fa9-4236-9b9a-945cb7d1c761</xr:TypeId>
+				<xr:ValueId>03ce9ad9-d72c-413d-88ac-ef555e94669d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыИспользованияРабочегоВремени" category="Selection">
+				<xr:TypeId>e3e80062-2dfa-4d0a-ac11-2beabf467a6f</xr:TypeId>
+				<xr:ValueId>7afce148-0866-4b1a-a54e-1d550fd6e9b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыИспользованияРабочегоВремени" category="List">
+				<xr:TypeId>4eb26d0c-e23b-4cf7-9a19-978b87733204</xr:TypeId>
+				<xr:ValueId>4db14cc4-db8d-4e47-b7c5-36dd2766fabf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыИспользованияРабочегоВремени" category="Manager">
+				<xr:TypeId>1adf3d44-c9fa-4c82-b314-17abd202b923</xr:TypeId>
+				<xr:ValueId>a5850cfb-9bac-4f78-8d64-57fb1563103a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыИспользованияРабочегоВремени</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1ae8166-42dc-403e-ade4-33ff8c5ffa11</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
