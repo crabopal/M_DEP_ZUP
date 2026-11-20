@@ -9,9 +9,11 @@
 		<Metadata name="Catalog.Сотрудники" id="b7d3b634-2b23-453e-a16c-2d9d7c60881c" configVersion="5555926eb800bf89177e4a613c53f0e5335710a9"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам" id="87b53010-83ef-4d75-a382-085afbd5d583" configVersion="c97425b64f22a5b2d0f1ffeb4834391ae5c84843"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам.Module" id="87b53010-83ef-4d75-a382-085afbd5d583.0" configVersion="a207dfce49d4008bd94c370c8803f1182523d532"/>
+		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7" configVersion="efbf58cfeb2d062c056677b65d04e0fecc3551b1"/>
+		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый.Module" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7.0" configVersion="c2f1d29cd85d5afd7093a5f20960063c8c602d83"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13" id="e1f7687a-f221-4a5e-8a98-f13226154f04" configVersion="239622ebe8082790ca9c2abcc8f8c7e442007363"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13.Template" id="e1f7687a-f221-4a5e-8a98-f13226154f04.0" configVersion="37b27002e14b47eddd806fae94763b2752cff200"/>
-		<Metadata name="Configuration.ЮЦАУ" id="dd371008-2113-44dc-911c-1b0a6830ab12" configVersion="b76269b04b515c7b221c93016aea20b7cc82edc0"/>
+		<Metadata name="Configuration.ЮЦАУ" id="dd371008-2113-44dc-911c-1b0a6830ab12" configVersion="b57877a02748ea92f18e01fa2fe16a4d81fc3b4e"/>
 		<Metadata name="Document.ИндивидуальныйГрафик" id="eb6f38a3-5ff6-4081-9535-2bfc20a76ae1" configVersion="6e5dd400a8aa235312f2ee417e8e6f98b011702f">
 			<Metadata name="Document.ИндивидуальныйГрафик.Attribute.юцау_Профсоюз" id="3828ceb8-d18c-47e9-95fb-59e66ab177c2"/>
 			<Metadata name="Document.ИндивидуальныйГрафик.Attribute.Комментарий" id="4615b9b9-dab6-4f5b-9a40-f04634901aa5"/>
@@ -31,7 +33,7 @@
 		<Metadata name="Document.ИндивидуальныйГрафик.Template.ПФ_MXL_ГрафикСменности" id="f782ed0a-a843-4b14-beb4-61978517d171" configVersion="528916cc5b8227c1d0c9494aa3e511fd99bc5662"/>
 		<Metadata name="Document.ИндивидуальныйГрафик.Template.ПФ_MXL_ГрафикСменности.Template" id="f782ed0a-a843-4b14-beb4-61978517d171.0" configVersion="dae2fa97f2932624d7bbad8133ab3bce700df3dc"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8" configVersion="6c6149ad244368a4c6746f73d3101c75c08aacca"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.2" configVersion="41827fa3592111f79e53c26ef1b9217791c81a73"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.2" configVersion="5f6dd3698783aa75c3ea575b5d7f1b39ddee8594"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.ObjectModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.0" configVersion="da426473870044bb5de96e6f01550120cd562c07"/>
 		<Metadata name="Enum.ПериодыВводаДанныхОВремени" id="b22c2b30-7f60-478a-ae32-81c9126bab75" configVersion="20379fd4d750f42773c1b76fa29457aed69fe56e"/>
 		<Metadata name="Language.Русский" id="52638dd4-990e-43cb-9ab1-52ae144a9774" configVersion="7ece505b6b52ff77be8642c05530873b7354edf0"/>
