@@ -76,6 +76,7 @@
 			<Report>СостоянияСотрудников</Report>
 			<Report>бит_ШтрафыПДД</Report>
 			<Report>бит_ДисциплинарныеВзысканияСотрудников</Report>
+			<InformationRegister>НаградыФизическихЛиц</InformationRegister>
 			<InformationRegister>бит_ВзысканияСотрудников</InformationRegister>
 			<InformationRegister>бит_ШтрафыПДД</InformationRegister>
 		</ChildObjects>

@@ -11,17 +11,41 @@
 		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды" id="991c7066-de25-4b2e-be32-6e3466650362" configVersion="2eb688b68700f518a7db78ceaf8db573ed807a86"/>
 		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды.Form" id="991c7066-de25-4b2e-be32-6e3466650362.0" configVersion="c754bcf2a94a16b93b8687e715d56ecd16146b84"/>
 		<Metadata name="Catalog.бит_ВидыВзысканий" id="2195b1d3-f393-4fe3-b0cc-577887c1d82a" configVersion="09179d36271f8533ad66191c9b99df32111b59c8"/>
-		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="919bd07c245c81bf049bc641a206957950f5e5e5"/>
-		<Metadata name="InformationRegister.бит_ВзысканияСотрудников" id="0c51ffcd-bbb5-4097-9f1c-38ca5d190b08" configVersion="b6daaf91ac723e5f99f60a87823f3df4b32079ba"/>
+		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="394cfdd484624109b1d6da1fcb823fb70d30d514"/>
+		<Metadata name="InformationRegister.НаградыФизическихЛиц" id="23b18de9-ac17-45cb-94c7-0c2d5113dd5d" configVersion="adacd24e0eb11c2c29a13b4bd2fda2eda00587d8">
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.Награда" id="851c19f6-0598-4a3e-832c-00d338ed855b"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.НомерПриказа" id="4de7ac88-c2b1-4132-a8e7-c9f7a93c9045"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.ДатаПриказа" id="17b8bb0b-7fb9-46e8-a8b9-dbecbf244ec0"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.НаименованиеПриказа" id="93dfac28-4128-4b33-9bca-742aeea25d12"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Attribute.ДокументРегистратор" id="bb85d113-271f-4d51-8fee-62825bae6d14"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Dimension.ФизическоеЛицо" id="75340c92-7353-4514-9e97-bdfa05ed7be1"/>
+			<Metadata name="InformationRegister.НаградыФизическихЛиц.Dimension.НомерПоПорядку" id="3d6afb67-f54c-4932-9249-4b4960e1baf7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников" id="0c51ffcd-bbb5-4097-9f1c-38ca5d190b08" configVersion="2d8c6f82a4e1d8280983d763a3226ecba09f1a05">
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.ВидВзыскания" id="4821ca0c-a806-4c88-b628-225436a2504d"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.Дата" id="b53ed0ff-083d-41d2-b8c3-1dace4339f15"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.НомерПриказа" id="2694ed0a-4db5-4627-8f20-3c577f4904b0"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.ДатаПриказа" id="1fcabf49-dd39-421c-87bc-4c16ac9c3f6d"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.Комментарий" id="8b5356dd-49c4-446c-9f05-20fc58a70275"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Dimension.Сотрудник" id="d91ee885-3b61-443a-8dba-0b07955bfd16"/>
+			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Dimension.НомерПоПорядку" id="ca6d3375-c97a-4710-bbb1-7035c7f11aaf"/>
+		</Metadata>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи" id="77967f3b-544f-42ff-9066-1963fdc44695" configVersion="dc670ba109816ab41144a01c358b7ec3a9e2393f"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="77967f3b-544f-42ff-9066-1963fdc44695.0" configVersion="6e0b934c9929dbc2ac8a57fe5132e32cb4b72351"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка" id="81b01f67-1653-4213-b3ea-90e861365de6" configVersion="48af4ea0c8839150dc41895938f103dd0320d9cd"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка.Form" id="81b01f67-1653-4213-b3ea-90e861365de6.0" configVersion="7a69fe06e13222ddfa357f60b04fb8388d619a72"/>
-		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="e1a7ca15-9ad9-4c62-9feb-4002072586de" configVersion="945be6847fb73ed02da4c513c5b02bfd72e32303"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="e1a7ca15-9ad9-4c62-9feb-4002072586de" configVersion="ff40cf4274c5dd56f18c59ae8fa3e7bef032b2ba">
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Дата" id="216df28e-b866-4b83-9cbe-a48e4729afc1"/>
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.ПунктПДД" id="8d94a136-3357-4f75-a55b-9dbb6507648f"/>
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Нарушение" id="c7749d0d-deb0-458b-8ab0-e009115f8546"/>
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Сумма" id="84467aff-5148-4a98-8940-6ee61ffef20a"/>
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Dimension.Сотрудник" id="86eb8091-9990-48e4-ad38-c5d5d5c5cd9b"/>
+			<Metadata name="InformationRegister.бит_ШтрафыПДД.Dimension.НомерПоПорядку" id="437ce7f5-e9fa-4a33-b823-1edfa82b8f16"/>
+		</Metadata>
 		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи" id="c865bfa9-99d4-4c08-b1c2-9cf62dd6ec7f" configVersion="2212ade0af25eecaa3fcc4f909933c6635b06d32"/>
 		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи.Form" id="c865bfa9-99d4-4c08-b1c2-9cf62dd6ec7f.0" configVersion="fff8481214eaa284239f852e77049fbcb4f3d836"/>
 		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка" id="e40967f2-6dc2-4412-84d4-ed30794c7b23" configVersion="c0e63a24b663fd25ce6180e4c4f775222219c43a"/>
-		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка.Form" id="e40967f2-6dc2-4412-84d4-ed30794c7b23.0" configVersion="2aa9796cac14f3571e71d42599ca7724be3b7d60"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка.Form" id="e40967f2-6dc2-4412-84d4-ed30794c7b23.0" configVersion="629c1bbb787b338c680ee50a0019f98f7db7eda6"/>
 		<Metadata name="Language.Русский" id="3eb79667-914e-4156-99f6-949c2142c140" configVersion="76cb2eda4b4203616af5851d821e8203bda847fa"/>
 		<Metadata name="Report.СостоянияСотрудников" id="6e55b2f6-07ef-4b2c-a0e5-6e4a343015b8" configVersion="b9f5e700da65f244e6fb583c586599f5b25fbd89"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21" configVersion="27bc378ff5ac2943a60bb8e6e3f2c7abac27d195"/>

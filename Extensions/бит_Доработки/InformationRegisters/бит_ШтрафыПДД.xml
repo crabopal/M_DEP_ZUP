@@ -40,6 +40,105 @@
 			<DefaultListForm>InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка</DefaultListForm>
 		</Properties>
 		<ChildObjects>
+		<Resource uuid="216df28e-b866-4b83-9cbe-a48e4729afc1">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>Дата</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>569f5acc-ef8d-4099-9476-1e90f3f3073e</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+			</Properties>
+		</Resource>
+		<Resource uuid="8d94a136-3357-4f75-a55b-9dbb6507648f">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>ПунктПДД</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>d907cbef-1be1-47e1-b25f-bc93610a79d6</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>20</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Properties>
+		</Resource>
+		<Resource uuid="c7749d0d-deb0-458b-8ab0-e009115f8546">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>Нарушение</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>8f59fcd5-44d4-4feb-bdb6-486f7791781c</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+			</Properties>
+		</Resource>
+		<Resource uuid="84467aff-5148-4a98-8940-6ee61ffef20a">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>Сумма</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>1a4421de-cdfd-492b-9074-c71dc1327e88</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+			</Properties>
+		</Resource>
+		<Dimension uuid="86eb8091-9990-48e4-ad38-c5d5d5c5cd9b">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>Сотрудник</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>9d02e966-2ad6-441e-b434-d779b75b6038</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+				<Master>true</Master>
+				<MainFilter>true</MainFilter>
+				<DenyIncompleteValues>true</DenyIncompleteValues>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="437ce7f5-e9fa-4a33-b823-1edfa82b8f16">
+			<InternalInfo/>
+			<Properties>
+				<ObjectBelonging>Adopted</ObjectBelonging>
+				<Name>НомерПоПорядку</Name>
+				<Comment/>
+				<ExtendedConfigurationObject>ef280d36-731e-4d74-a475-a4426616adf3</ExtendedConfigurationObject>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>5</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<Master>false</Master>
+				<MainFilter>true</MainFilter>
+				<DenyIncompleteValues>false</DenyIncompleteValues>
+			</Properties>
+		</Dimension>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаЗаписи</Form>
 		</ChildObjects>
