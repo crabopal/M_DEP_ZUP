@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="5b82d62b-9313-4871-b47b-61d3c211e28f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.бит_ВзысканияСотрудников" category="Record">
+				<xr:TypeId>b5cf355c-19d6-4cc4-a888-2bb76a28c22f</xr:TypeId>
+				<xr:ValueId>5129592c-f1c9-4f0d-851b-9a7527502ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.бит_ВзысканияСотрудников" category="Manager">
+				<xr:TypeId>dc20efbd-a1a7-45dc-9b20-6a7f8fd7fef0</xr:TypeId>
+				<xr:ValueId>84b567ea-9e19-4332-94c8-ee5b566d108f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.бит_ВзысканияСотрудников" category="Selection">
+				<xr:TypeId>244b4bcf-226d-4370-82ec-05d096e61a6b</xr:TypeId>
+				<xr:ValueId>5625007c-d281-46e3-a4cf-3edc855e0edc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.бит_ВзысканияСотрудников" category="List">
+				<xr:TypeId>ebf14bfa-c6e7-4c97-8b92-d0b3d9f80784</xr:TypeId>
+				<xr:ValueId>cbe1806c-a272-4d39-b6d2-7167a66552fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.бит_ВзысканияСотрудников" category="RecordSet">
+				<xr:TypeId>20a36453-6b16-4b5e-9f8a-082538326efe</xr:TypeId>
+				<xr:ValueId>56677c9c-f024-4675-b19d-00729a0532f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.бит_ВзысканияСотрудников" category="RecordKey">
+				<xr:TypeId>c871b6e0-59b9-47cc-9785-c14731e7357f</xr:TypeId>
+				<xr:ValueId>62cdf81c-46e7-439a-b9cb-2ffd39cb6b5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.бит_ВзысканияСотрудников" category="RecordManager">
+				<xr:TypeId>fa81903e-e220-4eee-9e3f-bcce9e579397</xr:TypeId>
+				<xr:ValueId>8cadfcff-2df0-4766-8e24-810a08a55d86</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>бит_ВзысканияСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>80888df8-15c1-46eb-8a02-9712394c4bdb</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

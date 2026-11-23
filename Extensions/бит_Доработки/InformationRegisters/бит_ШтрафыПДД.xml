@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="9d2a0463-2385-4dfb-a328-b09beefee953">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.бит_ШтрафыПДД" category="Record">
+				<xr:TypeId>8eced792-a57c-45ca-bbb8-d112a46cbf9f</xr:TypeId>
+				<xr:ValueId>7f5b7878-c732-44ed-ae95-ad35d481a0c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.бит_ШтрафыПДД" category="Manager">
+				<xr:TypeId>7465bdc8-78e1-44a4-bb99-b4fbfb8e4978</xr:TypeId>
+				<xr:ValueId>e901b6e9-714c-4d97-aa8d-c93aa1d15395</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.бит_ШтрафыПДД" category="Selection">
+				<xr:TypeId>6f8e5c86-3d6b-4ddf-84b1-3f39be76ab9d</xr:TypeId>
+				<xr:ValueId>201617ca-141a-46ec-9cea-b2466af67227</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.бит_ШтрафыПДД" category="List">
+				<xr:TypeId>f47117ee-5fd7-4d31-9528-e4efc0f38ee3</xr:TypeId>
+				<xr:ValueId>5a0bbe57-1022-4e50-9690-f5f7beeda8c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.бит_ШтрафыПДД" category="RecordSet">
+				<xr:TypeId>6d95f2c6-15d2-4f45-a5fb-c63720f57998</xr:TypeId>
+				<xr:ValueId>b555cf2d-3df1-42f2-a8bd-4ea18ff3f3b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.бит_ШтрафыПДД" category="RecordKey">
+				<xr:TypeId>a49490b5-a274-4fc1-81f0-881811b256f7</xr:TypeId>
+				<xr:ValueId>9bfa4e91-3a6b-4a23-a8e4-371e9676209e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.бит_ШтрафыПДД" category="RecordManager">
+				<xr:TypeId>702bffc5-a58e-46a1-a058-fd7789d9f27a</xr:TypeId>
+				<xr:ValueId>071c8c09-7b4c-46e5-a79e-4fd34ebdcc3e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>бит_ШтрафыПДД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

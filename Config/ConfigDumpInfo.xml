@@ -75396,7 +75396,7 @@
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="5cd8b6e4-e029-4fac-8404-0324ab96b71a.0" configVersion="96178c1b9a66bf42ac95c734d2d4280600000000"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка" id="32c3ea45-2cd4-465f-b443-61bb005136a3" configVersion="2132e2328f29a149b32f437c5c1dd10000000000"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка.Form" id="32c3ea45-2cd4-465f-b443-61bb005136a3.0" configVersion="a47a0ed0ddc2c249b4340267c6f5ce0d00000000"/>
-		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad" configVersion="833714f018f006489c31ee1f2f1d2aa300000000">
+		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad" configVersion="00cc017a104cd843a6a193b8253945a600000000">
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Сумма" id="1a4421de-cdfd-492b-9074-c71dc1327e88"/>
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Дата" id="569f5acc-ef8d-4099-9476-1e90f3f3073e"/>
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Нарушение" id="8f59fcd5-44d4-4feb-bdb6-486f7791781c"/>
@@ -75404,6 +75404,10 @@
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.ПунктПДД" id="d907cbef-1be1-47e1-b25f-bc93610a79d6"/>
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Dimension.НомерПоПорядку" id="ef280d36-731e-4d74-a475-a4426616adf3"/>
 		</Metadata>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи" id="3a7f1f32-41a2-4c9f-87b5-203a4d61c1a7" configVersion="88d23699c740104daf87e0f99165017a00000000"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи.Form" id="3a7f1f32-41a2-4c9f-87b5-203a4d61c1a7.0" configVersion="c648cabe1995f545ba7c4a143ac28f3700000000"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка" id="edc90417-c1f2-4cc3-93bc-fed1eb3be90b" configVersion="03fcf8fab58867469ab9206ac23815ad00000000"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка.Form" id="edc90417-c1f2-4cc3-93bc-fed1eb3be90b.0" configVersion="737a5bb09ce0b3418bd53856ee65ee5800000000"/>
 		<Metadata name="IntegrationService.ОбменСообщениями" id="c512a1cd-1240-4e46-8bad-8b7b27c5c25a" configVersion="d0777f0bea5f3441989ed668989e723000000000">
 			<Metadata name="IntegrationService.ОбменСообщениями.IntegrationServiceChannel.input_from_SM_normal_priority" id="1ef0581c-b1d8-4115-87f1-7856f6c06bb6"/>
 			<Metadata name="IntegrationService.ОбменСообщениями.IntegrationServiceChannel.output_to_SM_normal_priority" id="ac1b3976-e9e1-4d12-97a2-3f32df05ad97"/>
