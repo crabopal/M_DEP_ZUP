@@ -75383,7 +75383,7 @@
 		<Metadata name="InformationRegister.ЭлектронныеПодписиЭДОБЗК.Form.ФормаСписка" id="f76b199b-7dbd-4d22-bbc3-f8bef6fc79ba" configVersion="3441ef92cb31e0459b3d6f52d9420e5000000000"/>
 		<Metadata name="InformationRegister.ЭлектронныеПодписиЭДОБЗК.Form.ФормаСписка.Form" id="f76b199b-7dbd-4d22-bbc3-f8bef6fc79ba.0" configVersion="34a3ad9ac648974cbae3b4c83cfb35f700000000"/>
 		<Metadata name="InformationRegister.ЭлектронныеПодписиЭДОБЗК.ManagerModule" id="70e141e4-3376-4b60-b858-75d1f7721f28.2" configVersion="eff5c0a8303cf5408db2e6d1a1e5bf0f00000000"/>
-		<Metadata name="InformationRegister.бит_ВзысканияСотрудников" id="80888df8-15c1-46eb-8a02-9712394c4bdb" configVersion="cffc6a530da40d4c93495feda6fa6a0400000000">
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников" id="80888df8-15c1-46eb-8a02-9712394c4bdb" configVersion="30cb239383d519419ef1c093950c7e0e00000000">
 			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.ДатаПриказа" id="004b4cd7-6d15-4dca-974e-b8a15853f01d"/>
 			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.Дата" id="20185d1b-92fb-466d-b9e6-ad4f5a25da0a"/>
 			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Resource.Комментарий" id="7b339d12-2936-47fe-9673-52cd51bcea2f"/>
@@ -75396,7 +75396,7 @@
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="5cd8b6e4-e029-4fac-8404-0324ab96b71a.0" configVersion="96178c1b9a66bf42ac95c734d2d4280600000000"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка" id="32c3ea45-2cd4-465f-b443-61bb005136a3" configVersion="2132e2328f29a149b32f437c5c1dd10000000000"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка.Form" id="32c3ea45-2cd4-465f-b443-61bb005136a3.0" configVersion="a47a0ed0ddc2c249b4340267c6f5ce0d00000000"/>
-		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad" configVersion="f062c5a72fab0c418b4913daf2572cfa00000000">
+		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad" configVersion="833714f018f006489c31ee1f2f1d2aa300000000">
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Сумма" id="1a4421de-cdfd-492b-9074-c71dc1327e88"/>
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Дата" id="569f5acc-ef8d-4099-9476-1e90f3f3073e"/>
 			<Metadata name="InformationRegister.бит_ШтрафыПДД.Resource.Нарушение" id="8f59fcd5-44d4-4feb-bdb6-486f7791781c"/>
