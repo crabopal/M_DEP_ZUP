@@ -133,6 +133,11 @@
 							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ТрудоваяДеятельностьРасширеннаяПодсказка" id="1476"/>
 						</Button>
+						<Button name="бит_Награды" id="10021">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.бит_Награды</CommandName>
+							<ExtendedTooltip name="бит_НаградыРасширеннаяПодсказка" id="10022"/>
+						</Button>
 						<Button name="Страхование" id="1469">
 							<Type>Hyperlink</Type>
 							<CommandName>0</CommandName>
@@ -1180,6 +1185,29 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
+	<Commands>
+		<Command name="бит_Награды" id="10020">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Награды</v8:content>
+				</v8:item>
+			</Title>
+			<Use>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ДобавлениеИзменениеДанныхДляНачисленияЗарплатыРасширенная">true</xr:Value>
+				<xr:Value name="Role.ДобавлениеИзменениеДанныхФизическихЛицЗарплатаКадрыРасширенная">true</xr:Value>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+				<xr:Value name="Role.ЧтениеДанныхДляНачисленияЗарплатыРасширенная">true</xr:Value>
+				<xr:Value name="Role.ЧтениеДанныхФизическихЛицЗарплатаКадрыРасширенная">true</xr:Value>
+			</Use>
+			<Action>бит_Награды</Action>
+			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьЛичныеДанныеВФормеСотрудника</Item>
+			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
 	<BaseForm version="2.20">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
