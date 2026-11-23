@@ -66,6 +66,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>Напоминание</CommonPicture>
 			<Role>бит_ОсновнаяРоль</Role>
 			<Role>бит_КадровикВзыскания</Role>
 			<Role>бит_УчетШтрафовПДД</Role>
