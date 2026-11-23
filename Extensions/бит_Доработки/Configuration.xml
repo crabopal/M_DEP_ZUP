@@ -68,6 +68,7 @@
 			<Language>Русский</Language>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>КоллекцияСостоянийРасчетаСтажей</CommonPicture>
 			<Role>бит_ОсновнаяРоль</Role>
 			<Role>бит_КадровикВзыскания</Role>
 			<Role>бит_УчетШтрафовПДД</Role>

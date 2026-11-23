@@ -4,16 +4,17 @@
 		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени" id="b68cea08-ba43-48dd-b838-7529e2ae6f9d" configVersion="23b5630b2495e1430025504f5fe24a4d2e191c5f"/>
 		<Metadata name="Catalog.Сотрудники" id="ed6ed935-85f4-4567-8cd9-20aa45be48e3" configVersion="48bed75779c177a4946c4c4e1406f853a1d9a2de"/>
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="9eeb1940-a6ad-43dc-9839-6d1da95b5b9f" configVersion="b3dea705cc5d863d4078a332be076e4f2365d5c6"/>
-		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="9eeb1940-a6ad-43dc-9839-6d1da95b5b9f.0" configVersion="78708827c7b72c6ee017b52b9288b61bb836315e"/>
-		<Metadata name="Catalog.ФизическиеЛица" id="64329d21-e351-4d2a-816b-9d8fb22d3a35" configVersion="2cde43e2985a06d375f833de7fc9d1d5bc817ca7"/>
-		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e" configVersion="3b9b0afbf0be6dcb3ab8c85148afe52eecce4def"/>
-		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность.Form" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e.0" configVersion="cbc68b2f55afcca37383808c2c8167d7560d5a22"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="9eeb1940-a6ad-43dc-9839-6d1da95b5b9f.0" configVersion="c62394bcf6336a31db72db6fffe7e858631cd18f"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="64329d21-e351-4d2a-816b-9d8fb22d3a35" configVersion="a32943e94a237ca86c5c6f56df4bdc95e345ef2c"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность" id="dcf860ea-7c6b-48b3-a830-a715714c64e8" configVersion="c076b736fd015f51c39bfb9a7cb7929e519880d1"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность.Form" id="dcf860ea-7c6b-48b3-a830-a715714c64e8.0" configVersion="ebed6c5b0623b1c0325380d1662febf2aa78f6f2"/>
 		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды" id="991c7066-de25-4b2e-be32-6e3466650362" configVersion="dc11d1fa049d9c99ce7b9ef2c92d4f094d62b518"/>
-		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды.Form" id="991c7066-de25-4b2e-be32-6e3466650362.0" configVersion="c2dedda52f726135d242e44c2e0ae7ef9457784b"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды.Form" id="991c7066-de25-4b2e-be32-6e3466650362.0" configVersion="33595d13c72f797b429fc809949255f1c7f662d0"/>
 		<Metadata name="Catalog.бит_ВидыВзысканий" id="2195b1d3-f393-4fe3-b0cc-577887c1d82a" configVersion="2802a007275ba45ddbe964164607065482170797"/>
+		<Metadata name="CommonPicture.КоллекцияСостоянийРасчетаСтажей" id="3b9f50fd-7ca1-423a-9ed9-e4158b9cb215" configVersion="de63eefc380da771aaf3376980ae8ea376ad3ab5"/>
 		<Metadata name="CommonPicture.Напоминание" id="d64d9d67-d43a-4a29-9abc-d8acfcc47177" configVersion="f671a1994fa47f1fb33f29750f828532589b1833"/>
-		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="cad778bd1ef657852e37e534dc06e4152ffa6c43"/>
-		<Metadata name="InformationRegister.НаградыФизическихЛиц" id="23b18de9-ac17-45cb-94c7-0c2d5113dd5d" configVersion="9e8126e22911cb2d23dd1962dc167fb826d84039">
+		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="aa7bc1193ca51ec668a2b9a08e3516fa7c84e88b"/>
+		<Metadata name="InformationRegister.НаградыФизическихЛиц" id="23b18de9-ac17-45cb-94c7-0c2d5113dd5d" configVersion="72e279866abbed564b91a9fa9a5485f0e3008a37">
 			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.ДатаПриказа" id="17b8bb0b-7fb9-46e8-a8b9-dbecbf244ec0"/>
 			<Metadata name="InformationRegister.НаградыФизическихЛиц.Dimension.НомерПоПорядку" id="3d6afb67-f54c-4932-9249-4b4960e1baf7"/>
 			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.НомерПриказа" id="4de7ac88-c2b1-4132-a8e7-c9f7a93c9045"/>
