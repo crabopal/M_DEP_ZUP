@@ -7,7 +7,7 @@
 		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="9eeb1940-a6ad-43dc-9839-6d1da95b5b9f.0" configVersion="78708827c7b72c6ee017b52b9288b61bb836315e"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="64329d21-e351-4d2a-816b-9d8fb22d3a35" configVersion="2cde43e2985a06d375f833de7fc9d1d5bc817ca7"/>
 		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e" configVersion="3b9b0afbf0be6dcb3ab8c85148afe52eecce4def"/>
-		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность.Form" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e.0" configVersion="620bd5f7cbeca0288b34afaaa97501284665c075"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность.Form" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e.0" configVersion="6aac4c0401ea995c3f297c71818b628a917dc627"/>
 		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды" id="991c7066-de25-4b2e-be32-6e3466650362" configVersion="dc11d1fa049d9c99ce7b9ef2c92d4f094d62b518"/>
 		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды.Form" id="991c7066-de25-4b2e-be32-6e3466650362.0" configVersion="c2dedda52f726135d242e44c2e0ae7ef9457784b"/>
 		<Metadata name="Catalog.бит_ВидыВзысканий" id="2195b1d3-f393-4fe3-b0cc-577887c1d82a" configVersion="2802a007275ba45ddbe964164607065482170797"/>
