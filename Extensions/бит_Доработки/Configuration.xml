@@ -69,6 +69,8 @@
 			<Role>бит_ОсновнаяРоль</Role>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Report>СостоянияСотрудников</Report>
+			<Report>бит_ШтрафыПДД</Report>
+			<Report>бит_ДисциплинарныеВзысканияСотрудников</Report>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

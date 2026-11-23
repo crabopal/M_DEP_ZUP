@@ -18588,6 +18588,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Resource.Сумма</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ДокументыФизическихЛиц</name>
 		<right>
 			<name>Read</name>
@@ -41164,31 +41175,7 @@
 	<object>
 		<name>Catalog.бит_ВидыВзысканий</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Delete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -41196,19 +41183,7 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InputByString</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -62104,6 +62079,17 @@
 		<name>CommonCommand.ДополнительныеОбработкиВыплатыПеречисления</name>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Resource.Дата</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -101274,6 +101260,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Resource.Нарушение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ТарифыВзносовПоРезультатамСпециальнойОценкиУсловийТруда</name>
 		<right>
 			<name>Read</name>
@@ -110798,6 +110795,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Dimension.Сотрудник</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -156860,6 +156868,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Resource.ПунктПДД</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ТомаХраненияФайлов</name>
 		<right>
 			<name>Read</name>
@@ -169567,6 +169586,22 @@
 	<object>
 		<name>InformationRegister.бит_ШтрафыПДД</name>
 		<right>
+			<name>Read</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>TotalsControl</name>
 			<value>false</value>
 		</right>
@@ -169604,6 +169639,50 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -173551,6 +173630,17 @@
 		<name>DataProcessor.ПанельАдминистрированияБСП.Command.НастройкиРаботыСФайлами</name>
 		<right>
 			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.бит_ШтрафыПДД.Dimension.НомерПоПорядку</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>

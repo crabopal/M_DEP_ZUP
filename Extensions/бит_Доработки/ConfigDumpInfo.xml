@@ -2,11 +2,17 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени" id="b68cea08-ba43-48dd-b838-7529e2ae6f9d" configVersion="23b5630b2495e1430025504f5fe24a4d2e191c5f"/>
-		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="e4776c202b3e2b35705ab4ae35df21adb472c900"/>
+		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="c0bf508223c5e31b2d46dbe880a303bb88134edb"/>
 		<Metadata name="Language.Русский" id="3eb79667-914e-4156-99f6-949c2142c140" configVersion="76cb2eda4b4203616af5851d821e8203bda847fa"/>
 		<Metadata name="Report.СостоянияСотрудников" id="6e55b2f6-07ef-4b2c-a0e5-6e4a343015b8" configVersion="b9f5e700da65f244e6fb583c586599f5b25fbd89"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21" configVersion="27bc378ff5ac2943a60bb8e6e3f2c7abac27d195"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21.0" configVersion="a2d8e491394cb45100952f103c2d199f135cbbaa"/>
+		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников" id="2471d3bc-6546-46ed-b91f-a465271fefa0" configVersion="98542acc1e1f3ed5214525148a246a894accbaaa"/>
+		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="98f1081c-e067-4cdf-8bf8-fc1345f77581" configVersion="5303c43aeadd85bbd30d7c247cb1c8ba57828a7c"/>
+		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="98f1081c-e067-4cdf-8bf8-fc1345f77581.0" configVersion="943efb6b8f603550ac2714deae570df7834e4c5c"/>
+		<Metadata name="Report.бит_ШтрафыПДД" id="a6932e28-dbd0-4f62-b8e1-9d7a624c381f" configVersion="6a7552bf542ec929db08e876de9ecfb683c028f5"/>
+		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных" id="568ef00a-00b4-41db-96cd-53f3c05b1343" configVersion="7313207e77ba4b6289c7ef723ad7db65ed03d623"/>
+		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="568ef00a-00b4-41db-96cd-53f3c05b1343.0" configVersion="943efb6b8f603550ac2714deae570df7834e4c5c"/>
 		<Metadata name="Role.бит_ОсновнаяРоль" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a" configVersion="44f7f84eb804e070cd97ce210bbaf632283ff3c4"/>
 		<Metadata name="Role.бит_ОсновнаяРоль.Rights" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a.0" configVersion="de36ab6224b61698c1c3a31026e61cc87cea648a"/>
 	</ConfigVersions>
