@@ -31,7 +31,7 @@
 			<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Dimension.НомерПоПорядку" id="ca6d3375-c97a-4710-bbb1-7035c7f11aaf"/>
 		</Metadata>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи" id="77967f3b-544f-42ff-9066-1963fdc44695" configVersion="dc670ba109816ab41144a01c358b7ec3a9e2393f"/>
-		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="77967f3b-544f-42ff-9066-1963fdc44695.0" configVersion="6e0b934c9929dbc2ac8a57fe5132e32cb4b72351"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="77967f3b-544f-42ff-9066-1963fdc44695.0" configVersion="d2d51aeade956484312d79cc3f494b7a160a6372"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка" id="81b01f67-1653-4213-b3ea-90e861365de6" configVersion="48af4ea0c8839150dc41895938f103dd0320d9cd"/>
 		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка.Form" id="81b01f67-1653-4213-b3ea-90e861365de6.0" configVersion="7a69fe06e13222ddfa357f60b04fb8388d619a72"/>
 		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="e1a7ca15-9ad9-4c62-9feb-4002072586de" configVersion="ff40cf4274c5dd56f18c59ae8fa3e7bef032b2ba">
