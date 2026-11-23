@@ -3,43 +3,78 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="BeforeWriteAtServer" callType="Before">ПередЗаписьюНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="Сотрудник" id="1">
-			<DataPath>Запись.Сотрудник</DataPath>
 			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СотрудникКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<InputField name="Дата" id="10">
-			<DataPath>Запись.Дата</DataPath>
-			<ContextMenu name="ДатаКонтекстноеМеню" id="11"/>
-			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="12"/>
+		<InputField name="НомерПоПорядку" id="4">
+			<Visible>false</Visible>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерПоПорядкуКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НомерПоПорядкуРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="ПунктПДД" id="13">
-			<DataPath>Запись.ПунктПДД</DataPath>
-			<ContextMenu name="ПунктПДДКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="ПунктПДДРасширеннаяПодсказка" id="15"/>
+		<InputField name="Дата" id="7">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="Нарушение" id="16">
-			<DataPath>Запись.Нарушение</DataPath>
-			<ContextMenu name="НарушениеКонтекстноеМеню" id="17"/>
-			<ExtendedTooltip name="НарушениеРасширеннаяПодсказка" id="18"/>
+		<InputField name="ПунктПДД" id="10">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПунктПДДКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПунктПДДРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="Сумма" id="19">
-			<DataPath>Запись.Сумма</DataPath>
-			<ContextMenu name="СуммаКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="21"/>
+		<InputField name="Нарушение" id="13">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НарушениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НарушениеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Сумма" id="16">
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="18"/>
 		</InputField>
 	</ChildItems>
-	<Attributes>
-		<Attribute name="Запись" id="1">
-			<Type>
-				<v8:Type>cfg:InformationRegisterRecordManager.бит_ШтрафыПДД</v8:Type>
-			</Type>
-			<MainAttribute>true</MainAttribute>
-			<SavedData>true</SavedData>
-		</Attribute>
-	</Attributes>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="Сотрудник" id="1">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="СотрудникКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="НомерПоПорядку" id="4">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="НомерПоПорядкуКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="НомерПоПорядкуРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<InputField name="Дата" id="7">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<InputField name="ПунктПДД" id="10">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="ПунктПДДКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="ПунктПДДРасширеннаяПодсказка" id="12"/>
+			</InputField>
+			<InputField name="Нарушение" id="13">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="НарушениеКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="НарушениеРасширеннаяПодсказка" id="15"/>
+			</InputField>
+			<InputField name="Сумма" id="16">
+				<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+				<ContextMenu name="СуммаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="18"/>
+			</InputField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
 </Form>

@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<InformationRegister uuid="e1a7ca15-9ad9-4c62-9feb-4002072586de">
+	<InformationRegister uuid="9d2a0463-2385-4dfb-a328-b09beefee953">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.бит_ШтрафыПДД" category="Record">
-				<xr:TypeId>220d3dda-24ea-4e4c-a2ea-448f58d97c1c</xr:TypeId>
-				<xr:ValueId>bcf5740a-c2d1-430a-be72-e1d7017bf827</xr:ValueId>
+				<xr:TypeId>8eced792-a57c-45ca-bbb8-d112a46cbf9f</xr:TypeId>
+				<xr:ValueId>7f5b7878-c732-44ed-ae95-ad35d481a0c4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.бит_ШтрафыПДД" category="Manager">
-				<xr:TypeId>df516e6b-0f89-4f2d-a29a-fb0c6fb0da29</xr:TypeId>
-				<xr:ValueId>35351353-ff28-4b1d-a04d-7db6c385ca8f</xr:ValueId>
+				<xr:TypeId>7465bdc8-78e1-44a4-bb99-b4fbfb8e4978</xr:TypeId>
+				<xr:ValueId>e901b6e9-714c-4d97-aa8d-c93aa1d15395</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.бит_ШтрафыПДД" category="Selection">
-				<xr:TypeId>7503d72c-9133-4535-aff1-d2928b5447c1</xr:TypeId>
-				<xr:ValueId>5a4e0680-14b4-4f77-907a-b0076d7940db</xr:ValueId>
+				<xr:TypeId>6f8e5c86-3d6b-4ddf-84b1-3f39be76ab9d</xr:TypeId>
+				<xr:ValueId>201617ca-141a-46ec-9cea-b2466af67227</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.бит_ШтрафыПДД" category="List">
-				<xr:TypeId>0fd1a928-73fa-48b4-ae61-5a2e5bdeccdb</xr:TypeId>
-				<xr:ValueId>ddfb6e89-6364-4b68-b38a-657ffacbb006</xr:ValueId>
+				<xr:TypeId>f47117ee-5fd7-4d31-9528-e4efc0f38ee3</xr:TypeId>
+				<xr:ValueId>5a0bbe57-1022-4e50-9690-f5f7beeda8c8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.бит_ШтрафыПДД" category="RecordSet">
-				<xr:TypeId>9b3ae16b-73a9-4ed6-bf20-b8dee84c1498</xr:TypeId>
-				<xr:ValueId>75286505-fab3-439e-9b2e-6ba0e1e77e13</xr:ValueId>
+				<xr:TypeId>6d95f2c6-15d2-4f45-a5fb-c63720f57998</xr:TypeId>
+				<xr:ValueId>b555cf2d-3df1-42f2-a8bd-4ea18ff3f3b0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.бит_ШтрафыПДД" category="RecordKey">
-				<xr:TypeId>ef7dba13-1deb-4119-a6d0-f25a6e05ab01</xr:TypeId>
-				<xr:ValueId>14fe3076-ac31-436c-9ac8-e33c46f75df9</xr:ValueId>
+				<xr:TypeId>a49490b5-a274-4fc1-81f0-881811b256f7</xr:TypeId>
+				<xr:ValueId>9bfa4e91-3a6b-4a23-a8e4-371e9676209e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.бит_ШтрафыПДД" category="RecordManager">
-				<xr:TypeId>0a0f2195-15e9-4a74-860d-f81ddb9098a3</xr:TypeId>
-				<xr:ValueId>28ff14d2-ba40-4e5f-a63a-91a17e55bfb3</xr:ValueId>
+				<xr:TypeId>702bffc5-a58e-46a1-a058-fd7789d9f27a</xr:TypeId>
+				<xr:ValueId>071c8c09-7b4c-46e5-a79e-4fd34ebdcc3e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -36,111 +36,12 @@
 			<Name>бит_ШтрафыПДД</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>ea7f0f34-cbf6-4ce0-8ca1-9eb292eb8fad</ExtendedConfigurationObject>
-			<DefaultRecordForm>InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи</DefaultRecordForm>
-			<DefaultListForm>InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
-		<Resource uuid="216df28e-b866-4b83-9cbe-a48e4729afc1">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>Дата</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>569f5acc-ef8d-4099-9476-1e90f3f3073e</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>xs:dateTime</v8:Type>
-					<v8:DateQualifiers>
-						<v8:DateFractions>Date</v8:DateFractions>
-					</v8:DateQualifiers>
-				</Type>
-			</Properties>
-		</Resource>
-		<Resource uuid="8d94a136-3357-4f75-a55b-9dbb6507648f">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>ПунктПДД</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>d907cbef-1be1-47e1-b25f-bc93610a79d6</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>20</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-			</Properties>
-		</Resource>
-		<Resource uuid="c7749d0d-deb0-458b-8ab0-e009115f8546">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>Нарушение</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>8f59fcd5-44d4-4feb-bdb6-486f7791781c</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>250</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-			</Properties>
-		</Resource>
-		<Resource uuid="84467aff-5148-4a98-8940-6ee61ffef20a">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>Сумма</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>1a4421de-cdfd-492b-9074-c71dc1327e88</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>15</v8:Digits>
-						<v8:FractionDigits>2</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-			</Properties>
-		</Resource>
-		<Dimension uuid="86eb8091-9990-48e4-ad38-c5d5d5c5cd9b">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>Сотрудник</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>9d02e966-2ad6-441e-b434-d779b75b6038</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
-				</Type>
-				<Master>true</Master>
-				<MainFilter>true</MainFilter>
-				<DenyIncompleteValues>true</DenyIncompleteValues>
-			</Properties>
-		</Dimension>
-		<Dimension uuid="437ce7f5-e9fa-4a33-b823-1edfa82b8f16">
-			<InternalInfo/>
-			<Properties>
-				<ObjectBelonging>Adopted</ObjectBelonging>
-				<Name>НомерПоПорядку</Name>
-				<Comment/>
-				<ExtendedConfigurationObject>ef280d36-731e-4d74-a475-a4426616adf3</ExtendedConfigurationObject>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>5</v8:Digits>
-						<v8:FractionDigits>0</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-				<Master>false</Master>
-				<MainFilter>true</MainFilter>
-				<DenyIncompleteValues>false</DenyIncompleteValues>
-			</Properties>
-		</Dimension>
-			<Form>ФормаСписка</Form>
 			<Form>ФормаЗаписи</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>
