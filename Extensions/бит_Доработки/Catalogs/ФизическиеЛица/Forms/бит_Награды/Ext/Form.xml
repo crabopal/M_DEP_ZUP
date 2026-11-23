@@ -67,6 +67,13 @@
 				<Event name="OnChange">НаградыПриИзменении</Event>
 			</Events>
 			<ChildItems>
+				<InputField name="НаградыНомерПоПорядку" id="42">
+					<DataPath>Награды.НомерПоПорядку</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаградыНомерПоПорядкуКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="НаградыНомерПоПорядкуРасширеннаяПодсказка" id="44"/>
+				</InputField>
 				<InputField name="НаградыНаграда" id="30">
 					<DataPath>Награды.Награда</DataPath>
 					<EditMode>EnterOnInput</EditMode>
