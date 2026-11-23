@@ -1912,10 +1912,52 @@
 				<Description>Уведомление природопользователю</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="400412b6-23f4-4447-9e2e-80e78179e854">
+				<Name>ФактическиеЗатратыПоКонтрактуГОЗ</Name>
+				<Code>000000813</Code>
+				<Description>Фактические затраты по контракту ГОЗ</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="f49ae3e3-6c17-456d-b519-c6b5e101055b">
 				<Name>ГОЗФорма1д</Name>
 				<Code>000000782</Code>
 				<Description>Форма 1 (1д)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="950b42ca-a2ae-497f-87b4-c73616f0199b">
+				<Name>ГОЗФорма11</Name>
+				<Code>000000805</Code>
+				<Description>Форма 11</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e06db099-0aec-4460-bfe7-367d05aa5080">
+				<Name>ГОЗФорма13</Name>
+				<Code>000000804</Code>
+				<Description>Форма 13</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f0cb7b85-7d33-421b-b401-b2e38f0cdb86">
+				<Name>ГОЗФорма14</Name>
+				<Code>000000795</Code>
+				<Description>Форма 14</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="08a36e17-59a9-4784-aa47-a0a464abe871">
+				<Name>ГОЗФорма16</Name>
+				<Code>000000803</Code>
+				<Description>Форма 16</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9f7ea48d-9f0d-4348-af6f-6453162e1f48">
+				<Name>ГОЗФорма19д</Name>
+				<Code>000000796</Code>
+				<Description>Форма 19 (19д)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="016efdc3-6014-48b5-94cc-1bd838b427ba">
+				<Name>ГОЗФорма2</Name>
+				<Code>000000806</Code>
+				<Description>Форма 2</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="6e7a0080-e62d-4259-9000-d24fae2bb2e9">
@@ -1936,6 +1978,24 @@
 				<Description>Форма 2-ТП (рекультивация)</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="fff93cfc-773b-4d17-9a3b-bd2aa10dba0e">
+				<Name>ГОЗФорма20д</Name>
+				<Code>000000789</Code>
+				<Description>Форма 20 (20д)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="fd31e260-da36-4bc9-8ca5-8a86b3b72e0d">
+				<Name>ГОЗФорма21</Name>
+				<Code>000000802</Code>
+				<Description>Форма 21</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="04e85965-a5c8-45b3-9896-ce7b961d8073">
+				<Name>ГОЗФорма23</Name>
+				<Code>000000801</Code>
+				<Description>Форма 23</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="6645e2dc-10c7-4550-a0fc-ae3fcb3b4c5d">
 				<Name>ГОЗФорма2д</Name>
 				<Code>000000783</Code>
@@ -1946,6 +2006,54 @@
 				<Name>ГОЗФорма3д</Name>
 				<Code>000000784</Code>
 				<Description>Форма 3д</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="df8834fd-8856-4763-9557-eee61b0a2d1c">
+				<Name>ГОЗФорма4</Name>
+				<Code>000000790</Code>
+				<Description>Форма 4</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="242a39b7-81ee-4148-9491-ec474431d968">
+				<Name>ГОЗФорма4д</Name>
+				<Code>000000808</Code>
+				<Description>Форма 4д</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3858e4da-e979-4e91-afda-b92a065e54c7">
+				<Name>ГОЗФорма5</Name>
+				<Code>000000791</Code>
+				<Description>Форма 5</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ce087b80-3044-4610-810e-e60a209dc9c8">
+				<Name>ГОЗФорма5д</Name>
+				<Code>000000809</Code>
+				<Description>Форма 5д</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a8f91187-6589-46bb-b595-e366d83c6c80">
+				<Name>ГОЗФорма6</Name>
+				<Code>000000792</Code>
+				<Description>Форма 6</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="31f032b3-cbb9-4558-89e2-6e6712184190">
+				<Name>ГОЗФорма6д</Name>
+				<Code>000000810</Code>
+				<Description>Форма 6д</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8d62bca5-f89d-401c-9311-d596197f49ae">
+				<Name>ГОЗФорма7</Name>
+				<Code>000000793</Code>
+				<Description>Форма 7</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1732ab01-109d-4263-9802-ccef36757d07">
+				<Name>ГОЗФорма9</Name>
+				<Code>000000794</Code>
+				<Description>Форма 9</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="09633e4c-bfaf-482a-bf80-7191c205bb33">
@@ -3884,6 +3992,12 @@
 				<Description>Аудиторское заключение о консолидированной финансовой отчетности</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="a5960209-9e9e-4592-97b3-b3b3960cc428">
+				<Name>Возражения</Name>
+				<Code>000000807</Code>
+				<Description>Возражения и подтверждающие документы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="dc23bd62-c136-4121-8e9c-27725a4fc5bd">
 				<Name>ВосстановлениеСрокаЖалобы</Name>
 				<Code>000000659</Code>
@@ -4058,6 +4172,24 @@
 				<Description>Заявление о возврате НДФЛ, НПД, сбора за биоресурсы</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="93bdb2ac-e8e8-4a29-a86a-4db92a08109c">
+				<Name>ВозвратОбеспечительногоПлатежа</Name>
+				<Code>000000799</Code>
+				<Description>Заявление о возврате обеспечительного платежа</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9d5e6a4f-abe9-4759-8c69-7b7ece253ea7">
+				<Name>ДубликатСвидительстваЭтиловыйСпирт</Name>
+				<Code>000000812</Code>
+				<Description>Заявление о выдаче дубликата свидетельства о регистрации организации, совершающей операции с этиловы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a4be63ec-00db-46b4-92c0-f881d05201ee">
+				<Name>ВыдачаСвидительстваЭтиловыйСпирт</Name>
+				<Code>000000811</Code>
+				<Description>Заявление о выдаче свидетельства о регистрации организации, совершающей операции с этиловым спиртом</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="69063120-8178-4cae-ae2b-b19f9e86e932">
 				<Name>ВыдачаСправкиПоРасчетам</Name>
 				<Code>000000540</Code>
@@ -4130,6 +4262,12 @@
 				<Description>Заявление о предоставлении заключения о не выявленных (выявленных) фактах искажения затрат</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
+			<Item id="0e920e8a-b787-4106-be77-78a45a5c8967">
+				<Name>ЛьготаТранспортЗемляФЛ</Name>
+				<Code>000000800</Code>
+				<Description>Заявление о предоставлении льготы по транспортному и (или) земельному налогу</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
 			<Item id="c03696ed-fca0-4f92-8825-a9f4265a3091">
 				<Name>ЛьготаПоНалогуНаИмущество</Name>
 				<Code>000000574</Code>
@@ -4194,6 +4332,12 @@
 				<Name>ЗаявлениеОПроведенииНалоговогоМониторинга</Name>
 				<Code>000000533</Code>
 				<Description>Заявление о проведении налогового мониторинга</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6a588734-20e9-4650-b59c-38a8f5d19fee">
+				<Name>ПродлениеСрокаПредставленияДокументов</Name>
+				<Code>000000798</Code>
+				<Description>Заявление о продлении срока представления документов и информации</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="93bfd74d-af77-4923-a795-1c8cc1c623af">
@@ -4818,6 +4962,12 @@
 				<Name>ПониженныеТарифыСтраховыеВзносыКурилы</Name>
 				<Code>000000781</Code>
 				<Description>Уведомление плательщика страховых взносов, применяющего УСН и зарегистрированного на территории Кури</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="8773fd91-92ea-4eff-988e-aa3369c6e643">
+				<Name>УведомлениеПоУСН</Name>
+				<Code>000000797</Code>
+				<Description>Уведомление по УСН</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
 			<Item id="3249c22b-16fc-4cff-b405-7afda81016e6">

@@ -258,6 +258,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.УченыеСтепени</name>
 		<right>
 			<name>Read</name>
@@ -964,6 +975,17 @@
 "","","","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","" )
 #КонецЕсли</condition>
 			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>

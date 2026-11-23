@@ -715,7 +715,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДокументыБИА.TabularSection.ВизыСогласования.Attribute.Автор</name>
+		<name>Catalog.ДокументыБИА.TabularSection.ВизыСогласования.Attribute.Согласовал</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

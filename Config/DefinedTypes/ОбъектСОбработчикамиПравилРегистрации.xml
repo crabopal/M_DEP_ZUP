@@ -212,6 +212,7 @@
 				<v8:Type>cfg:CatalogObject.ПереносДанныхПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПлановыеЕжегодныеОтпуска</v8:Type>
 				<v8:Type>cfg:DocumentObject.УтверждениеШтатногоРасписания</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеВоинскогоУчетаОрганизаций</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.КоэффициентыПовышенияЗаработкаУчитываемыеПриИндексацииИспр</v8:Type>
 				<v8:Type>cfg:DocumentObject.ПризПодарок</v8:Type>
 				<v8:Type>cfg:DocumentObject.РаботаСверхурочно</v8:Type>
@@ -372,6 +373,7 @@
 				<v8:Type>cfg:DocumentObject.ПродлениеКонтрактаДоговора</v8:Type>
 				<v8:Type>cfg:DocumentObject.УдержаниеВСчетРасчетовПоПрочимОперациям</v8:Type>
 				<v8:Type>cfg:CatalogObject.СообщениеОНеСостоящихНаВоинскомУчетеГражданахПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ВидыДокументовВоинскогоУчетаРаботников</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПриказОПрекращенииБронированияПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПрименениеПлановыхНачислений</v8:Type>
 				<v8:Type>cfg:CatalogObject.ШтатноеРасписание</v8:Type>
@@ -642,6 +644,7 @@
 				<v8:Type>cfg:DocumentObject.ИзменениеУсловийДоговораЗаймаСотруднику</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.НастройкиРасчетаЗарплатыРасширенный</v8:Type>
 				<v8:Type>cfg:AccumulationRegisterRecordSet.НачисленияУдержанияПоКонтрагентамАкционерам</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеРаботниковДляВоенкоматов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ОсновныеДанныеКонтрактаДоговораСотрудникаИспр</v8:Type>
 				<v8:Type>cfg:CatalogObject.СведенияОШтатномРасписанииДляМедРегистраПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ВнеочередныеАттестацииСотрудников</v8:Type>

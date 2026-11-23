@@ -3334,6 +3334,32 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.УведомлениеОбОтсутствииОтветаСЭДО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+#ПоЗначениям("Документ.УведомлениеОбОтсутствииОтветаСЭДО", "Чтение", "",
+"ГруппыФизическихЛиц", "ФизическоеЛицо",
+"Организации", "Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "",  "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.РегистрацииЗапросовСреднегоЗаработкаСЭДО</name>
 		<right>
 			<name>Read</name>
@@ -4209,6 +4235,28 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("ВладелецФайла")
+#Иначе
+#ПоЗначениям("Справочник.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы", "Чтение", "",
+"ГруппыФизическихЛиц", "ВладелецФайла.ФизическоеЛицо",
+"Организации", "ВладелецФайла.Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

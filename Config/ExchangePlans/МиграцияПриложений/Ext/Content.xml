@@ -185,10 +185,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.ИспользоватьИнтеграциюСПриложением1СПерсонал</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Document.ЗаявлениеОПодтвержденииПраваНаЗачетАвансовПоНДФЛ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -550,6 +546,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.БухучетПлановыхУдержаний</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.РучныеЗадачиБухгалтера</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -1173,10 +1173,6 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>Constant.АдресМенеджера1СПерсонал</Metadata>
-		<AutoRecord>Deny</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>InformationRegister.УдалитьОтветыНаЗапросыИОН</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -1309,6 +1305,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ПоказыватьПриглашение1СПерсонал</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ПлановыеНачисленияПоДоговорам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -1382,6 +1382,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.СтатьиФинансированияБазыСреднегоЗаработка</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -2269,6 +2273,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ДанныеВоинскогоУчетаОрганизаций</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.СведенияДляФРМОПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -2330,6 +2338,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ПлатежныеДокументыПеречисленияЗарплаты</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.Отчетность24БРОЗапросы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -2761,11 +2773,19 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.СекретШиныОтчетности</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ЗанятостьПозицийШтатногоРасписанияИспр</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
 		<Metadata>Constant.СписокРасширенийТекстовыхФайлов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.КлиентШиныОтчетности</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -2790,6 +2810,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ЗаявленияОВеденииТрудовыхКнижекПереданныеИспр</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Constant.ИспользоватьПолучениеСообщенийИзШиныОтчетность24</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -3565,6 +3589,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ДанныеРаботниковДляВоенкоматов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.СостояниеПодключенияКЭДОсПФР</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -4229,6 +4257,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.Отчетность24БРОСоответствиеСсылок</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ПериодыОтпусков</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -4494,6 +4526,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.СостояниеАрхивированияФайловДОСКонтролирующимиОрганами</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.Отчетность24БРОНастройкиПодтверждения</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -4925,6 +4961,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ПакетОбменСБанками</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -5262,6 +5302,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ЗначенияПоказателейСреднегоЗаработкаСотрудников</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПравилаРучныхЗадачБухгалтера</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -5821,6 +5865,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.Отчетность24БРОПодключения</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.ИдентификаторыОбъектовДляФедеральныхМедрегистров</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -6157,6 +6205,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.Отчетность24БРООграниченияПоОрганизациям</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.ДоходВНатуральнойФормеПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -6246,6 +6298,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.ОбщиеНастройкиАвторизацииИнтернетСервисов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.УведомлениеОбОтсутствииОтветаСЭДО</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -7845,6 +7901,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.НастройкиСбораГрафиковОтпусковКабинетСотрудника</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.АвансовыйПлатежИностранцаПоНДФЛ</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -7878,6 +7938,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ДокументыОплаченныеБезУдержанияНДФЛ</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -8761,6 +8825,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.УдалитьОтчетность24БРОПараметрыШины</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Constant.НачальнаяНастройкаПрограммыОтветыПользователя</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -8998,6 +9066,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.НастройкиАвторизацииИнтернетСервисов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.Отчетность24БРОПараметрыШины</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

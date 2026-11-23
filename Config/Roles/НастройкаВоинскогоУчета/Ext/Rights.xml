@@ -30,6 +30,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.ЗарплатаИУправлениеПерсоналом</name>
 		<right>
 			<name>MainWindowModeNormal</name>
@@ -107,7 +126,45 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДанныеВоинскогоУчетаОрганизаций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПараметрыБронированияСотрудниковОрганизаций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДанныеРаботниковДляВоенкоматов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

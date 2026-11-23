@@ -436,7 +436,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Терр. орган ФСС</v8:content>
+											<v8:content>Терр. орган ОСС</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
@@ -468,7 +468,7 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Рег. номер ФСС/доп. код</v8:content>
+													<v8:content>Рег. номер ОСС/доп. код</v8:content>
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>

@@ -5561,7 +5561,7 @@
 															<Title formatted="true">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Нажимая на кнопку, вы принимаете условия &lt;link регламент&gt;соглашения&lt;/&gt; о присоединении к регламенту УЦ АО "Калуга Астрал" и &lt;link лицензия&gt;лицензии&lt;/&gt; на использование "1С-Отчетность"</v8:content>
+																	<v8:content>Нажимая на кнопку, вы принимаете условия пользовательского &lt;link пользовательскоеСоглашение&gt;соглашения&lt;/&gt;, &lt;link согласиеПДн&gt;согласия&lt;/&gt; на обработку персональных данных, &lt;link регламент&gt;соглашения&lt;/&gt; о присоединении к регламенту УЦ АО "Калуга Астрал", &lt;link лицензия&gt;лицензии&lt;/&gt; на использование "1С-Отчетность"</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="СогласиеСРегламентомКонтекстноеМеню" id="260"/>
@@ -7587,7 +7587,7 @@
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
-					<v8:Length>50</v8:Length>
+					<v8:Length>150</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>

@@ -232,6 +232,16 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаНаставничествоРасширеннаяПодсказка" id="1582"/>
 						</UsualGroup>
+						<UsualGroup name="ГруппаАттестации" id="1587">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаАттестацииРасширеннаяПодсказка" id="1588"/>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДисциплинарныеВзыскания" id="1589">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДисциплинарныеВзысканияРасширеннаяПодсказка" id="1590"/>
+						</UsualGroup>
 						<Button name="ВыплатаЗарплаты" id="1463">
 							<Type>Hyperlink</Type>
 							<CommandName>Form.Command.ВыплатаЗарплаты</CommandName>
@@ -3007,6 +3017,17 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПоддерживаетсяЗачислениеПоНомеруЛицевогоСчетаЦР" id="98">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поддерживается зачисление по номеру лицевого счета ЦР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ФИОФизическихЛицИстория" id="4">
@@ -3417,13 +3438,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Прямые выплаты ФСС</v8:content>
+					<v8:content>Прямые выплаты СФР</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Прямые выплаты ФСС</v8:content>
+					<v8:content>Прямые выплаты СФР</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Use>

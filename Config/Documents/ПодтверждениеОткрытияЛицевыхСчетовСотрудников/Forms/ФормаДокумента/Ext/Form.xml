@@ -215,6 +215,13 @@
 					<ContextMenu name="СотрудникиНомерЛицевогоСчетаКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="СотрудникиНомерЛицевогоСчетаExtendedTooltip" id="67"/>
 				</InputField>
+				<InputField name="СотрудникиБИК" id="89">
+					<DataPath>Объект.Сотрудники.БИК</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СотрудникиБИККонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="СотрудникиБИКРасширеннаяПодсказка" id="91"/>
+				</InputField>
 				<InputField name="СотрудникиСумма" id="40">
 					<DataPath>Объект.Сотрудники.Сумма</DataPath>
 					<Title>

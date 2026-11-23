@@ -65,7 +65,7 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Проверить наличие ответа Фонда</v8:content>
+								<v8:content>Проверить наличие ответа</v8:content>
 							</v8:item>
 						</Title>
 						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
@@ -345,7 +345,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Проведен и готов к отправке в ФСС</v8:content>
+											<v8:content>Проведен и готов к отправке в Фонд</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьДокументПроведенИНеОтправленКонтекстноеМеню" id="194"/>
@@ -1260,6 +1260,12 @@
 							<DataPath>Объект.ДатаСоздания</DataPath>
 							<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="540"/>
 							<ExtendedTooltip name="ДатаСозданияРасширеннаяПодсказка" id="541"/>
+						</InputField>
+						<InputField name="ТипСообщения" id="970">
+							<DataPath>Объект.ТипСообщения</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипСообщенияКонтекстноеМеню" id="971"/>
+							<ExtendedTooltip name="ТипСообщенияРасширеннаяПодсказка" id="972"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>

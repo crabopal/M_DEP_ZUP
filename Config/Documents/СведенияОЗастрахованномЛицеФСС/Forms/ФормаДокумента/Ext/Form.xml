@@ -65,7 +65,7 @@
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Проверить наличие ответа ФСС</v8:content>
+								<v8:content>Проверить наличие ответа</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПроверитьНаличиеОтветаРасширеннаяПодсказка" id="813"/>
@@ -342,7 +342,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Проведен и готов к отправке в ФСС</v8:content>
+											<v8:content>Проведен и готов к отправке в Фонд</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьДокументПроведенИНеОтправленКонтекстноеМеню" id="194"/>

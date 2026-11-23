@@ -107,6 +107,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ГруппыДоступаФизическихЛицБИА</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РасширенныйВопросБИА</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.АрхивБюро</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.АДХ_1_0_13</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

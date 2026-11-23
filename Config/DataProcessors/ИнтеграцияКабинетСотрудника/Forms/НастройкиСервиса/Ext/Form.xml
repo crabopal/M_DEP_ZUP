@@ -2479,6 +2479,7 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 		<Attribute name="УходЗаРебенкомИнвалидомОграничиватьОтмену" id="26">
 			<Title>
@@ -2490,6 +2491,7 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 		<Attribute name="ИсполнениеГособязанностейОграничиватьОтмену" id="27">
 			<Title>
@@ -2501,6 +2503,7 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
 	<Commands>

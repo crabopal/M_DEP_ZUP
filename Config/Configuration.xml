@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Фирма "1С"</Vendor>
-			<Version>3.1.38.18</Version>
+			<Version>3.1.38.123</Version>
 			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -623,6 +623,7 @@
 			<CommonPicture>БСШаг2Зеленый</CommonPicture>
 			<CommonPicture>БСШаг2Серый</CommonPicture>
 			<CommonPicture>БСШаг3Серый</CommonPicture>
+			<CommonPicture>БуллетЖелтыйКругБРО</CommonPicture>
 			<CommonPicture>БыстрыеНастройкиОтчета</CommonPicture>
 			<CommonPicture>БыстрыйДоступ</CommonPicture>
 			<CommonPicture>БыстрыйДоступДобавить</CommonPicture>
@@ -643,6 +644,7 @@
 			<CommonPicture>ВводимыеСимволыВидны</CommonPicture>
 			<CommonPicture>ВводимыеСимволыСкрыты</CommonPicture>
 			<CommonPicture>ВебСтраница</CommonPicture>
+			<CommonPicture>ВертикальнаяЛинияБРО</CommonPicture>
 			<CommonPicture>ВертикальнаяПолоса</CommonPicture>
 			<CommonPicture>ВертикальноеПоложениеВерх</CommonPicture>
 			<CommonPicture>ВертикальноеПоложениеНиз</CommonPicture>
@@ -707,6 +709,8 @@
 			<CommonPicture>ВыравниваниеПоШирине</CommonPicture>
 			<CommonPicture>ВысотаСтроки</CommonPicture>
 			<CommonPicture>ГалкаНазад</CommonPicture>
+			<CommonPicture>ГалкаУспешноЗеленаяАнимированная</CommonPicture>
+			<CommonPicture>ГалкаУспешноЗеленаяСтатичная</CommonPicture>
 			<CommonPicture>ГербПФРСиний</CommonPicture>
 			<CommonPicture>ГербРосстатаСиний</CommonPicture>
 			<CommonPicture>ГербФНССиний</CommonPicture>
@@ -723,11 +727,15 @@
 			<CommonPicture>ГрупповаяОтправка</CommonPicture>
 			<CommonPicture>ДанныеПрочитаны</CommonPicture>
 			<CommonPicture>ДиректБанкЖелтый</CommonPicture>
+			<CommonPicture>ДиректБанкОбменЧерезБанкПосредник</CommonPicture>
+			<CommonPicture>ДиректБанкПолныйОбмен</CommonPicture>
 			<CommonPicture>ДлительнаяОперация16</CommonPicture>
 			<CommonPicture>ДлительнаяОперация24БЗК</CommonPicture>
+			<CommonPicture>ДлительнаяОперация32ОбменСБанками</CommonPicture>
 			<CommonPicture>ДлительнаяОперация48</CommonPicture>
 			<CommonPicture>ДлительнаяОперацияКабинетСотрудника</CommonPicture>
 			<CommonPicture>ДобавитьВЕжедневныйОтчет</CommonPicture>
+			<CommonPicture>ДобавитьЗадачуБухгалтера</CommonPicture>
 			<CommonPicture>ДобавитьПредметНовый</CommonPicture>
 			<CommonPicture>ДобавитьПредметНовыйПоШаблонуФормаНовогоФайла</CommonPicture>
 			<CommonPicture>ДобавитьПредметСДискаФормаНовогоФайла</CommonPicture>
@@ -746,6 +754,7 @@
 			<CommonPicture>ДополнительныеСведения</CommonPicture>
 			<CommonPicture>ДоступВИнтернет32</CommonPicture>
 			<CommonPicture>Другое</CommonPicture>
+			<CommonPicture>ЖелтыйКругСГосорганамиБРО</CommonPicture>
 			<CommonPicture>ЖелтыйФлаг</CommonPicture>
 			<CommonPicture>ЖелтыйШарБЭД</CommonPicture>
 			<CommonPicture>ЗавершитьЗадачу</CommonPicture>
@@ -894,6 +903,8 @@
 			<CommonPicture>КоллекцияФлаговПисем</CommonPicture>
 			<CommonPicture>КоллекцияФормула</CommonPicture>
 			<CommonPicture>КоллекцияШаровБЭД</CommonPicture>
+			<CommonPicture>КолоколБезСообшений</CommonPicture>
+			<CommonPicture>КолоколЕстьСообщения</CommonPicture>
 			<CommonPicture>КолокольчикЖелтый</CommonPicture>
 			<CommonPicture>КолокольчикНеактивный</CommonPicture>
 			<CommonPicture>Комментарий</CommonPicture>
@@ -930,6 +941,7 @@
 			<CommonPicture>ЛоготипTelegram</CommonPicture>
 			<CommonPicture>ЛоготипБанкРоссии</CommonPicture>
 			<CommonPicture>ЛоготипМинобороны</CommonPicture>
+			<CommonPicture>ЛоготипОбменСОтчетностью</CommonPicture>
 			<CommonPicture>ЛоготипРПН</CommonPicture>
 			<CommonPicture>ЛоготипСФР</CommonPicture>
 			<CommonPicture>ЛоготипФАС</CommonPicture>
@@ -1131,6 +1143,7 @@
 			<CommonPicture>ОтклонитьЗагрузкуПолученногоОбъекта</CommonPicture>
 			<CommonPicture>Открепить</CommonPicture>
 			<CommonPicture>ОткрепитьУзел</CommonPicture>
+			<CommonPicture>ОткрытьВПолномРазмере</CommonPicture>
 			<CommonPicture>ОткрытьВыбранныйФайл</CommonPicture>
 			<CommonPicture>ОткрытьМакет</CommonPicture>
 			<CommonPicture>ОткрытьПолученныеДанные</CommonPicture>
@@ -1305,7 +1318,6 @@
 			<CommonPicture>ПолученноеПисьмо</CommonPicture>
 			<CommonPicture>Получить</CommonPicture>
 			<CommonPicture>ПолучитьИОтправить</CommonPicture>
-			<CommonPicture>ПолучитьСообщенияСЭДО</CommonPicture>
 			<CommonPicture>ПользовательАдрес</CommonPicture>
 			<CommonPicture>ПользовательБезФотографии</CommonPicture>
 			<CommonPicture>ПользовательскийМакетУдалить</CommonPicture>
@@ -1510,6 +1522,7 @@
 			<CommonPicture>СостояниеПользователя19</CommonPicture>
 			<CommonPicture>СостояниеПользователя20</CommonPicture>
 			<CommonPicture>СостояниеРассылкиОтчетов</CommonPicture>
+			<CommonPicture>СостоянияВводаПинКодаОблачнойОтчетности</CommonPicture>
 			<CommonPicture>СостоянияДелХраненияДокументов24</CommonPicture>
 			<CommonPicture>СостоянияДокументовСЭДОФСС</CommonPicture>
 			<CommonPicture>СостоянияДоступностиВидовРасчета</CommonPicture>
@@ -1572,6 +1585,7 @@
 			<CommonPicture>СтрелкаВлевоБольшая</CommonPicture>
 			<CommonPicture>СтрелкаВниз</CommonPicture>
 			<CommonPicture>СтрелкаВнизЗеленая</CommonPicture>
+			<CommonPicture>СтрелкаВнизКраснаяБЗК</CommonPicture>
 			<CommonPicture>СтрелкаВнизСераяБЗК</CommonPicture>
 			<CommonPicture>СтрелкаВнизСправка</CommonPicture>
 			<CommonPicture>СтрелкаВперед32</CommonPicture>
@@ -1634,6 +1648,8 @@
 			<CommonPicture>ТранспортПередачаДанных</CommonPicture>
 			<CommonPicture>ТранспортПоУмолчанию</CommonPicture>
 			<CommonPicture>ТранспортЭлектроннаяПочта</CommonPicture>
+			<CommonPicture>ТреугольникВниманиеОранжевыйАнимированный</CommonPicture>
+			<CommonPicture>ТреугольникВниманиеОранжевыйСтатичный</CommonPicture>
 			<CommonPicture>УведомлениеСервиса</CommonPicture>
 			<CommonPicture>УвеличитьШрифт</CommonPicture>
 			<CommonPicture>УдалитьВсеСтраницы</CommonPicture>
@@ -2144,6 +2160,7 @@
 			<Role>ОбновлениеКонфигурацииБазыДанных</Role>
 			<Role>ОбъединениеДублейФизическихЛиц</Role>
 			<Role>ОператорОтправкиОтчетностиЧерезПредставителя</Role>
+			<Role>ОткрытаяАвторизацияПочтовогоСервисаАнонимныйДоступ</Role>
 			<Role>ОтправкаДокументовВ1САрхив</Role>
 			<Role>ПередачаДанныхАнонимныйДоступ</Role>
 			<Role>ПодключениеИнтернетПоддержки</Role>
@@ -2154,6 +2171,7 @@
 			<Role>ПодсистемаНастройка</Role>
 			<Role>ПодсистемаНастройкаИАдминистрирование</Role>
 			<Role>ПодсистемаОтчетность</Role>
+			<Role>ПодтверждениеОтправкиДанныхВОтчетность24</Role>
 			<Role>ПолныеПрава</Role>
 			<Role>ПолучениеОбновленийКлассификаторов</Role>
 			<Role>ПолучениеОбновленийПоставляемыхНастроек</Role>
@@ -2180,11 +2198,12 @@
 			<Role>РедактированиеПлановыхНачисленийВДокументах</Role>
 			<Role>РедактированиеРеквизитовОбъектов</Role>
 			<Role>РежимТехническогоСпециалиста</Role>
+			<Role>СозданиеНастроекПодключенияКОтчетность24</Role>
 			<Role>СозданиеРезервнойКопииВОблачномАрхиве</Role>
+			<Role>юцТабельщик</Role>
 			<Role>СохранениеДанныхЗадвоенныхФизическихЛиц</Role>
 			<Role>СохранениеДанныхПользователя</Role>
 			<Role>УдалениеЭлектронныхПодписей</Role>
-			<Role>юцТабельщик</Role>
 			<Role>УдаленныйДоступOData</Role>
 			<Role>УдаленныйДоступАдминистрированиеИБВМоделиСервиса</Role>
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
@@ -2361,6 +2380,8 @@
 			<Role>ЧтениеШтатногоРасписания</Role>
 			<Role>ЧтениеЭЛН</Role>
 			<Role>ШифрованиеИРасшифровкаДанных</Role>
+			<Role>бит_КадровикВзыскания</Role>
+			<Role>бит_УчетШтрафовПДД</Role>
 			<CommonTemplate>fresh</CommonTemplate>
 			<CommonTemplate>ВидыДокументовУдостоверяющихЛичность</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
@@ -2384,9 +2405,10 @@
 			<CommonTemplate>КодыКБК</CommonTemplate>
 			<CommonTemplate>КомпонентаОбмена359</CommonTemplate>
 			<CommonTemplate>КомпонентаПечатиQRКода</CommonTemplate>
-			<CommonTemplate>КомпонентаПечатиШтрихкодов</CommonTemplate>
+			<CommonTemplate>КомпонентаПечатиШтрихкодов_10_0_13_7</CommonTemplate>
 			<CommonTemplate>КомпонентаПоискаСтрок</CommonTemplate>
 			<CommonTemplate>КомпонентаСканированияДокументов_3_0_1_1033</CommonTemplate>
+			<CommonTemplate>КомпонентаШиныОтчетности</CommonTemplate>
 			<CommonTemplate>ОбщиеСправочникиРПН</CommonTemplate>
 			<CommonTemplate>ОписаниеИзмененийСистемы</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
@@ -2397,6 +2419,7 @@
 			<CommonTemplate>ПФ_MXL_РасчетныйЛистокСРазбивкойПоИсточникамФинансирования</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_РасчетныйЛистокСРазбивкойПоИсточникамФинансированияПерваяПоловинаМесяца</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_РеестрПеречисленныхСуммНДФЛ</CommonTemplate>
+			<CommonTemplate>ПФ_MXL_СписокЗачисленийПоЗарплатномуПроекту</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СписокПеречисленийНаБанковскиеСчета</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СписокПеречисленийНаЛицевыеСчета</CommonTemplate>
 			<CommonTemplate>ПФ_MXL_СписокПеречисленийПоЗарплатномуПроекту</CommonTemplate>
@@ -2610,6 +2633,8 @@
 			<CommonModule>ВозвратНДФЛФормыВнутренний</CommonModule>
 			<CommonModule>ВозвратНДФЛФормыРасширенный</CommonModule>
 			<CommonModule>ВоинскийУчет</CommonModule>
+			<CommonModule>ВоинскийУчетКлиент</CommonModule>
+			<CommonModule>ВоинскийУчетКлиентСервер</CommonModule>
 			<CommonModule>ВоинскийУчетСобытия</CommonModule>
 			<CommonModule>ВыгрузкаЗагрузкаДанных</CommonModule>
 			<CommonModule>ВыгрузкаЗагрузкаДанныхГраницПоследовательностей</CommonModule>
@@ -2844,7 +2869,6 @@
 			<CommonModule>ИнтеграцияБСПБЭДКлиент</CommonModule>
 			<CommonModule>ИнтеграцияБСПБЭДКлиентСервер</CommonModule>
 			<CommonModule>ИнтеграцияБСПБЭДПовтИсп</CommonModule>
-			<CommonModule>ИнтеграцияБСПБЭДСлужебный</CommonModule>
 			<CommonModule>ИнтеграцияБСПБЭДСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ИнтеграцияБСПБЭДСлужебныйКлиент</CommonModule>
 			<CommonModule>ИнтеграцияБСПБЭДСлужебныйКлиентСервер</CommonModule>
@@ -2872,6 +2896,8 @@
 			<CommonModule>ИнтеграцияПодсистемБТСПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБЭД</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБЭДКлиент</CommonModule>
+			<CommonModule>ИнтеграцияПодсистемБЭДПовтИсп</CommonModule>
+			<CommonModule>ИнтеграцияПодсистемБЭДСлужебный</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемПлюс</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемПлюсКлиент</CommonModule>
 			<CommonModule>ИнтеграцияС1САрхивом</CommonModule>
@@ -2905,6 +2931,12 @@
 			<CommonModule>ИнтеграцияС1СДокументооборотКлиентСервер</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотОбмен</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПовтИсп</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24ВызовСервера</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24Клиент</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24КлиентСервер</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24Переопределяемый</CommonModule>
+			<CommonModule>ИнтеграцияСОтчетность24ПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияСРаботаРоссии</CommonModule>
 			<CommonModule>ИнтеграцияСРаботаРоссииВызовСервера</CommonModule>
 			<CommonModule>ИнтеграцияСРаботаРоссииКлиент</CommonModule>
@@ -3132,6 +3164,7 @@
 			<CommonModule>МенеджерОборудованияКлиентСервер</CommonModule>
 			<CommonModule>МенеджерОборудованияКлиентСерверПереопределяемый</CommonModule>
 			<CommonModule>МенеджерОборудованияСерверПовтИсп</CommonModule>
+			<CommonModule>МенеджерРегистрацииОбменаЗУП</CommonModule>
 			<CommonModule>МенеджерСервисаКриптографии</CommonModule>
 			<CommonModule>МенеджерСервисаКриптографииКлиент</CommonModule>
 			<CommonModule>МенеджерСервисаКриптографииСлужебныйВызовСервера</CommonModule>
@@ -3285,6 +3318,7 @@
 			<CommonModule>ОбменСБанкамиСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ОбменСБанкамиСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ОбменСБанкамиФинтехСлужебный</CommonModule>
+			<CommonModule>ОбменСБанкамиЦифровойРубль</CommonModule>
 			<CommonModule>ОбменСообщениями</CommonModule>
 			<CommonModule>ОбменСообщениямиВнутренний</CommonModule>
 			<CommonModule>ОбменСообщениямиПереопределяемый</CommonModule>
@@ -3464,6 +3498,15 @@
 			<CommonModule>ОтражениеЗарплатыВУчетеПовтИсп</CommonModule>
 			<CommonModule>ОтражениеЗарплатыВУчетеРасширенный</CommonModule>
 			<CommonModule>ОтражениеРасчетовЗарплатыВБухучете</CommonModule>
+			<CommonModule>Отчетность24БРО</CommonModule>
+			<CommonModule>Отчетность24БРОКлиент</CommonModule>
+			<CommonModule>Отчетность24БРОКлиентПереопределяемый</CommonModule>
+			<CommonModule>Отчетность24БРОКлиентСервер</CommonModule>
+			<CommonModule>Отчетность24БРОСериализация</CommonModule>
+			<CommonModule>Отчетность24БРОСериализацияПовтИсп</CommonModule>
+			<CommonModule>Отчетность24БРОШинаСлужебный</CommonModule>
+			<CommonModule>Отчетность24БРОШинаУведомления</CommonModule>
+			<CommonModule>Отчетность24БРОШинаУведомленияВызовСервера</CommonModule>
 			<CommonModule>ОтчетОДвиженияхДокументаПереопределяемый</CommonModule>
 			<CommonModule>ОтчетОДвиженияхДокументаСлужебныйКлиент</CommonModule>
 			<CommonModule>ОтчетыКлиент</CommonModule>
@@ -3971,6 +4014,9 @@
 			<CommonModule>СообщенияОбменаДаннымиУправлениеОбработчикСообщения_3_0_1_1</CommonModule>
 			<CommonModule>СообщенияОбменаДаннымиУправлениеОбработчикТрансляции_2_1_2_1</CommonModule>
 			<CommonModule>СообщенияОбработкаВМонопольномРежиме</CommonModule>
+			<CommonModule>СообщенияОткрытаяАвторизацияПочтовогоСервисаИнтерфейс</CommonModule>
+			<CommonModule>СообщенияОткрытаяАвторизацияПочтовогоСервисаИнтерфейсСлужебный</CommonModule>
+			<CommonModule>СообщенияОткрытаяАвторизацияПочтовогоСервисаОбработчикСообщения_1_0_0_1</CommonModule>
 			<CommonModule>СообщенияОтчетностиОблачныхПриложений</CommonModule>
 			<CommonModule>СообщенияОтчетностиОблачныхПриложенийПереопределяемый</CommonModule>
 			<CommonModule>СообщенияПользователюБЗК</CommonModule>
@@ -4251,7 +4297,6 @@
 			<CommonModule>УчетФактическиПолученныхДоходовВХО</CommonModule>
 			<CommonModule>УчетФактическиПолученныхДоходовРасширенный</CommonModule>
 			<CommonModule>УчетХозрасчетныхОрганизаций</CommonModule>
-			<CommonModule>УчетХозрасчетныхОрганизацийКлиент</CommonModule>
 			<CommonModule>ФайловаяСистема</CommonModule>
 			<CommonModule>ФайловаяСистемаКлиент</CommonModule>
 			<CommonModule>ФайловаяСистемаСлужебныйКлиент</CommonModule>
@@ -4416,6 +4461,7 @@
 			<XDTOPackage>EnterpriseData_1_21_1</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_22_1</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_23_1</XDTOPackage>
+			<XDTOPackage>EnterpriseData_1_25_1</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_3_20</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_4_20</XDTOPackage>
 			<XDTOPackage>EnterpriseData_1_5_22</XDTOPackage>
@@ -4456,6 +4502,7 @@
 			<XDTOPackage>АДХ_1_0_10</XDTOPackage>
 			<XDTOPackage>АДХ_1_0_11</XDTOPackage>
 			<XDTOPackage>АДХ_1_0_12</XDTOPackage>
+			<XDTOPackage>АДХ_1_0_13</XDTOPackage>
 			<XDTOPackage>АДХ_1_0_3</XDTOPackage>
 			<XDTOPackage>АДХ_1_0_7</XDTOPackage>
 			<XDTOPackage>АДХ_1_0_8</XDTOPackage>
@@ -4466,6 +4513,7 @@
 			<XDTOPackage>ОбменДаннымиКонтроль</XDTOPackage>
 			<XDTOPackage>ОбменДаннымиУправление</XDTOPackage>
 			<XDTOPackage>ОбменДаннымиУправление_3_0_1_1</XDTOPackage>
+			<XDTOPackage>ОткрытаяАвторизацияПочтовогоСервиса_1_0_0_1</XDTOPackage>
 			<XDTOPackage>ОтправкаРеестровПВСО</XDTOPackage>
 			<XDTOPackage>ПодписаниеДокументовГосключ</XDTOPackage>
 			<XDTOPackage>ПодписаниеДокументовГосключЮЛ</XDTOPackage>
@@ -4972,6 +5020,7 @@
 			<ScheduledJob>ПолучениеИУстановкаИсправленийКонфигурации</ScheduledJob>
 			<ScheduledJob>ПолучениеРезультатовИзСервисаМобильнойПодписи</ScheduledJob>
 			<ScheduledJob>ПолучениеРезультатовОтправкиОтчетности</ScheduledJob>
+			<ScheduledJob>ПолучениеСообщенийИзОтчетность24</ScheduledJob>
 			<ScheduledJob>ПолучениеСостоянияБронированияКомандировок</ScheduledJob>
 			<ScheduledJob>ПолучениеСпискаТребуемыхСтатФорм</ScheduledJob>
 			<ScheduledJob>ПолучениеСтатусовЭлектронныхПисем</ScheduledJob>
@@ -4979,6 +5028,7 @@
 			<ScheduledJob>ПроверкаАктуальностиЗаработанныхПравНаОтпуск</ScheduledJob>
 			<ScheduledJob>ПроверкаВеденияУчета</ScheduledJob>
 			<ScheduledJob>ПроверкаКорректностиЗаписейПообъектногоОбмена</ScheduledJob>
+			<ScheduledJob>ПроверкаСостоянияПриложения1СПерсонал</ScheduledJob>
 			<ScheduledJob>ПроверкаСостоянияСервисаКабинетСотрудника</ScheduledJob>
 			<ScheduledJob>ПродлениеДостоверностиПодписей</ScheduledJob>
 			<ScheduledJob>РассылкаОтчетов</ScheduledJob>
@@ -5009,7 +5059,6 @@
 			<ScheduledJob>УдалитьОбработкаОчередиЗаданийБТС</ScheduledJob>
 			<ScheduledJob>УдалитьПолучениеВыпискиОбменСБанками</ScheduledJob>
 			<ScheduledJob>УстановкаПериодаРассчитанныхИтогов</ScheduledJob>
-			<ScheduledJob>УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</ScheduledJob>
 			<ScheduledJob>ФоноваяОтправкаЗапросовСЭДО</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
@@ -5147,7 +5196,6 @@
 			<FunctionalOption>ИспользоватьИнтеграционнуюШину</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтеграциюС1СДокументооборот</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтеграциюС1СДокументооборот3</FunctionalOption>
-			<FunctionalOption>ИспользоватьИнтеграциюСПриложением1СПерсонал</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтеграциюСРаботаРоссии</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсполнительныеЛисты</FunctionalOption>
 			<FunctionalOption>ИспользоватьИсториюИзмененияШтатногоРасписания</FunctionalOption>
@@ -5222,6 +5270,7 @@
 			<FunctionalOption>ИспользоватьПодработки</FunctionalOption>
 			<FunctionalOption>ИспользоватьПодчиненныеБизнесПроцессы</FunctionalOption>
 			<FunctionalOption>ИспользоватьПолнотекстовыйПоиск</FunctionalOption>
+			<FunctionalOption>ИспользоватьПолучениеСообщенийИзШиныОтчетность24</FunctionalOption>
 			<FunctionalOption>ИспользоватьПособиеПоУходуЗаРебенкомДоТрехЛет</FunctionalOption>
 			<FunctionalOption>ИспользоватьПризыПодарки</FunctionalOption>
 			<FunctionalOption>ИспользоватьПрисоединенныеФайлы1СДокументооборота</FunctionalOption>
@@ -5366,10 +5415,12 @@
 			<FunctionalOption>ПлательщикЕНВДЗарплатаКадрыРасширенная</FunctionalOption>
 			<FunctionalOption>ПлюсСервисИспользуется</FunctionalOption>
 			<FunctionalOption>ПоддержкаРезервногоКопирования</FunctionalOption>
+			<FunctionalOption>ПоказыватьПриглашение1СПерсонал</FunctionalOption>
 			<FunctionalOption>ПоказыватьПриглашениеКабинетСотрудника</FunctionalOption>
 			<FunctionalOption>ПолнаяКомпенсацияОтпускаПриУвольненииПоВыбраннымОснованиям</FunctionalOption>
 			<FunctionalOption>ПолучатьУведомленияОбЭЛН</FunctionalOption>
 			<FunctionalOption>ПользователиВМоделиСервиса</FunctionalOption>
+			<FunctionalOption>ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</FunctionalOption>
 			<FunctionalOption>ПрефиксИнформационнойБазы</FunctionalOption>
 			<FunctionalOption>ПрефиксыОрганизаций</FunctionalOption>
 			<FunctionalOption>ПрименятьЛьготныеТарифыВПодразделениях</FunctionalOption>
@@ -5838,7 +5889,6 @@
 			<Constant>АдресВебСервиса1СДокументооборот</Constant>
 			<Constant>АдресДляВосстановленияПароляУчетнойЗаписи</Constant>
 			<Constant>АдресКриптосервиса</Constant>
-			<Constant>АдресМенеджера1СПерсонал</Constant>
 			<Constant>АдресПровайдераАутентификации</Constant>
 			<Constant>АдресПрограммногоИнтерфейсаСлужбыПоддержки</Constant>
 			<Constant>АдресПубликации1САрхива</Constant>
@@ -5977,7 +6027,6 @@
 			<Constant>ИспользоватьИнтеграционнуюШину</Constant>
 			<Constant>ИспользоватьИнтеграциюС1СДокументооборот</Constant>
 			<Constant>ИспользоватьИнтеграциюС1СДокументооборот3</Constant>
-			<Constant>ИспользоватьИнтеграциюСПриложением1СПерсонал</Constant>
 			<Constant>ИспользоватьИнтеграциюСРаботаРоссии</Constant>
 			<Constant>ИспользоватьИнтеграциюССистемойВзаимодействия</Constant>
 			<Constant>ИспользоватьКадровыйУчет</Constant>
@@ -6005,6 +6054,7 @@
 			<Constant>ИспользоватьПодработки</Constant>
 			<Constant>ИспользоватьПодчиненныеБизнесПроцессы</Constant>
 			<Constant>ИспользоватьПолнотекстовыйПоиск</Constant>
+			<Constant>ИспользоватьПолучениеСообщенийИзШиныОтчетность24</Constant>
 			<Constant>ИспользоватьПоследниеПодписиДокументов</Constant>
 			<Constant>ИспользоватьПрисоединенныеФайлы1СДокументооборота</Constant>
 			<Constant>ИспользоватьПроектыБИА</Constant>
@@ -6070,6 +6120,7 @@
 			<Constant>КаталогСообщенийОбменаДаннымиДляLinux</Constant>
 			<Constant>КаталогСообщенийОбменаДаннымиДляWindows</Constant>
 			<Constant>КлассификаторОшибокКриптографии</Constant>
+			<Constant>КлиентШиныОтчетности</Constant>
 			<Constant>КлючОбластиДанных</Constant>
 			<Constant>КлючПодписиТокенаДоступа1СДокументооборот</Constant>
 			<Constant>КлючСопоставленияПользователей1СДокументооборот</Constant>
@@ -6152,6 +6203,7 @@
 			<Constant>ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</Constant>
 			<Constant>ПоддержкаРезервногоКопирования</Constant>
 			<Constant>ПодтверждатьОтправкуПакетовВ1САрхив</Constant>
+			<Constant>ПоказыватьПриглашение1СПерсонал</Constant>
 			<Constant>ПоказыватьПриглашениеКабинетСотрудника</Constant>
 			<Constant>ПолнаяКомпенсацияОтпускаПриУвольненииПоВыбраннымОснованиям</Constant>
 			<Constant>ПользовательСтандартногоИнтерфейсаOData</Constant>
@@ -6159,6 +6211,7 @@
 			<Constant>ПоследнееОбновлениеДоступа</Constant>
 			<Constant>ПредставлениеВидаПриложенияАвтономногоРабочегоМеста</Constant>
 			<Constant>ПредставлениеОбластиДанных</Constant>
+			<Constant>ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</Constant>
 			<Constant>ПрефиксОбластиДанных</Constant>
 			<Constant>ПрефиксПоследнегоАвтономногоРабочегоМеста</Constant>
 			<Constant>ПрефиксСервисаДляНовостей</Constant>
@@ -6194,6 +6247,7 @@
 			<Constant>СведенияОбОбновленииИБ</Constant>
 			<Constant>СвойстваИсправленийПередОбновлениемИБ</Constant>
 			<Constant>СдвигатьПериодОплатыБольничного</Constant>
+			<Constant>СекретШиныОтчетности</Constant>
 			<Constant>СервисКабинетСотрудникаВЛокальнойСети</Constant>
 			<Constant>СервисПереводаТекста</Constant>
 			<Constant>СинхронизироватьДанныеСПриложениемВИнтернетеПриЗавершенииРаботыПрограммы</Constant>
@@ -6268,6 +6322,7 @@
 			<CommonForm>ВспомогательнаяФормаНастроекОтчета</CommonForm>
 			<CommonForm>ВходВОбластьДанных</CommonForm>
 			<CommonForm>ВходВПрограммуЗапрещен</CommonForm>
+			<CommonForm>ВыборВариантаПолученияСообщенийОбмена</CommonForm>
 			<CommonForm>ВыборДат</CommonForm>
 			<CommonForm>ВыборДаты</CommonForm>
 			<CommonForm>ВыборДействияПриОбнаруженииОтличийФайла</CommonForm>
@@ -6379,6 +6434,7 @@
 			<CommonForm>ПодтверждениеСменыТелефона</CommonForm>
 			<CommonForm>ПользователиСервиса</CommonForm>
 			<CommonForm>ПользовательскоеСоглашение</CommonForm>
+			<CommonForm>ПомощникПодготовкиРучнойЗадачиБухгалтера</CommonForm>
 			<CommonForm>ПраваДоступа</CommonForm>
 			<CommonForm>ПраваДоступаУпрощенно</CommonForm>
 			<CommonForm>ПредложениеОформитьЗаявлениеНаПодключениеОблачной1СО</CommonForm>
@@ -6387,12 +6443,14 @@
 			<CommonForm>ПредупреждениеБезопасностиБРО</CommonForm>
 			<CommonForm>ПредупреждениеОКонфликтеКриптопровайдеров</CommonForm>
 			<CommonForm>ПредупрежденияПриЗавершенииРаботы</CommonForm>
+			<CommonForm>Приглашение1СПерсонал</CommonForm>
 			<CommonForm>ПриглашениеКабинетСотрудника</CommonForm>
 			<CommonForm>ПриоритетОбновленияВОбластяхДанных</CommonForm>
 			<CommonForm>ПроверкаПересеченияПериодовОтсутствияСотрудников</CommonForm>
 			<CommonForm>ПроверкаСоответствияШтатномуРасписанию</CommonForm>
 			<CommonForm>ПроверкаФайлаОбновления</CommonForm>
 			<CommonForm>ПроверкаФайловОтчетностиПерсУчетаПФР</CommonForm>
+			<CommonForm>ПродлениеСертификатаЭлектроннойПодписи</CommonForm>
 			<CommonForm>ПродлениеСрокаДействияЭлектронныхПодписей</CommonForm>
 			<CommonForm>ПросмотрРезультатовРасчетаСтраховыхВзносов</CommonForm>
 			<CommonForm>ПросмотрСертификата</CommonForm>
@@ -6431,6 +6489,7 @@
 			<CommonForm>РедактированиеФормулыРасчетаЗарплаты</CommonForm>
 			<CommonForm>РезультатСравненияОтчетов</CommonForm>
 			<CommonForm>РекомендацииСЭДО</CommonForm>
+			<CommonForm>РучнаяЗадачаБухгалтера</CommonForm>
 			<CommonForm>СведенияДляВоенкоматаЛичныеДанные</CommonForm>
 			<CommonForm>Сертификат</CommonForm>
 			<CommonForm>Склонения</CommonForm>
@@ -6830,6 +6889,7 @@
 			<Catalog>ПравилаИнтеграцииС1СДокументооборотом3</Catalog>
 			<Catalog>ПравилаПредставленияОтчетовУплатыНалогов</Catalog>
 			<Catalog>ПравилаПроверкиУчета</Catalog>
+			<Catalog>ПравилаРучныхЗадачБухгалтера</Catalog>
 			<Catalog>ПравилаСогласованияЗаявокКабинетСотрудника</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетов</Catalog>
 			<Catalog>ПредопределенныеВариантыОтчетовРасширений</Catalog>
@@ -6889,6 +6949,7 @@
 			<Catalog>РодственникиФизическихЛиц</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>РолиФайловБИА</Catalog>
+			<Catalog>РучныеЗадачиБухгалтера</Catalog>
 			<Catalog>СамостоятельныеКлассификационныеЕдиницы</Catalog>
 			<Catalog>СборГрафиковОтпусковПрисоединенныеФайлы</Catalog>
 			<Catalog>СведенияДляИсчисленияДоплатыКПенсииСЗВ_ДСОПрисоединенныеФайлы</Catalog>
@@ -6967,6 +7028,7 @@
 			<Catalog>ТранспортноеСообщениеПрисоединенныеФайлы</Catalog>
 			<Catalog>ТрудовыеФункции</Catalog>
 			<Catalog>УведомлениеОбИзмененииРасчетаПособияПрисоединенныеФайлы</Catalog>
+			<Catalog>УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</Catalog>
 			<Catalog>УведомлениеОНачалеОтпускаПрисоединенныеФайлы</Catalog>
 			<Catalog>УведомлениеОПравеНаИмущественныйВычетДляНДФЛПрисоединенныеФайлы</Catalog>
 			<Catalog>УведомлениеОПрекращенииОтпускаПоУходуЗаРебенкомПрисоединенныеФайлы</Catalog>
@@ -7037,6 +7099,7 @@
 			<Catalog>ЭтапыЗаявокСотрудников</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
+			<Catalog>бит_ВидыВзысканий</Catalog>
 			<Document>АвансовыйПлатежИностранцаПоНДФЛ</Document>
 			<Document>АктОбУничтоженииПерсональныхДанных</Document>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
@@ -7302,6 +7365,7 @@
 			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ТранспортноеСообщение</Document>
 			<Document>УведомлениеОбИзмененииРасчетаПособия</Document>
+			<Document>УведомлениеОбОтсутствииОтветаСЭДО</Document>
 			<Document>УведомлениеОНачалеОтпуска</Document>
 			<Document>УведомлениеОПолучателеДокументов</Document>
 			<Document>УведомлениеОПравеНаИмущественныйВычетДляНДФЛ</Document>
@@ -7640,6 +7704,7 @@
 			<Enum>РазделыАДВ11</Enum>
 			<Enum>РазделыОтчетовПоЗарплате</Enum>
 			<Enum>РазмерыБумаги</Enum>
+			<Enum>РазовыеЗадачи</Enum>
 			<Enum>РазрешенияСканированногоИзображения</Enum>
 			<Enum>РежимИзмененияПроведенногоДокументаДанными1СДокументооборота</Enum>
 			<Enum>РежимНачисленияЗарплаты</Enum>
@@ -7802,6 +7867,7 @@
 			<Enum>СубъектыДоверенностиНалогоплательщика</Enum>
 			<Enum>СубъектыДоверенностиСтрахователя</Enum>
 			<Enum>СхемыПодписанияЭД</Enum>
+			<Enum>СхемыПредставленияПодразделенийСбораГрафиковОтпусков</Enum>
 			<Enum>СхемыСдачиОтчетностиФСРАР</Enum>
 			<Enum>ТарифыМобильногоБанка</Enum>
 			<Enum>ТарифыОператораЭДО</Enum>
@@ -7935,6 +8001,7 @@
 			<Report>АнализЭкономииОтПониженногоТарифаСтраховыхВзносов</Report>
 			<Report>БизнесПроцессы</Report>
 			<Report>ВизуализацияВходящихИзвещенийФНС</Report>
+			<Report>ВизуализацияУстаревшихОтчетов</Report>
 			<Report>ВизуализацияУстаревшихУведомлений</Report>
 			<Report>ВоинскийУчетБронирование</Report>
 			<Report>ВоинскийУчетОбщий</Report>
@@ -8034,9 +8101,11 @@
 			<Report>РегламентированноеУведомлениеБанковскиеГарантии</Report>
 			<Report>РегламентированноеУведомлениеБумажныеФормы</Report>
 			<Report>РегламентированноеУведомлениеВозвратНалога</Report>
+			<Report>РегламентированноеУведомлениеВозражения</Report>
 			<Report>РегламентированноеУведомлениеВыборНалоговогоОргана</Report>
 			<Report>РегламентированноеУведомлениеВыборНалоговогоОрганаНДФЛ</Report>
 			<Report>РегламентированноеУведомлениеВыборНОТуристическийНалог</Report>
+			<Report>РегламентированноеУведомлениеВыдачаСвидительстваЭтиловыйСпирт</Report>
 			<Report>РегламентированноеУведомлениеВыдачаСправкиПоРасчетам</Report>
 			<Report>РегламентированноеУведомлениеВыплатыПодразделенийФизЛицам</Report>
 			<Report>РегламентированноеУведомлениеГибельИмущества</Report>
@@ -8048,7 +8117,6 @@
 			<Report>РегламентированноеУведомлениеЗапретПредставленияУполномоченнымиЛицами</Report>
 			<Report>РегламентированноеУведомлениеЗачетНалога</Report>
 			<Report>РегламентированноеУведомлениеЗаявительныйПорядокВозмещенияНДС</Report>
-			<Report>РегламентированноеУведомлениеИзменениеПараметраУСН</Report>
 			<Report>РегламентированноеУведомлениеИзменениеРегиональныхНалогов</Report>
 			<Report>РегламентированноеУведомлениеИзъятиеТС</Report>
 			<Report>РегламентированноеУведомлениеИсключениеПроверки</Report>
@@ -8069,11 +8137,9 @@
 			<Report>РегламентированноеУведомлениеОплатаФизкультурноОздоровительныхУслуг</Report>
 			<Report>РегламентированноеУведомлениеОсвобождениеОтУплатыНДДДУС</Report>
 			<Report>РегламентированноеУведомлениеОсвобождениеОтУплатыСтраховыхВзносов</Report>
-			<Report>РегламентированноеУведомлениеОтказОтУСН</Report>
 			<Report>РегламентированноеУведомлениеОтменаЗачетаНалога</Report>
 			<Report>РегламентированноеУведомлениеПередачаСообщенийОСуммахНалогов</Report>
 			<Report>РегламентированноеУведомлениеПереходНаЕСХН</Report>
-			<Report>РегламентированноеУведомлениеПереходНаУСН</Report>
 			<Report>РегламентированноеУведомлениеПереходСНПД</Report>
 			<Report>РегламентированноеУведомлениеПолучениеДокументаНалоговогоРезидента</Report>
 			<Report>РегламентированноеУведомлениеПолучениеПатента</Report>
@@ -8088,7 +8154,6 @@
 			<Report>РегламентированноеУведомлениеПрекращениеНалогообложенияУгон</Report>
 			<Report>РегламентированноеУведомлениеПрекращениеПатент</Report>
 			<Report>РегламентированноеУведомлениеПрекращениеСтраховыеВзносы</Report>
-			<Report>РегламентированноеУведомлениеПрекращениеУСН</Report>
 			<Report>РегламентированноеУведомлениеПриостановлениеВозобновлениеПониженныхТарифов</Report>
 			<Report>РегламентированноеУведомлениеРаботаИностранцев</Report>
 			<Report>РегламентированноеУведомлениеРассрочкаПоНалогам</Report>
@@ -8110,7 +8175,6 @@
 			<Report>РегламентированноеУведомлениеУменьшениеНалогаККТ</Report>
 			<Report>РегламентированноеУведомлениеУменьшениеНалогаНаСтраховыеВзносы</Report>
 			<Report>РегламентированноеУведомлениеУтратаПраваПатент</Report>
-			<Report>РегламентированноеУведомлениеУтратаПраваУСН</Report>
 			<Report>РегламентированноеУведомлениеУчастиеВРоссийскихОрганизациях</Report>
 			<Report>РегламентированноеУведомлениеУчастникаСколковоОсвобождениеНалогообложения</Report>
 			<Report>РегламентированноеУведомлениеФормаР11001</Report>
@@ -8191,6 +8255,8 @@
 			<Report>ШаблоныДокументовКабинетСотрудника</Report>
 			<Report>ШтатноеРасписание</Report>
 			<Report>ШтатноеРасписаниеНачисления</Report>
+			<Report>бит_ДисциплинарныеВзысканияСотрудников</Report>
+			<Report>бит_ШтрафыПДД</Report>
 			<DataProcessor>АвтоматическоеИзвлечениеТекстов</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>АнализНДФЛКВозврату</DataProcessor>
@@ -8281,6 +8347,7 @@
 			<DataProcessor>ОбновлениеРегламентированнойОтчетности</DataProcessor>
 			<DataProcessor>ОбновлениеРегламентированныхОтчетов</DataProcessor>
 			<DataProcessor>ОбработкаНеисправностейБЭД</DataProcessor>
+			<DataProcessor>ОбработчикиЗагрузкиИзБП3</DataProcessor>
 			<DataProcessor>ОбходКоллекции</DataProcessor>
 			<DataProcessor>ОбщегоНазначенияБЭД</DataProcessor>
 			<DataProcessor>ОбщиеОбъектыРеглОтчетности</DataProcessor>
@@ -8303,6 +8370,7 @@
 			<DataProcessor>ПанельНастроекЭДОБЗК</DataProcessor>
 			<DataProcessor>ПерезаполнениеИнтервальныхРегистров</DataProcessor>
 			<DataProcessor>ПерезаполнениеРегистрацийВНалоговомОргане</DataProcessor>
+			<DataProcessor>ПереносСправочниковБРО</DataProcessor>
 			<DataProcessor>ПереносФайлов</DataProcessor>
 			<DataProcessor>ПересчетПлановогоФОТ</DataProcessor>
 			<DataProcessor>ПечатьДокументовДляПереводаНаДистанционнуюРаботу</DataProcessor>
@@ -8433,6 +8501,7 @@
 			<InformationRegister>ВерсияЗаказаБронированияКомандировки</InformationRegister>
 			<InformationRegister>ВзаимодействиеСБанкамиНаАУСН</InformationRegister>
 			<InformationRegister>ВидыВремениДляВыявленияНачислений</InformationRegister>
+			<InformationRegister>ВидыДокументовВоинскогоУчетаРаботников</InformationRegister>
 			<InformationRegister>ВидыДокументовГосОргановДляПоиска</InformationRegister>
 			<InformationRegister>ВидыЗанятостиСотрудников</InformationRegister>
 			<InformationRegister>ВидыЗанятостиСотрудниковИнтервальный</InformationRegister>
@@ -8462,6 +8531,7 @@
 			<InformationRegister>ГруппыЗначенийДоступа</InformationRegister>
 			<InformationRegister>ДампыПлатформы</InformationRegister>
 			<InformationRegister>ДанныеБизнесПроцессов</InformationRegister>
+			<InformationRegister>ДанныеВоинскогоУчетаОрганизаций</InformationRegister>
 			<InformationRegister>ДанныеДляПодбораСотрудников</InformationRegister>
 			<InformationRegister>ДанныеЗаявокКабинетСотрудника</InformationRegister>
 			<InformationRegister>ДанныеКадровыхИзмененийДляВоенкомата</InformationRegister>
@@ -8476,6 +8546,7 @@
 			<InformationRegister>ДанныеОчищаемойОбласти</InformationRegister>
 			<InformationRegister>ДанныеПроизводственногоКалендаря</InformationRegister>
 			<InformationRegister>ДанныеПроизводственногоКалендаряПомесячно</InformationRegister>
+			<InformationRegister>ДанныеРаботниковДляВоенкоматов</InformationRegister>
 			<InformationRegister>ДанныеСверкиСВоеннымКомиссариатом</InformationRegister>
 			<InformationRegister>ДанныеСверкиСДокументамиВоинскогоУчета</InformationRegister>
 			<InformationRegister>ДанныеСостоянийСотрудников</InformationRegister>
@@ -8759,6 +8830,7 @@
 			<InformationRegister>НастройкиРасчетаЗарплатыРасширенный</InformationRegister>
 			<InformationRegister>НастройкиРасчетаРезервовОтпусков</InformationRegister>
 			<InformationRegister>НастройкиРасчетаСреднегоЗаработка</InformationRegister>
+			<InformationRegister>НастройкиСбораГрафиковОтпусковКабинетСотрудника</InformationRegister>
 			<InformationRegister>НастройкиСервисаКабинетСотрудника</InformationRegister>
 			<InformationRegister>НастройкиСервисаПодписанияУправлениеПерсоналом</InformationRegister>
 			<InformationRegister>НастройкиСинхронизацииФайлов</InformationRegister>
@@ -8854,6 +8926,12 @@
 			<InformationRegister>ОтражениеВРегламентированномУчетеНастройкиОрганизаций</InformationRegister>
 			<InformationRegister>ОтражениеДокументовВУчетеСтраховыхВзносов</InformationRegister>
 			<InformationRegister>ОтсутствияСдвигающиеРабочийГод</InformationRegister>
+			<InformationRegister>Отчетность24БРОЗапросы</InformationRegister>
+			<InformationRegister>Отчетность24БРОНастройкиПодтверждения</InformationRegister>
+			<InformationRegister>Отчетность24БРООграниченияПоОрганизациям</InformationRegister>
+			<InformationRegister>Отчетность24БРОПараметрыШины</InformationRegister>
+			<InformationRegister>Отчетность24БРОПодключения</InformationRegister>
+			<InformationRegister>Отчетность24БРОСоответствиеСсылок</InformationRegister>
 			<InformationRegister>ОтчитывающиесяПоВзносамОрганизации</InformationRegister>
 			<InformationRegister>ОчередьИзвлеченияТекста</InformationRegister>
 			<InformationRegister>ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</InformationRegister>
@@ -9218,6 +9296,7 @@
 			<InformationRegister>УдалитьОбъектыСОшибкамиЗаполненияКабинетСотрудника</InformationRegister>
 			<InformationRegister>УдалитьОтветыНаЗапросыВыпискиИзЕГРЮЛ_ЕГРИП</InformationRegister>
 			<InformationRegister>УдалитьОтветыНаЗапросыИОН</InformationRegister>
+			<InformationRegister>УдалитьОтчетность24БРОПараметрыШины</InformationRegister>
 			<InformationRegister>УдалитьОшибкиЗаполненияПубликуемыхОбъектовКабинетСотрудника</InformationRegister>
 			<InformationRegister>УдалитьПараметрыИнтернетПоддержкиПользователей</InformationRegister>
 			<InformationRegister>УдалитьПодпискиНаУведомленияОбЭЛН</InformationRegister>
@@ -9288,6 +9367,8 @@
 			<InformationRegister>ЭлектронныеПодписи</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиМЧД</InformationRegister>
 			<InformationRegister>ЭлектронныеПодписиЭДОБЗК</InformationRegister>
+			<InformationRegister>бит_ВзысканияСотрудников</InformationRegister>
+			<InformationRegister>бит_ШтрафыПДД</InformationRegister>
 			<AccumulationRegister>АвансовыеПлатежиИностранцевПоНДФЛ</AccumulationRegister>
 			<AccumulationRegister>БухгалтерскиеВзаиморасчетыССотрудниками</AccumulationRegister>
 			<AccumulationRegister>БухучетНачисленияУдержанияПоКонтрагентамАкционерам</AccumulationRegister>

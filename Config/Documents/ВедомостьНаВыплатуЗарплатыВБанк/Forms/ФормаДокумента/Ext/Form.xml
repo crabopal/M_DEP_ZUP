@@ -624,6 +624,13 @@
 								<Event name="StartChoice">СоставФизическоеЛицоНачалоВыбора</Event>
 							</Events>
 						</InputField>
+						<InputField name="СоставИНН" id="544">
+							<DataPath>Объект.Состав.ИНН</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СоставИННКонтекстноеМеню" id="545"/>
+							<ExtendedTooltip name="СоставИННРасширеннаяПодсказка" id="546"/>
+						</InputField>
 						<ColumnGroup name="СпособЗачисленияГруппа" id="503">
 							<Title>
 								<v8:item>
@@ -676,6 +683,22 @@
 											<Events>
 												<Event name="OnChange">СоставНомерЛицевогоСчетаПриИзменении</Event>
 											</Events>
+										</InputField>
+										<InputField name="СоставНомерЛицевогоСчетаЦР" id="541">
+											<DataPath>Объект.Состав.НомерЛицевогоСчетаЦР</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номер</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="СоставНомерЛицевогоСчетаЦРКонтекстноеМеню" id="542"/>
+											<ExtendedTooltip name="СоставНомерЛицевогоСчетаЦРРасширеннаяПодсказка" id="543"/>
 										</InputField>
 										<InputField name="СоставБанковскаяКарта" id="491">
 											<DataPath>Объект.Состав.БанковскаяКарта</DataPath>
@@ -1563,6 +1586,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется обмен БГУ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗарплатныйПроектПоддерживаетВыгрузкуИНН" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплатный проект поддерживает выгрузку ИНН</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

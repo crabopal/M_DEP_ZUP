@@ -137,6 +137,7 @@
 				<v8:Type>cfg:CatalogObject.НачислениеОценочныхОбязательствПоОтпускамПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОбразованиеФизическихЛиц</v8:Type>
 				<v8:Type>cfg:CatalogObject.СведенияОТрудовойДеятельностиРаботникаСТД_РПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:BusinessProcessObject.ЗаявкаСотрудникаОтпуск</v8:Type>
 				<v8:Type>cfg:CatalogObject.МаршрутыПодписания</v8:Type>
 				<v8:Type>cfg:CatalogObject.ЗаявленияОПредоставленииСведенийОТрудовойДеятельностиПрисоединенныеФайлы</v8:Type>

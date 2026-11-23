@@ -24,6 +24,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СостоянияСбораГрафиковОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеСборГрафиковОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеСборГрафиковОтпусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СхемыПредставленияПодразделенийСбораГрафиковОтпусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НастройкиСбораГрафиковОтпусковКабинетСотрудника</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сообщения ФСС об изменении ЭЛН</v8:content>
+					<v8:content>Сообщения СФР об изменении ЭЛН</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -167,7 +167,7 @@
 			<RecordPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сообщение ФСС об изменении ЭЛН</v8:content>
+					<v8:content>Сообщение СФР об изменении ЭЛН</v8:content>
 				</v8:item>
 			</RecordPresentation>
 			<ExtendedRecordPresentation/>
@@ -432,7 +432,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Состояние ЭЛН в ФСС</v8:content>
+							<v8:content>Состояние ЭЛН в СФР</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -885,7 +885,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сообщения ФСС об изменении ЭЛН</v8:content>
+							<v8:content>Сообщения СФР об изменении ЭЛН</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

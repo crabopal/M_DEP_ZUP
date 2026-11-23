@@ -97,6 +97,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.УчитыватьВнешнихСовместителейВСведенияхДляВоенкоматов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DocumentJournal.ДокументыВоинскогоУчета</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьНаправлениеДляПостановкиНаВоинскийУчет2019</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеВоинскогоУчетаОрганизаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ВоинскийУчетКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ВоинскийУчетКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеРаботниковДляВоенкоматов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

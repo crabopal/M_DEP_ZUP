@@ -115,7 +115,7 @@
 							<Zoomable>true</Zoomable>
 							<Picture>
 								<xr:Ref>CommonPicture.НезавершившаясяПроверка</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</Picture>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="КотикиКонтекстноеМеню" id="101"/>

@@ -72,6 +72,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияПодсистемБЭДКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ОченьМелкийШрифтБЭД</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.УвеличенныйЖирныйШрифтБЭД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияПодсистемБЭДПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияПодсистемБЭДСлужебный</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

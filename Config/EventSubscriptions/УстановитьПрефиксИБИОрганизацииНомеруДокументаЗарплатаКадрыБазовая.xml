@@ -42,6 +42,7 @@
 				<v8:Type>cfg:DocumentObject.ОперацияНалоговогоУчетаПоНДФЛ</v8:Type>
 				<v8:Type>cfg:DocumentObject.КадровыйПеревод</v8:Type>
 				<v8:Type>cfg:DocumentObject.ОтпускБезСохраненияОплаты</v8:Type>
+				<v8:Type>cfg:DocumentObject.УведомлениеОбОтсутствииОтветаСЭДО</v8:Type>
 				<v8:Type>cfg:DocumentObject.РезервыПоОплатеТруда</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗаявлениеВФССОВозмещенииВыплатРодителямДетейИнвалидов</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗаявкаНалоговыеВычетыКабинетСотрудника</v8:Type>

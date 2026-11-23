@@ -47,12 +47,14 @@
 			<Form>ФормаСведенияОДокументах503</Form>
 			<Form>Форма2025_1</Form>
 			<Form>ФормаОписаниеНевозможности501</Form>
+			<Form>Форма2026_1</Form>
 			<Template>Печать_MXL_Форма2015_1</Template>
 			<Template>СхемаВыгрузкиФорма2019_1</Template>
 			<Template>Печать_MXL_Форма2019_1</Template>
 			<Template>СхемаВыгрузкиФорма2024_1</Template>
 			<Template>Коды</Template>
 			<Template>СхемаВыгрузкиФорма2025_1</Template>
+			<Template>СхемаВыгрузкиФорма2026_1</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

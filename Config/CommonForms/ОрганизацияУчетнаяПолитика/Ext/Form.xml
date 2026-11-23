@@ -422,6 +422,49 @@
 													<ContextMenu name="ДекорацияИтоговыйТарифКонтекстноеМеню" id="435"/>
 													<ExtendedTooltip name="ДекорацияИтоговыйТарифРасширеннаяПодсказка" id="436"/>
 												</LabelDecoration>
+												<UsualGroup name="ГруппаБюджетныйТариф" id="450">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа бюджетный тариф</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаБюджетныйТарифРасширеннаяПодсказка" id="451"/>
+													<ChildItems>
+														<InputField name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевНадбавкаБюджетная" id="452">
+															<DataPath>СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаев.НадбавкаБюджетная</DataPath>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевНадбавкаБюджетнаяКонтекстноеМеню" id="453"/>
+															<ExtendedTooltip name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевНадбавкаБюджетнаяРасширеннаяПодсказка" id="454"/>
+															<Events>
+																<Event name="OnChange">СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевБюджетнаяПриИзменении</Event>
+															</Events>
+														</InputField>
+														<InputField name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевСкидкаБюджетная" id="455">
+															<DataPath>СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаев.СкидкаБюджетная</DataPath>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевСкидкаБюджетнаяКонтекстноеМеню" id="456"/>
+															<ExtendedTooltip name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевСкидкаБюджетнаяРасширеннаяПодсказка" id="457"/>
+															<Events>
+																<Event name="OnChange">СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевБюджетнаяПриИзменении</Event>
+															</Events>
+														</InputField>
+														<LabelDecoration name="ДекорацияИтоговыйБюджетныйТариф" id="458">
+															<TextColor>style:ПоясняющийТекст</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Итоговый бюджетный тариф: 0%.</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ДекорацияИтоговыйБюджетныйТарифКонтекстноеМеню" id="459"/>
+															<ExtendedTooltip name="ДекорацияИтоговыйБюджетныйТарифРасширеннаяПодсказка" id="460"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="СтавкаВзносаНаСтрахованиеОтНесчастныхСлучаевПериодСтрокой" id="88">
@@ -2097,13 +2140,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки способов прямых выплат ФСС</v8:content>
+					<v8:content>Настройки способов прямых выплат СФР</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Настройки способов прямых выплат ФСС</v8:content>
+					<v8:content>Настройки способов прямых выплат СФР</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>НастройкиСпособовПрямыхВыплатФСС</Action>

@@ -308,9 +308,16 @@
 																			<v8:content>Федеральная налоговая служба</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокФНСКонтекстноеМеню" id="104"/>
 																	<ExtendedTooltip name="ЗаголовокФНСРасширеннаяПодсказка" id="105"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация9" id="734">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация9КонтекстноеМеню" id="735"/>
+																	<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="736"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация7" id="565">
 																	<ContextMenu name="Декорация7КонтекстноеМеню" id="566"/>
@@ -377,9 +384,16 @@
 																			<v8:content>Федеральная служба государственной статистики</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокРосстатКонтекстноеМеню" id="563"/>
 																	<ExtendedTooltip name="ЗаголовокРосстатРасширеннаяПодсказка" id="564"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация10" id="737">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация10КонтекстноеМеню" id="738"/>
+																	<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="739"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация3" id="303">
 																	<ContextMenu name="Декорация3КонтекстноеМеню" id="304"/>
@@ -446,9 +460,16 @@
 																			<v8:content>Социальный фонд России</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокСФРКонтекстноеМеню" id="107"/>
 																	<ExtendedTooltip name="ЗаголовокСФРРасширеннаяПодсказка" id="108"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация11" id="740">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация11КонтекстноеМеню" id="741"/>
+																	<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="742"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация4" id="306">
 																	<Width>1</Width>
@@ -516,9 +537,16 @@
 																			<v8:content>Федеральная таможенная служба</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокФТСКонтекстноеМеню" id="110"/>
 																	<ExtendedTooltip name="ЗаголовокФТСРасширеннаяПодсказка" id="111"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация12" id="743">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация12КонтекстноеМеню" id="744"/>
+																	<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="745"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация5" id="309">
 																	<Width>1</Width>
@@ -588,9 +616,16 @@
 и табачным рынками</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокФСРАРКонтекстноеМеню" id="113"/>
 																	<ExtendedTooltip name="ЗаголовокФСРАРРасширеннаяПодсказка" id="114"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация13" id="746">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация13КонтекстноеМеню" id="747"/>
+																	<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="748"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация6" id="312">
 																	<Width>1</Width>
@@ -658,9 +693,16 @@
 																			<v8:content>Росприроднадзор</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокРПНКонтекстноеМеню" id="722"/>
 																	<ExtendedTooltip name="ЗаголовокРПНРасширеннаяПодсказка" id="723"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация14" id="749">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация14КонтекстноеМеню" id="750"/>
+																	<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="751"/>
 																</LabelDecoration>
 																<LabelDecoration name="Декорация8" id="724">
 																	<Width>1</Width>
@@ -728,9 +770,16 @@
 																			<v8:content>Банк России: Центральный банк Российской Федерации</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
 																	<ContextMenu name="ЗаголовокЦБКонтекстноеМеню" id="116"/>
 																	<ExtendedTooltip name="ЗаголовокЦБРасширеннаяПодсказка" id="117"/>
+																</LabelDecoration>
+																<LabelDecoration name="Декорация15" id="752">
+																	<Width>1</Width>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="Декорация15КонтекстноеМеню" id="753"/>
+																	<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="754"/>
 																</LabelDecoration>
 															</ChildItems>
 														</UsualGroup>

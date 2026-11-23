@@ -204,6 +204,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПриказОБронированииРаботниковПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
@@ -414,6 +425,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДанныеВоинскогоУчетаОрганизаций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DocumentJournal.СведенияДляВоенкоматов</name>
 		<right>
 			<name>Read</name>
@@ -472,6 +494,24 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДанныеРаботниковДляВоенкоматов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийДанныеРаботниковДляВоенкоматов", "ФизическоеЛицо", "", "", "", "")
+#Иначе
+#ПоЗначениям( "РегистрСведений.ДанныеРаботниковДляВоенкоматов","Чтение","","ГруппыФизическихЛиц","ФизическоеЛицо","","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","" )
+#КонецЕсли</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>

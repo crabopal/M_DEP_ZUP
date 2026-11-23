@@ -93,6 +93,7 @@
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnWriteAtServer">ПриЗаписиНаСервере</Event>
 		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -128,57 +129,207 @@
 							<v8:content>Основные реквизиты</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
+					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОсновныеРеквизитыРасширеннаяПодсказка" id="16"/>
 					<ChildItems>
-						<InputField name="ИнициаторСбора" id="94">
-							<DataPath>Объект.ИнициаторСбора</DataPath>
-							<ContextMenu name="ИнициаторСбораКонтекстноеМеню" id="95"/>
-							<ExtendedTooltip name="ИнициаторСбораРасширеннаяПодсказка" id="96"/>
-						</InputField>
-						<InputField name="Год" id="19">
-							<DataPath>Объект.Год</DataPath>
-							<SpinButton>true</SpinButton>
-							<ContextMenu name="ГодКонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="21"/>
-						</InputField>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ДатаНомер" id="17">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата номер</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата номер</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Group>AlwaysHorizontal</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ДатаНомерРасширеннаяПодсказка" id="18"/>
-					<ChildItems>
-						<InputField name="Дата" id="83">
-							<DataPath>Объект.Date</DataPath>
-							<Width>10</Width>
-							<ContextMenu name="ДатаКонтекстноеМеню" id="84"/>
-							<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="85"/>
-						</InputField>
-						<InputField name="Номер" id="1">
-							<DataPath>Объект.Number</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<HorizontalStretch>false</HorizontalStretch>
-							<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-							<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
-						</InputField>
+						<UsualGroup name="РеквизитыЗаголовка" id="132">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Реквизиты заголовка</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<ShowTitle>false</ShowTitle>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="РеквизитыЗаголовкаРасширеннаяПодсказка" id="133"/>
+							<ChildItems>
+								<UsualGroup name="ИнициаторГод" id="130">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Инициатор год</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ИнициаторГодРасширеннаяПодсказка" id="131"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаИнициаторГод" id="153">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа инициатор год</v8:content>
+												</v8:item>
+											</Title>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаИнициаторГодРасширеннаяПодсказка" id="154"/>
+											<ChildItems>
+												<InputField name="ИнициаторСбора" id="94">
+													<DataPath>Объект.ИнициаторСбора</DataPath>
+													<ContextMenu name="ИнициаторСбораКонтекстноеМеню" id="95"/>
+													<ExtendedTooltip name="ИнициаторСбораРасширеннаяПодсказка" id="96"/>
+												</InputField>
+												<InputField name="Год" id="19">
+													<DataPath>Объект.Год</DataPath>
+													<SpinButton>true</SpinButton>
+													<ContextMenu name="ГодКонтекстноеМеню" id="20"/>
+													<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="21"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="ДатаОкончанияСбора" id="134">
+											<DataPath>Объект.ДатаОкончанияСбора</DataPath>
+											<ContextMenu name="ДатаОкончанияСбораКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="ДатаОкончанияСбораРасширеннаяПодсказка" id="136"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ДатаНомер" id="17">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата номер</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата номер</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ДатаНомерРасширеннаяПодсказка" id="18"/>
+									<ChildItems>
+										<InputField name="Дата" id="83">
+											<DataPath>Объект.Date</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<ContextMenu name="ДатаКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="85"/>
+										</InputField>
+										<InputField name="Номер" id="1">
+											<DataPath>Объект.Number</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройки" id="137">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки сбора графика отпусков</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Collapsible</Behavior>
+							<Collapsed>true</Collapsed>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="138"/>
+							<ChildItems>
+								<CheckBoxField name="НастройкиРазрешитьОтпускНеПланирую" id="139">
+									<DataPath>Настройки.РазрешитьОтпускНеПланирую</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разрешать отмечать "Отпуск не планирую"</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При включении у сотрудников появляется возможность указывать, что они не участвуют в планировании графика отпусков.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НастройкиРазрешитьОтпускНеПланируюКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="НастройкиРазрешитьОтпускНеПланируюРасширеннаяПодсказка" id="141"/>
+								</CheckBoxField>
+								<UsualGroup name="ГруппаНастройкиСхемыПредставленияПодразделений" id="145">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа настройки схемы представления подразделений</v8:content>
+										</v8:item>
+									</Title>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаНастройкиСхемыПредставленияПодразделенийРасширеннаяПодсказка" id="146"/>
+									<ChildItems>
+										<RadioButtonField name="СборГрафиковОтпусковСхемаПредставленияПодразделений" id="150">
+											<DataPath>Настройки.СхемаПредставленияПодразделений</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Режим отображения подчиненных подразделений у руководителей</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Top</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Какие подразделения доступны  руководителям: подразделения с непосредственными подчиненными или все нижестоящие, включая вложенные ниже по структуре</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<RadioButtonType>Auto</RadioButtonType>
+											<ColumnsCount>1</ColumnsCount>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Подразделения с непосредственными подчиненными</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xr:DesignTimeRef">Enum.СхемыПредставленияПодразделенийСбораГрафиковОтпусков.EnumValue.НепосредственныеПодчиненные</Value>
+													</xr:Value>
+												</xr:Item>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Вся иерархия подчиненных подразделений</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xr:DesignTimeRef">Enum.СхемыПредставленияПодразделенийСбораГрафиковОтпусков.EnumValue.ВключаяНижестоящиеПодразделения</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="СборГрафиковОтпусковСхемаПредставленияПодразделенийКонтекстноеМеню" id="151"/>
+											<ExtendedTooltip name="СборГрафиковОтпусковСхемаПредставленияПодразделенийРасширеннаяПодсказка" id="152"/>
+										</RadioButtonField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
@@ -211,12 +362,21 @@
 					<RowPictureDataPath>СобранныеГрафики.НомерКартинки</RowPictureDataPath>
 					<RowsPicture>
 						<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</RowsPicture>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+					</CommandSet>
 					<ContextMenu name="СобранныеГрафикиКонтекстноеМеню" id="59"/>
-					<AutoCommandBar name="СобранныеГрафикиКоманднаяПанель" id="60">
-						<Autofill>false</Autofill>
-					</AutoCommandBar>
+					<AutoCommandBar name="СобранныеГрафикиКоманднаяПанель" id="60"/>
 					<ExtendedTooltip name="СобранныеГрафикиРасширеннаяПодсказка" id="61"/>
 					<SearchStringAddition name="СобранныеГрафикиСтрокаПоиска" id="62">
 						<AdditionSource>
@@ -248,12 +408,30 @@
 					<ChildItems>
 						<InputField name="СобранныеГрафикиНаименование" id="107">
 							<DataPath>СобранныеГрафики.Наименование</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СобранныеГрафикиНаименованиеКонтекстноеМеню" id="108"/>
 							<ExtendedTooltip name="СобранныеГрафикиНаименованиеРасширеннаяПодсказка" id="109"/>
 						</InputField>
+						<CheckBoxField name="СобранныеГрафикиВключитьВСбор" id="124">
+							<DataPath>СобранныеГрафики.ВключитьВСбор</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Включить</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ThreeState>true</ThreeState>
+							<ContextMenu name="СобранныеГрафикиВключитьВСборКонтекстноеМеню" id="125"/>
+							<ExtendedTooltip name="СобранныеГрафикиВключитьВСборРасширеннаяПодсказка" id="126"/>
+							<Events>
+								<Event name="OnChange">СобранныеГрафикиВключитьВСборПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
 						<InputField name="СобранныеГрафикиРуководитель" id="104">
-							<DataPath>СобранныеГрафики.РуководительПредставление</DataPath>
+							<DataPath>СобранныеГрафики.ОтветственныйЗаСбор</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -266,6 +444,7 @@
 						</InputField>
 						<InputField name="СобранныеГрафикиЗапланировалоОтпуск" id="77">
 							<DataPath>СобранныеГрафики.ЗапланировалоОтпуск</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СобранныеГрафикиЗапланировалоОтпускКонтекстноеМеню" id="78"/>
 							<ExtendedTooltip name="СобранныеГрафикиЗапланировалоОтпускРасширеннаяПодсказка" id="79"/>
@@ -280,6 +459,7 @@
 						</InputField>
 						<InputField name="СобранныеГрафикиСостояние" id="101">
 							<DataPath>СобранныеГрафики.Состояние</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СобранныеГрафикиСостояниеКонтекстноеМеню" id="102"/>
 							<ExtendedTooltip name="СобранныеГрафикиСостояниеРасширеннаяПодсказка" id="103"/>
@@ -355,6 +535,7 @@
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
 			</Type>
+			<SavedData>true</SavedData>
 			<Columns>
 				<Column name="Подразделение" id="1">
 					<Title>
@@ -489,6 +670,89 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="ВключитьВСбор" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Включить в сбор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Выгружать" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгружать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Дата" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Год" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Год</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОтветственныйЗаСбор" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственный за сбор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИдентификаторДокумента" id="16">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор документа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ПараметрыПодключаемыхКоманд" id="3">
@@ -516,17 +780,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="СборНачат" id="6">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Сбор начат</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="КомандыСозданияГрафикаОтпусков" id="7">
 			<Title>
 				<v8:item>
@@ -535,6 +788,18 @@
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="Настройки" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.НастройкиСбораГрафиковОтпусковКабинетСотрудника</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
 	<Commands>

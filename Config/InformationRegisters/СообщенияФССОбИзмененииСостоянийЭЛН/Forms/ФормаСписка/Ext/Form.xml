@@ -2,7 +2,6 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoTitle>false</AutoTitle>
-	<AutoURL>false</AutoURL>
 	<CommandBarLocation>None</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -11,9 +10,27 @@
 		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-		<Event name="BeforeLoadDataFromSettingsAtServer">ПередЗагрузкойДанныхИзНастроекНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ИнформационнаяПанельБРО" id="517">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель БРО</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информационная панель БРО</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ИнформационнаяПанельБРОРасширеннаяПодсказка" id="518"/>
+		</UsualGroup>
 		<UsualGroup name="Колонки" id="452">
 			<Title>
 				<v8:item>
@@ -157,6 +174,7 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ОтборОрганизацииГруппа" id="474">
+							<Visible>false</Visible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -501,23 +519,11 @@
 							<Representation>PictureAndText</Representation>
 							<DefaultButton>true</DefaultButton>
 							<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьНовыеСообщенияСЭДОФСС</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Получить из ФСС</v8:content>
-								</v8:item>
-							</Title>
 							<ExtendedTooltip name="ПолучитьНовыеСообщенияРасширеннаяПодсказка" id="213"/>
 						</Button>
 						<Button name="ПолучитьСообщенияЗаПериод" id="214">
 							<Type>CommandBarButton</Type>
 							<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьСообщенияСЭДОФССЗаПериод</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Получить сообщения за период</v8:content>
-								</v8:item>
-							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ПолучитьСообщенияЗаПериодРасширеннаяПодсказка" id="215"/>
 						</Button>
@@ -529,41 +535,6 @@
 						</Button>
 					</ChildItems>
 				</ButtonGroup>
-				<Popup name="Показывать" id="118">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Показывать</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedTooltip name="ПоказыватьРасширеннаяПодсказка" id="119"/>
-					<ChildItems>
-						<Button name="ВсеСообщения" id="120">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Command.ПоказатьВсеСообщения</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Все сообщения</v8:content>
-								</v8:item>
-							</Title>
-							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-							<ExtendedTooltip name="ВсеСообщенияРасширеннаяПодсказка" id="121"/>
-						</Button>
-						<Button name="ТолькоОжидающиеОбработки" id="122">
-							<Type>CommandBarButton</Type>
-							<CommandName>Form.Command.ПоказыватьТолькоОжидающиеОбработки</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Только ожидающие обработки</v8:content>
-								</v8:item>
-							</Title>
-							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-							<ExtendedTooltip name="ТолькоОжидающиеОбработкиРасширеннаяПодсказка" id="123"/>
-						</Button>
-					</ChildItems>
-				</Popup>
 				<Button name="ФормаПоискПоТекущемуЗначению" id="282">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
@@ -2360,41 +2331,11 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ПоказатьВсеСообщения" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показать все сообщения</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показать все сообщения</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПоказатьВсеСообщения</Action>
-		</Command>
-		<Command name="ПоказыватьТолькоОжидающиеОбработки" id="3">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показывать только ожидающие обработки</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показывать только ожидающие обработки</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПоказыватьТолькоОжидающиеОбработки</Action>
-		</Command>
 		<Command name="ОткрытьФормуНастроекЭДО" id="5">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сертификаты и настройки документооборота с ФСС</v8:content>
+					<v8:content>Сертификаты и настройки ЭДО</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2432,13 +2373,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Повторно получить сообщения из ФСС</v8:content>
+					<v8:content>Повторно получить сообщения из СЭДО</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Повторно получить сообщения из ФСС</v8:content>
+					<v8:content>Повторно получить сообщения СЭДО</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2466,7 +2407,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Входящий запрос ФСС</v8:content>
+					<v8:content>Входящий запрос</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -2481,13 +2422,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Ответ на запрос ФСС</v8:content>
+					<v8:content>Ответ на запрос</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Открыть ответ на запрос ФСС</v8:content>
+					<v8:content>Открыть ответ на запрос</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьОтветНаЗапросФСС</Action>

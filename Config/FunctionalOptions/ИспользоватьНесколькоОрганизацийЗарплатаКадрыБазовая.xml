@@ -156,6 +156,8 @@
 				<xr:Object>Document.ДанныеСФРДляРасчетаПособия.Attribute.Страхователь</xr:Object>
 				<xr:Object>Document.ЗаявлениеВПроизвольнойФормеКабинетСотрудника.Attribute.Организация</xr:Object>
 				<xr:Object>Document.ЗаявлениеОСпособеВыплатыЗарплатыКабинетСотрудника.Attribute.Организация</xr:Object>
+				<xr:Object>Document.УведомлениеОбОтсутствииОтветаСЭДО.Attribute.ГоловнаяОрганизация</xr:Object>
+				<xr:Object>Document.УведомлениеОбОтсутствииОтветаСЭДО.Attribute.Страхователь</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

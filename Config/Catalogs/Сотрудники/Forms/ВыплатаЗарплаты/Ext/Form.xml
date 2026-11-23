@@ -573,6 +573,49 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаПоЛицевомуСчетуЦР" id="344">
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<United>false</United>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПоЛицевомуСчетуЦРРасширеннаяПодсказка" id="345"/>
+							<ChildItems>
+								<RadioButtonField name="СпособПоСчетуЦР" id="346">
+									<DataPath>СпособЗачисления</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation/>
+												<Value xsi:type="xr:DesignTimeRef">Enum.СпособыЗачисленияВыплат.EnumValue.ПоСчетуЦР</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СпособПоСчетуЦРКонтекстноеМеню" id="347"/>
+									<ExtendedTooltip name="СпособПоСчетуЦРРасширеннаяПодсказка" id="348"/>
+									<Events>
+										<Event name="OnChange">СпособПоНомеруКартыПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<InputField name="ЛицевыеСчетаСотрудниковПоЗарплатнымПроектамНомерЛицевогоСчетаЦР" id="349">
+									<DataPath>ЛицевыеСчетаСотрудниковПоЗарплатнымПроектам.НомерЛицевогоСчетаЦР</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ChoiceParameters>
+										<app:item name="Отбор.Владелец">
+											<app:value xsi:nil="true"/>
+										</app:item>
+									</ChoiceParameters>
+									<ContextMenu name="ЛицевыеСчетаСотрудниковПоЗарплатнымПроектамНомерЛицевогоСчетаЦРКонтекстноеМеню" id="350"/>
+									<ExtendedTooltip name="ЛицевыеСчетаСотрудниковПоЗарплатнымПроектамНомерЛицевогоСчетаЦРРасширеннаяПодсказка" id="351"/>
+									<Events>
+										<Event name="OnChange">ЛицевойСчетЦРПриИзменении</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаПоЛицевомуСчету" id="229">
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>Usual</Behavior>
@@ -1600,6 +1643,28 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Зарплатный проект для перечислений на карты мир</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоддерживаетсяЗачислениеПоНомеруЛицевогоСчетаЦР" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поддерживается зачисление по номеру лицевого счета ЦР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоддерживаетсяЗачислениеПоНомеруЛицевогоСчета" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поддерживается зачисление по номеру лицевого счета</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

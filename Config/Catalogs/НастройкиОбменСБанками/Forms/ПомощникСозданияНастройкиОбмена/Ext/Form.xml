@@ -2603,6 +2603,196 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаВыбораВариантаИнтеграцииБанка" id="1903">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбор варианта обмена банка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаВыбораВариантаИнтеграцииБанкаРасширеннаяПодсказка" id="1904"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЗаголовокСтраницаИнтеграции" id="1905">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Варианты обмена (можно будет изменить позже):</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЗаголовокСтраницаИнтеграцииКонтекстноеМеню" id="1906"/>
+							<ExtendedTooltip name="ДекорацияЗаголовокСтраницаИнтеграцииРасширеннаяПодсказка" id="1907"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПолныйОбмен" id="1908">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа полный обмен</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПолныйОбменРасширеннаяПодсказка" id="1909"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаПолныйОбменЗаголовок" id="1910">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа полный обмен заголовок</v8:content>
+										</v8:item>
+									</Title>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПолныйОбменЗаголовокРасширеннаяПодсказка" id="1911"/>
+									<ChildItems>
+										<RadioButtonField name="ВариантИнтеграцииПолныйОбмен" id="1912">
+											<DataPath>ВариантИнтеграцииБанка</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<RadioButtonType>Auto</RadioButtonType>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Полный обмен</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">0</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="ВариантИнтеграцииПолныйОбменКонтекстноеМеню" id="1913"/>
+											<ExtendedTooltip name="ВариантИнтеграцииПолныйОбменРасширеннаяПодсказка" id="1914"/>
+										</RadioButtonField>
+										<PictureDecoration name="ДекорацияКартинкаПолныйОбмен" id="1915">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация картинка полный обмен</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>CommonPicture.ДиректБанкПолныйОбмен</xr:Ref>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияКартинкаПолныйОбменКонтекстноеМеню" id="1916"/>
+											<ExtendedTooltip name="ДекорацияКартинкаПолныйОбменРасширеннаяПодсказка" id="1917"/>
+										</PictureDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="ДекорацияОписаниеПолныйОбмен" id="1918">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Прямой обмен документами с банком через 1С:ДиректБанк - со всеми доступными возможностями. Обратите внимание, что услуга может быть платной. Уточните &lt;link условия подключения&gt;условия подключения&lt;/&gt; для банка.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияОписаниеПолныйОбменКонтекстноеМеню" id="1919"/>
+									<ExtendedTooltip name="ДекорацияОписаниеПолныйОбменРасширеннаяПодсказка" id="1920"/>
+									<Events>
+										<Event name="URLProcessing">ДекорацияОписаниеПолныйОбменОбработкаНавигационнойСсылки</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаЗагрузкаВыпискиЧерезБанк" id="1921">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа загрузка выписки через банк</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаЗагрузкаВыпискиЧерезБанкРасширеннаяПодсказка" id="1922"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаЗагрузкаВыпискиЧерезБанкЗаголовок" id="1923">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка выписки через банк заголовок</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗагрузкаВыпискиЧерезБанкЗаголовокРасширеннаяПодсказка" id="1924"/>
+									<ChildItems>
+										<RadioButtonField name="ВариантИнтеграцииЧерезБанк" id="1925">
+											<DataPath>ВариантИнтеграцииБанка</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<RadioButtonType>Auto</RadioButtonType>
+											<ChoiceList>
+												<xr:Item>
+													<xr:Presentation/>
+													<xr:CheckState>0</xr:CheckState>
+													<xr:Value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Загрузка банковской выписки через</v8:content>
+															</v8:item>
+														</Presentation>
+														<Value xsi:type="xs:decimal">1</Value>
+													</xr:Value>
+												</xr:Item>
+											</ChoiceList>
+											<ContextMenu name="ВариантИнтеграцииЧерезБанкКонтекстноеМеню" id="1926"/>
+											<ExtendedTooltip name="ВариантИнтеграцииЧерезБанкРасширеннаяПодсказка" id="1927"/>
+										</RadioButtonField>
+										<LabelDecoration name="БанкИнтеграторНадпись" id="1928">
+											<ContextMenu name="БанкИнтеграторНадписьКонтекстноеМеню" id="1929"/>
+											<ExtendedTooltip name="БанкИнтеграторНадписьРасширеннаяПодсказка" id="1930"/>
+										</LabelDecoration>
+										<InputField name="БанкИнтеграторВыбор" id="1931">
+											<DataPath>БанкИнтегратор</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<CreateButton>false</CreateButton>
+											<ListChoiceMode>true</ListChoiceMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="БанкИнтеграторВыборКонтекстноеМеню" id="1932"/>
+											<ExtendedTooltip name="БанкИнтеграторВыборРасширеннаяПодсказка" id="1933"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<PictureDecoration name="ДекорацияКартинкаЗагрузкиЧерезБанк" id="1934">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Декорация картинка загрузки через банк</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<Picture>
+										<xr:Ref>CommonPicture.ДиректБанкОбменЧерезБанкПосредник</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<ContextMenu name="ДекорацияКартинкаЗагрузкиЧерезБанкКонтекстноеМеню" id="1935"/>
+									<ExtendedTooltip name="ДекорацияКартинкаЗагрузкиЧерезБанкРасширеннаяПодсказка" id="1936"/>
+								</PictureDecoration>
+								<LabelDecoration name="ДекорацияОписаниеИнтеграцииЧерезБанк" id="1937">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Позволяет загружать только банковские выписки, без возможности отправки документов из 1С. При этом обмен происходит не напрямую, а через банк-посредник. Этот вариант выгодно использовать, если уже настроено подключение 1С:ДиректБанк к банку-посреднику и он предлагает более удобные условия для загрузки выписок, чем прямое подключение.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияОписаниеИнтеграцииЧерезБанкКонтекстноеМеню" id="1938"/>
+									<ExtendedTooltip name="ДекорацияОписаниеИнтеграцииЧерезБанкРасширеннаяПодсказка" id="1939"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<LabelDecoration name="ИнформацияНаСайтеБанка" id="1071">
@@ -4209,6 +4399,55 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВариантИнтеграцииБанка" id="91">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариант интеграции банка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="БанкИнтегратор" id="92">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банк интегратор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DefinedType.БанкОбменСБанками</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользуетсяСтраницаВыбораВариантаИнтеграцииБанка" id="93">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используется страница выбора варианта интеграции банка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЕстьЗарплатныйДоговорSberAPI" id="94">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть зарплатный договор sber API</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

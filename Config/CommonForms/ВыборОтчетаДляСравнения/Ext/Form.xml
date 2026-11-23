@@ -6,7 +6,6 @@
 			<v8:content>Выбор регламентированного отчета для сравнения</v8:content>
 		</v8:item>
 	</Title>
-	<Height>24</Height>
 	<AutoTitle>false</AutoTitle>
 	<CommandBarLocation>Top</CommandBarLocation>
 	<CommandSet>
@@ -482,6 +481,8 @@
 					<SkipOnInput>false</SkipOnInput>
 					<ChangeRowSet>false</ChangeRowSet>
 					<ChangeRowOrder>false</ChangeRowOrder>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>4</MaxHeight>
 					<SelectionMode>SingleRow</SelectionMode>
 					<FileDragMode>AsFile</FileDragMode>
 					<DataPath>Список</DataPath>
@@ -494,9 +495,8 @@
 						<ExcludedCommand>OutputList</ExcludedCommand>
 						<ExcludedCommand>SearchHistory</ExcludedCommand>
 					</CommandSet>
-					<SearchStringLocation>None</SearchStringLocation>
+					<SearchStringLocation>Top</SearchStringLocation>
 					<ViewStatusLocation>None</ViewStatusLocation>
-					<SearchControlLocation>None</SearchControlLocation>
 					<AutoRefresh>false</AutoRefresh>
 					<AutoRefreshPeriod>60</AutoRefreshPeriod>
 					<Period>

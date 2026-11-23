@@ -73,6 +73,13 @@
 							<ContextMenu name="БанкКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="13"/>
 						</InputField>
+						<InputField name="НомерСчета" id="88">
+							<DataPath>Объект.НомерСчета</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерСчетаКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="90"/>
+						</InputField>
 						<LabelField name="Направление" id="32">
 							<DataPath>Объект.Направление</DataPath>
 							<ReadOnly>true</ReadOnly>
@@ -82,9 +89,6 @@
 						</LabelField>
 						<InputField name="ВидЭД" id="82">
 							<DataPath>Объект.ВидЭД</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
 							<ReadOnly>true</ReadOnly>
 							<Title>
 								<v8:item>
@@ -97,9 +101,6 @@
 						</InputField>
 						<InputField name="СообщениеРодитель" id="79">
 							<DataPath>Объект.СообщениеРодитель</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
 							<ReadOnly>true</ReadOnly>
 							<Title>
 								<v8:item>
@@ -143,9 +144,6 @@
 						</InputField>
 						<InputField name="НастройкаОбмена" id="37">
 							<DataPath>Объект.НастройкаОбмена</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="НастройкаОбменаКонтекстноеМеню" id="38"/>
@@ -153,9 +151,6 @@
 						</InputField>
 						<InputField name="Идентификатор" id="29">
 							<DataPath>Объект.Идентификатор</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
 							<ReadOnly>true</ReadOnly>
 							<Title>
 								<v8:item>
@@ -170,9 +165,6 @@
 						</InputField>
 						<InputField name="ВнешнийИдентификатор" id="17">
 							<DataPath>Объект.ВнешнийИдентификатор</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>1</Width>

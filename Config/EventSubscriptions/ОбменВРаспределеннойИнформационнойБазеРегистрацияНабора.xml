@@ -150,6 +150,7 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.СтавкаКомпенсацииЗаЗадержкуЗарплаты</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПлановыеЕжегодныеОтпуска</v8:Type>
 				<v8:Type>cfg:AccumulationRegisterRecordSet.ПособияПоУходуЗаРебенком</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеВоинскогоУчетаОрганизаций</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.КоэффициентыПовышенияЗаработкаУчитываемыеПриИндексацииИспр</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ЗарплатаКадрыДолиСписанияКосвенныхРасходов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.НумераторПачекПФР</v8:Type>
@@ -292,6 +293,7 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеОВремениДляРасчетаСреднегоФСС</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ЗависимостиНачисленийПоФПД</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПрименениеДополнительныхПериодическихПоказателейРасчетаЗарплатыСотрудников</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ВидыДокументовВоинскогоУчетаРаботников</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПрименениеПлановыхНачислений</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.НастройкиОчисткиФайлов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ИсторияСпециальностейПоШтатномуРасписанию</v8:Type>
@@ -538,6 +540,7 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.НастройкиРасчетаЗарплатыРасширенный</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ОсновныеПечатныеФормыКонтрагентов</v8:Type>
 				<v8:Type>cfg:AccumulationRegisterRecordSet.НачисленияУдержанияПоКонтрагентамАкционерам</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеРаботниковДляВоенкоматов</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ОсновныеДанныеКонтрактаДоговораСотрудникаИспр</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.МероприятияТрудовойДеятельностиПереданные</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ВнеочередныеАттестацииСотрудников</v8:Type>

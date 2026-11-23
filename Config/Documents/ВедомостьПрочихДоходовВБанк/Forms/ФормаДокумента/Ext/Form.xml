@@ -472,6 +472,13 @@
 							<ContextMenu name="СоставФизическоеЛицоКонтекстноеМеню" id="66"/>
 							<ExtendedTooltip name="СоставФизическоеЛицоРасширеннаяПодсказка" id="67"/>
 						</InputField>
+						<InputField name="СоставИНН" id="293">
+							<DataPath>Объект.Состав.ИНН</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СоставИННКонтекстноеМеню" id="294"/>
+							<ExtendedTooltip name="СоставИННРасширеннаяПодсказка" id="295"/>
+						</InputField>
 						<ColumnGroup name="СпособЗачисленияГруппа" id="248">
 							<Title>
 								<v8:item>
@@ -511,6 +518,15 @@
 											<ShowInFooter>false</ShowInFooter>
 											<ContextMenu name="СоставНомерЛицевогоСчетаКонтекстноеМеню" id="216"/>
 											<ExtendedTooltip name="СоставНомерЛицевогоСчетаРасширеннаяПодсказка" id="217"/>
+										</InputField>
+										<InputField name="СоставНомерЛицевогоСчетаЦР" id="290">
+											<DataPath>Объект.Состав.НомерЛицевогоСчетаЦР</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInHeader>false</ShowInHeader>
+											<ShowInFooter>false</ShowInFooter>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="СоставНомерЛицевогоСчетаЦРКонтекстноеМеню" id="291"/>
+											<ExtendedTooltip name="СоставНомерЛицевогоСчетаЦРРасширеннаяПодсказка" id="292"/>
 										</InputField>
 										<InputField name="СоставБанковскаяКарта" id="255">
 											<DataPath>Объект.Состав.БанковскаяКарта</DataPath>
@@ -1244,6 +1260,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Используется обмен БГУ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗарплатныйПроектПоддерживаетВыгрузкуИНН" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплатный проект поддерживает выгрузку ИНН</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

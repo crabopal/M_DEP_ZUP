@@ -5358,12 +5358,6 @@
 		<Description/>
 		<IsFolder>false</IsFolder>
 	</Item>
-	<Item id="033904ce-96a8-40b1-8a91-1bebfc45277b">
-		<Name>РегистрСведенийЭлектронныеПодписиЭДОБЗК</Name>
-		<Code/>
-		<Description>Регистр сведений электронные подписи ЭДОБЗК</Description>
-		<IsFolder>false</IsFolder>
-	</Item>
 	<Item id="50c761ff-0111-42a4-81bc-1456a8bf9f82">
 		<Name>РегистрСведенийВидыДокументовГосОргановДляПоиска</Name>
 		<Code/>
@@ -5504,6 +5498,72 @@
 	</Item>
 	<Item id="a4ff6003-a6ff-4aeb-a22a-0bcf6621995b">
 		<Name>РегистрСведенийПрочитанныеДанныеСообщенийОбмена</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d3ead4ec-4c57-449d-8d41-70e696528ce0">
+		<Name>РегистрСведенийДанныеВоинскогоУчетаОрганизаций</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6f615dee-58ea-4bb4-8e4f-a5b555f56ea2">
+		<Name>РегистрСведенийНастройкиСбораГрафиковОтпусковКабинетСотрудника</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4c616e47-1e70-4153-bbf9-eb5472762ea2">
+		<Name>РегистрСведенийОтчетность24БРОЗапросы</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4792b1da-860c-4625-be06-1b50b0cbac85">
+		<Name>РегистрСведенийОтчетность24БРОНастройкиПодтверждения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="23078f58-f931-4d43-8ced-5eb185bd6cdc">
+		<Name>РегистрСведенийОтчетность24БРООграниченияПоОрганизациям</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dabc4ab2-7ca8-438b-bc24-02b944f9b512">
+		<Name>РегистрСведенийОтчетность24БРОПараметрыШины</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3c9eb532-c607-4e01-8745-b3a0260f9ed4">
+		<Name>РегистрСведенийОтчетность24БРОПодключения</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="39df4540-70b2-4c00-a1c4-ea6d6582631a">
+		<Name>РегистрСведенийОтчетность24БРОСоответствиеСсылок</Name>
+		<Code/>
+		<Description/>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="095454d0-11dc-4320-a596-b14f35118c3c">
+		<Name>РегистрСведенийДанныеРаботниковДляВоенкоматов</Name>
+		<Code/>
+		<Description>Регистр сведений данные работников для военкоматов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="033904ce-96a8-40b1-8a91-1bebfc45277b">
+		<Name>РегистрСведенийЭлектронныеПодписиЭДОБЗК</Name>
+		<Code/>
+		<Description>Регистр сведений электронные подписи ЭДОБЗК</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cae3c07d-fcb9-4a87-a9a3-49d92283ea34">
+		<Name>РегистрСведенийВидыДокументовВоинскогоУчетаРаботников</Name>
 		<Code/>
 		<Description/>
 		<IsFolder>false</IsFolder>

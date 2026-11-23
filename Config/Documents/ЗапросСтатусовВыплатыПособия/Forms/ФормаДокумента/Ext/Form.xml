@@ -247,12 +247,13 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаОрганизацияРасширеннаяПодсказка" id="298"/>
 			<ChildItems>
-				<InputField name="Страхователь" id="821">
-					<DataPath>Объект.Страхователь</DataPath>
-					<ContextMenu name="СтраховательКонтекстноеМеню" id="822"/>
-					<ExtendedTooltip name="СтраховательРасширеннаяПодсказка" id="823"/>
+				<InputField name="Организация" id="961">
+					<DataPath>Объект.Организация</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="962"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="963"/>
 					<Events>
-						<Event name="OnChange">СтраховательПриИзменении</Event>
+						<Event name="OnChange">ОрганизацияПриИзменении</Event>
 					</Events>
 				</InputField>
 				<Pages name="СтраницыСостоянияДокумента" id="184">
@@ -715,14 +716,14 @@
 			<ChildItems>
 				<InputField name="ИдентификаторРеестра" id="943">
 					<DataPath>Объект.ИдентификаторРеестра</DataPath>
-					<TitleLocation>Top</TitleLocation>
+					<TitleLocation>Left</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ContextMenu name="ИдентификаторРеестраКонтекстноеМеню" id="944"/>
 					<ExtendedTooltip name="ИдентификаторРеестраРасширеннаяПодсказка" id="945"/>
 				</InputField>
 				<InputField name="ИдентификаторСтрокиРеестра" id="940">
 					<DataPath>Объект.ИдентификаторСтрокиРеестра</DataPath>
-					<TitleLocation>Top</TitleLocation>
+					<TitleLocation>Left</TitleLocation>
 					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<ContextMenu name="ИдентификаторСтрокиРеестраКонтекстноеМеню" id="941"/>
 					<ExtendedTooltip name="ИдентификаторСтрокиРеестраРасширеннаяПодсказка" id="942"/>
@@ -775,6 +776,14 @@
 					<DataPath>Объект.ГоловнаяОрганизация</DataPath>
 					<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="537"/>
 					<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="538"/>
+				</InputField>
+				<InputField name="Страхователь" id="821">
+					<DataPath>Объект.Страхователь</DataPath>
+					<ContextMenu name="СтраховательКонтекстноеМеню" id="822"/>
+					<ExtendedTooltip name="СтраховательРасширеннаяПодсказка" id="823"/>
+					<Events>
+						<Event name="OnChange">СтраховательПриИзменении</Event>
+					</Events>
 				</InputField>
 				<CheckBoxField name="ОтключитьПроверкиПроведения" id="550">
 					<DataPath>Объект.ОтключитьПроверкиПроведения</DataPath>

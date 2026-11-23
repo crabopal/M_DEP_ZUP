@@ -153,16 +153,10 @@
 					<v8:content>Группа кнопок</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кнопок</v8:content>
-				</v8:item>
-			</ToolTip>
 			<HorizontalStretch>true</HorizontalStretch>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<GroupVerticalAlign>Bottom</GroupVerticalAlign>
-			<Group>Horizontal</Group>
+			<Group>AlwaysHorizontal</Group>
 			<HorizontalAlign>Center</HorizontalAlign>
 			<VerticalAlign>Center</VerticalAlign>
 			<Behavior>Usual</Behavior>
@@ -173,11 +167,13 @@
 				<Button name="КнопкаРасшифровать" id="12">
 					<Type>UsualButton</Type>
 					<DefaultButton>true</DefaultButton>
+					<Width>18</Width>
 					<CommandName>Form.Command.КомандаРасшифровать</CommandName>
 					<ExtendedTooltip name="КнопкаРасшифроватьExtendedTooltip" id="17"/>
 				</Button>
 				<Button name="ПоказатьПозже" id="46">
 					<Type>UsualButton</Type>
+					<Width>18</Width>
 					<CommandName>Form.Command.ПоказатьПозже</CommandName>
 					<Title>
 						<v8:item>
@@ -189,6 +185,7 @@
 				</Button>
 				<Button name="КомандаБольшеНеПоказывать" id="13">
 					<Type>UsualButton</Type>
+					<Width>18</Width>
 					<CommandName>Form.Command.КомандаБольшеНеПоказывать</CommandName>
 					<Title>
 						<v8:item>
@@ -198,6 +195,35 @@
 					</Title>
 					<ExtendedTooltip name="КомандаБольшеНеПоказыватьРасширеннаяПодсказка" id="18"/>
 				</Button>
+				<UsualGroup name="ГруппаКнопокНастройкиУведомлений" id="71">
+					<Width>3</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКнопокНастройкиУведомленийРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<CommandBar name="ГруппаКнопокПанельНастройкиУведомлений" id="66">
+							<Width>3</Width>
+							<ExtendedTooltip name="ГруппаКнопокПанельНастройкиУведомленийРасширеннаяПодсказка" id="67"/>
+							<ChildItems>
+								<Button name="НастройкиУведомлений" id="62">
+									<Type>CommandBarButton</Type>
+									<Representation>Picture</Representation>
+									<CommandName>Form.Command.НастройкиУведомлений</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.РазделНастройки</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="НастройкиУведомленийРасширеннаяПодсказка" id="63"/>
+								</Button>
+							</ChildItems>
+						</CommandBar>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -498,6 +524,23 @@
 			</ToolTip>
 			<Action>ПоказатьПозже</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="НастройкиУведомлений" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки уведомлений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки показа уведомлений.
+
+Изменить настройки можно в любое время по ссылкам "Прочие настройки" - "Уведомления" в разделе "Настройки" формы "1С-Отчетность".</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкиУведомлений</Action>
 		</Command>
 	</Commands>
 	<Parameters>

@@ -137,12 +137,12 @@
 					<TitleLocation>None</TitleLocation>
 					<HeaderPicture>
 						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</HeaderPicture>
 					<Width>2</Width>
 					<ValuesPicture>
 						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</ValuesPicture>
 					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="53"/>
 					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="54"/>
@@ -186,10 +186,21 @@
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.СборАннулирован</Field>
+				<Field>Список.СборЗавершен</Field>
+				<Field>Список.СборЗапущен</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>

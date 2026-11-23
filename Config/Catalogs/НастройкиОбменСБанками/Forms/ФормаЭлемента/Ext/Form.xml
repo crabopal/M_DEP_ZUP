@@ -194,6 +194,9 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ДействуетКонтекстноеМеню" id="949"/>
 							<ExtendedTooltip name="ДействуетРасширеннаяПодсказка" id="950"/>
+							<Events>
+								<Event name="OnChange">ДействуетПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
@@ -1977,6 +1980,92 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="СтраницаДополнительныеБанки" id="1278">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные банки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаДополнительныеБанкиРасширеннаяПодсказка" id="1279"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияОписаниеСпискаДополнительныхБанков" id="1280">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список банков, по которым доступна загрузка банковских выписок через текущую настройку</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОписаниеСпискаДополнительныхБанковКонтекстноеМеню" id="1281"/>
+							<ExtendedTooltip name="ДекорацияОписаниеСпискаДополнительныхБанковРасширеннаяПодсказка" id="1282"/>
+						</LabelDecoration>
+						<Table name="ДополнительныеБанки" id="1283">
+							<ReadOnly>true</ReadOnly>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДополнительныеБанки</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДополнительныеБанкиКонтекстноеМеню" id="1284"/>
+							<AutoCommandBar name="ДополнительныеБанкиКоманднаяПанель" id="1285">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ДополнительныеБанкиДобавитьБанк" id="1302">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьБанк</CommandName>
+										<ExtendedTooltip name="ДополнительныеБанкиДобавитьБанкРасширеннаяПодсказка" id="1303"/>
+									</Button>
+									<Button name="ДополнительныеБанкиУдалитьБанк" id="1304">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.УдалитьБанк</CommandName>
+										<ExtendedTooltip name="ДополнительныеБанкиУдалитьБанкРасширеннаяПодсказка" id="1305"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДополнительныеБанкиРасширеннаяПодсказка" id="1286"/>
+							<SearchStringAddition name="ДополнительныеБанкиСтрокаПоиска" id="1287">
+								<AdditionSource>
+									<Item>ДополнительныеБанки</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеБанкиСтрокаПоискаКонтекстноеМеню" id="1288"/>
+								<ExtendedTooltip name="ДополнительныеБанкиСтрокаПоискаРасширеннаяПодсказка" id="1289"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДополнительныеБанкиСостояниеПросмотра" id="1290">
+								<AdditionSource>
+									<Item>ДополнительныеБанки</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеБанкиСостояниеПросмотраКонтекстноеМеню" id="1291"/>
+								<ExtendedTooltip name="ДополнительныеБанкиСостояниеПросмотраРасширеннаяПодсказка" id="1292"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДополнительныеБанкиУправлениеПоиском" id="1293">
+								<AdditionSource>
+									<Item>ДополнительныеБанки</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДополнительныеБанкиУправлениеПоискомКонтекстноеМеню" id="1294"/>
+								<ExtendedTooltip name="ДополнительныеБанкиУправлениеПоискомРасширеннаяПодсказка" id="1295"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДополнительныеБанкиНомерСтроки" id="1296">
+									<DataPath>Объект.ДополнительныеБанки.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДополнительныеБанкиНомерСтрокиКонтекстноеМеню" id="1297"/>
+									<ExtendedTooltip name="ДополнительныеБанкиНомерСтрокиРасширеннаяПодсказка" id="1298"/>
+								</LabelField>
+								<InputField name="ДополнительныеБанкиБанк" id="1299">
+									<DataPath>Объект.ДополнительныеБанки.Банк</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ДополнительныеБанкиБанкКонтекстноеМеню" id="1300"/>
+									<ExtendedTooltip name="ДополнительныеБанкиБанкРасширеннаяПодсказка" id="1301"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 		<InputField name="Комментарий" id="136">
@@ -2494,6 +2583,40 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ДоступноПолучениеВыписокИзДругихБанков" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доступно получение выписок из других банков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="БанкиДляЗагрузкиВыписки" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банки для загрузки выписки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
+		</Attribute>
+		<Attribute name="ЭтоМобильныйКлиент" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это мобильный клиент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗагрузитьСертификат" id="3">
@@ -2658,6 +2781,30 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтправитьПисьмоПоАвтоматическойВыписке</Action>
+		</Command>
+		<Command name="ДобавитьБанк" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ДобавитьБанк</Action>
+		</Command>
+		<Command name="УдалитьБанк" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить банк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьБанк</Action>
 		</Command>
 	</Commands>
 </Form>

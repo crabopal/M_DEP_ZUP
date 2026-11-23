@@ -1226,7 +1226,7 @@
 													<ContextMenu name="УсловияИсчисленияКод1КонтекстноеМеню" id="1303"/>
 													<ExtendedTooltip name="УсловияИсчисленияКод1РасширеннаяПодсказка" id="1304"/>
 													<Events>
-														<Event name="OnChange">УсловияИсчисленияКод1ПриИзменении</Event>
+														<Event name="OnChange">УсловияИсчисленияКодПриИзменении</Event>
 													</Events>
 												</InputField>
 												<InputField name="УсловияИсчисленияКод2" id="1305">
@@ -1236,7 +1236,7 @@
 													<ContextMenu name="УсловияИсчисленияКод2КонтекстноеМеню" id="1306"/>
 													<ExtendedTooltip name="УсловияИсчисленияКод2РасширеннаяПодсказка" id="1307"/>
 													<Events>
-														<Event name="OnChange">УсловияИсчисленияКод2ПриИзменении</Event>
+														<Event name="OnChange">УсловияИсчисленияКодПриИзменении</Event>
 													</Events>
 												</InputField>
 												<InputField name="УсловияИсчисленияКод3" id="1308">
@@ -1246,7 +1246,29 @@
 													<ContextMenu name="УсловияИсчисленияКод3КонтекстноеМеню" id="1309"/>
 													<ExtendedTooltip name="УсловияИсчисленияКод3РасширеннаяПодсказка" id="1310"/>
 													<Events>
-														<Event name="OnChange">УсловияИсчисленияКод3ПриИзменении</Event>
+														<Event name="OnChange">УсловияИсчисленияКодПриИзменении</Event>
+													</Events>
+												</InputField>
+												<InputField name="УсловияИсчисленияКод4" id="2198">
+													<DataPath>Объект.УсловияИсчисленияКод4</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияИсчисленияКод4КонтекстноеМеню" id="2199"/>
+													<ExtendedTooltip name="УсловияИсчисленияКод4РасширеннаяПодсказка" id="2200"/>
+													<Events>
+														<Event name="OnChange">УсловияИсчисленияКодПриИзменении</Event>
+													</Events>
+												</InputField>
+												<InputField name="УсловияИсчисленияКод5" id="2201">
+													<DataPath>Объект.УсловияИсчисленияКод5</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="УсловияИсчисленияКод5КонтекстноеМеню" id="2202"/>
+													<ExtendedTooltip name="УсловияИсчисленияКод5РасширеннаяПодсказка" id="2203"/>
+													<Events>
+														<Event name="OnChange">УсловияИсчисленияКодПриИзменении</Event>
 													</Events>
 												</InputField>
 												<InputField name="ДатаНарушенияРежима" id="1311">
@@ -3684,7 +3706,7 @@
 					</Title>
 					<ExtendedTooltip name="БухучетНачисленийРасширеннаяПодсказка" id="2208"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаДоляРаботодателя" id="2150">
+						<UsualGroup name="ГруппаДоляРаботодателя" id="2209">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -3693,7 +3715,7 @@
 							</Title>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаДоляРаботодателяРасширеннаяПодсказка" id="2151"/>
+							<ExtendedTooltip name="ГруппаДоляРаботодателяРасширеннаяПодсказка" id="2210"/>
 							<ChildItems>
 								<InputField name="СпособРасчетовСФизическимиЛицами" id="2152">
 									<DataPath>Объект.СпособРасчетовСФизическимиЛицами</DataPath>
@@ -3797,7 +3819,7 @@
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ДоляРаботодателяИсточникФинансированиеРасширеннаяПодсказка" id="2231"/>
 													<ChildItems>
-														<InputField name="ДоляРаботодателяСтатьяФинансирования" id="2209">
+														<InputField name="ДоляРаботодателяСтатьяФинансирования" id="2232">
 															<DataPath>ДоляРаботодателяСтатьяФинансирования</DataPath>
 															<Title>
 																<v8:item>
@@ -3812,7 +3834,7 @@
 																	<v8:content>Подбирается автоматически</v8:content>
 																</v8:item>
 															</InputHint>
-															<ContextMenu name="ДоляРаботодателяСтатьяФинансированияКонтекстноеМеню" id="2210"/>
+															<ContextMenu name="ДоляРаботодателяСтатьяФинансированияКонтекстноеМеню" id="2233"/>
 															<ExtendedTooltip name="ДоляРаботодателяСтатьяФинансированияРасширеннаяПодсказка" id="2211"/>
 															<Events>
 																<Event name="OnChange">ДоляРаботодателяСтатьяФинансированияПриИзменении</Event>
@@ -3837,7 +3859,7 @@
 														</InputField>
 													</ChildItems>
 												</UsualGroup>
-												<InputField name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучете" id="2232">
+												<InputField name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучете" id="2234">
 													<DataPath>ДоляРаботодателяСпособОтраженияЗарплатыВБухучете</DataPath>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<InputHint>
@@ -3846,8 +3868,8 @@
 															<v8:content>Подбирается автоматически</v8:content>
 														</v8:item>
 													</InputHint>
-													<ContextMenu name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="2233"/>
-													<ExtendedTooltip name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="2234"/>
+													<ContextMenu name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучетеКонтекстноеМеню" id="2235"/>
+													<ExtendedTooltip name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="2266"/>
 													<Events>
 														<Event name="OnChange">ДоляРаботодателяСпособОтраженияЗарплатыВБухучетеПриИзменении</Event>
 													</Events>
@@ -3908,7 +3930,7 @@
 								</Pages>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаДоплатаБухучет" id="2235">
+						<UsualGroup name="ГруппаДоплатаБухучет" id="2263">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -4049,7 +4071,7 @@
 														<Event name="OnChange">ДоплатаСпособОтраженияЗарплатыВБухучетеПриИзменении</Event>
 													</Events>
 												</InputField>
-												<InputField name="ДоплатаПодразделениеУчетаЗатрат" id="2263">
+												<InputField name="ДоплатаПодразделениеУчетаЗатрат" id="2264">
 													<DataPath>ДоплатаПодразделениеУчетаЗатрат</DataPath>
 													<Title>
 														<v8:item>
@@ -4064,7 +4086,7 @@
 															<v8:content>Подбирается автоматически</v8:content>
 														</v8:item>
 													</InputHint>
-													<ContextMenu name="ДоплатаПодразделениеУчетаЗатратКонтекстноеМеню" id="2264"/>
+													<ContextMenu name="ДоплатаПодразделениеУчетаЗатратКонтекстноеМеню" id="2267"/>
 													<ExtendedTooltip name="ДоплатаПодразделениеУчетаЗатратРасширеннаяПодсказка" id="2265"/>
 													<Events>
 														<Event name="OnChange">ДоплатаПодразделениеУчетаЗатратПриИзменении</Event>
@@ -9403,7 +9425,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>за счет ФСС</v8:content>
+					<v8:content>за счет СФР</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -10267,7 +10289,29 @@
 				<v8:Type>cfg:DocumentRef.ДанныеСФРДляРасчетаПособия</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоляРаботодателяСтатьяФинансирования" id="86">
+		<Attribute name="ПолностьюОплачиваетсяЗаСчетСФР" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полностью оплачивается за счет СФР</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьСтатьиФинансирования" id="87">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать статьи финансирования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДоляРаботодателяСтатьяФинансирования" id="88">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10279,7 +10323,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоляРаботодателяВариантУказанияБухучета" id="87">
+		<Attribute name="ДоляРаботодателяВариантУказанияБухучета" id="89">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10296,7 +10340,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоляРаботодателяСтатьяРасходов" id="88">
+		<Attribute name="ДоляРаботодателяСтатьяРасходов" id="90">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10308,7 +10352,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучете" id="89">
+		<Attribute name="ДоляРаботодателяСпособОтраженияЗарплатыВБухучете" id="91">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10320,7 +10364,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоплатаСтатьяФинансирования" id="90">
+		<Attribute name="ДоплатаСтатьяФинансирования" id="92">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10332,7 +10376,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоплатаСтатьяРасходов" id="91">
+		<Attribute name="ДоплатаСтатьяРасходов" id="93">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10344,7 +10388,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоплатаСпособОтраженияЗарплатыВБухучете" id="92">
+		<Attribute name="ДоплатаСпособОтраженияЗарплатыВБухучете" id="94">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10356,7 +10400,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоплатаВариантУказанияБухучета" id="93">
+		<Attribute name="ДоплатаВариантУказанияБухучета" id="95">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10373,7 +10417,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоляРаботодателяНастройкиБухучета" id="94">
+		<Attribute name="ДоляРаботодателяНастройкиБухучета" id="96">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10382,7 +10426,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ДоплатаНастройкиБухучета" id="95">
+		<Attribute name="ДоплатаНастройкиБухучета" id="97">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -10390,28 +10434,6 @@
 				</v8:item>
 			</Title>
 			<Type/>
-		</Attribute>
-		<Attribute name="ИспользоватьСтатьиФинансирования" id="96">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать статьи финансирования</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ПолностьюОплачиваетсяЗаСчетСФР" id="97">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Полностью оплачивается за счет СФР</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
 		</Attribute>
 		<Attribute name="ДоляРаботодателяПодразделениеУчетаЗатрат" id="98">
 			<Title>

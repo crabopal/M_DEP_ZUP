@@ -1700,7 +1700,7 @@
 													<Title formatted="false">
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Вы можете загрузить файлы с данными начиная с 2011 года. Файлы, переданные в ИФНС, имеют расширение XML и названия вида: NO_NDFL2_....xml.</v8:content>
+															<v8:content>Вы можете загрузить файлы с данными начиная с 2011 года по 2020 год. Файлы, переданные в ИФНС, имеют расширение XML и названия вида: NO_NDFL2_....xml.</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ПереносДанныхТекстФНСКонтекстноеМеню" id="2143"/>
@@ -14546,16 +14546,6 @@
 		<Attribute name="ВыполненПереносДанных" id="267">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ВыполненВариантПереноса" id="268">
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>1</v8:Digits>
-					<v8:FractionDigits>0</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="МесяцНачалаЭксплуатацииСтрокой" id="269">

@@ -563,6 +563,58 @@
 						</Button>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаПредупреждения" id="150">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа предупреждения</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПредупрежденияРасширеннаяПодсказка" id="151"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияУведомления" id="152">
+							<Width>25</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Уведомления:</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Center</VerticalAlign>
+							<ContextMenu name="ДекорацияУведомленияКонтекстноеМеню" id="153"/>
+							<ExtendedTooltip name="ДекорацияУведомленияРасширеннаяПодсказка" id="154"/>
+						</LabelDecoration>
+						<LabelDecoration name="НастройкиУведомлений" id="155">
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Открыть</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки показа уведомлений</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<Hyperlink>true</Hyperlink>
+							<VerticalAlign>Center</VerticalAlign>
+							<ContextMenu name="НастройкиУведомленийКонтекстноеМеню" id="156"/>
+							<ExtendedTooltip name="НастройкиУведомленийРасширеннаяПодсказка" id="157"/>
+							<Events>
+								<Event name="Click">НастройкиУведомленийНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<CheckBoxField name="ИспользоватьРежимТестирования" id="38">

@@ -104,11 +104,8 @@
 			</Attribute>
 			<Form>ФормаПомощника</Form>
 			<Form>ФормаВыбораВариантаПереносаДанных</Form>
-			<Template>ПравилаОбслуживанияВыгрузкиДанных</Template>
 			<Template>СписокОшибок</Template>
-			<Template>ПомощникВыгрузки_V8</Template>
 			<Template>ПомощникВыгрузки_БП3</Template>
-			<Template>ПФ_MXL_СписокЗагруженныхОбъектов</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

@@ -40,12 +40,6 @@
 					<ExtendedTooltip name="ОсновныеДанныеГруппаРасширеннаяПодсказка" id="133"/>
 					<ChildItems>
 						<UsualGroup name="Шапка" id="120">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Шапка</v8:content>
-								</v8:item>
-							</Title>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
@@ -175,37 +169,56 @@
 													<v8:content>Файл обмена</v8:content>
 												</v8:item>
 											</Title>
+											<Group>Vertical</Group>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="ФайлОбменаРасширеннаяПодсказка" id="108"/>
 											<ChildItems>
-												<InputField name="ФорматФайла" id="21">
-													<DataPath>Объект.ФорматФайла</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Формат</v8:content>
-														</v8:item>
-													</Title>
-													<ContextMenu name="ФорматФайлаКонтекстноеМеню" id="22"/>
-													<ExtendedTooltip name="ФорматФайлаРасширеннаяПодсказка" id="71"/>
+												<UsualGroup name="ФорматФайлаГруппа" id="168">
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ФорматФайлаГруппаРасширеннаяПодсказка" id="169"/>
+													<ChildItems>
+														<InputField name="ФорматФайла" id="21">
+															<DataPath>Объект.ФорматФайла</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Формат</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="ФорматФайлаКонтекстноеМеню" id="22"/>
+															<ExtendedTooltip name="ФорматФайлаРасширеннаяПодсказка" id="71"/>
+															<Events>
+																<Event name="OnChange">ФорматФайлаПриИзменении</Event>
+															</Events>
+														</InputField>
+														<InputField name="КодировкаФайла" id="109">
+															<DataPath>Объект.КодировкаФайла</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Кодировка</v8:content>
+																</v8:item>
+															</Title>
+															<Width>10</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="КодировкаФайлаКонтекстноеМеню" id="110"/>
+															<ExtendedTooltip name="КодировкаФайлаРасширеннаяПодсказка" id="111"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<CheckBoxField name="ДляПеречисленийВЦифровыхРублях" id="163">
+													<DataPath>Объект.ДляПеречисленийВЦифровыхРублях</DataPath>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ДляПеречисленийВЦифровыхРубляхКонтекстноеМеню" id="164"/>
+													<ExtendedTooltip name="ДляПеречисленийВЦифровыхРубляхРасширеннаяПодсказка" id="165"/>
 													<Events>
-														<Event name="OnChange">ФорматФайлаПриИзменении</Event>
+														<Event name="OnChange">ДляПеречисленийВЦифровыхРубляхПриИзменении</Event>
 													</Events>
-												</InputField>
-												<InputField name="КодировкаФайла" id="109">
-													<DataPath>Объект.КодировкаФайла</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Кодировка</v8:content>
-														</v8:item>
-													</Title>
-													<Width>10</Width>
-													<HorizontalStretch>false</HorizontalStretch>
-													<ContextMenu name="КодировкаФайлаКонтекстноеМеню" id="110"/>
-													<ExtendedTooltip name="КодировкаФайлаРасширеннаяПодсказка" id="111"/>
-												</InputField>
+												</CheckBoxField>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="Договор" id="30">
@@ -600,6 +613,28 @@
 		</Attribute>
 		<Attribute name="ПараметрыПодключаемыхКоманд" id="7">
 			<Type/>
+		</Attribute>
+		<Attribute name="ЗарплатныйПроектПоддерживаетПеречисленияВЦифровыхРублях" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплатный проект поддерживает перечисления в цифровых рублях</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВидимостьПризнакаПеречисленийНаКартыМир" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Видимость признака перечислений на карты мир</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

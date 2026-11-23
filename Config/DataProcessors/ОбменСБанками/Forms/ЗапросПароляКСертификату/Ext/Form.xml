@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Аутентификация на сервере банка</v8:content>
+			<v8:content>Доступ для обмена</v8:content>
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
@@ -138,6 +138,10 @@
 					</Title>
 					<ExtendedTooltip name="СтраницаВводЛогинаИПароляРасширеннаяПодсказка" id="55"/>
 					<ChildItems>
+						<LabelDecoration name="ДекорацияНаименованиеБанка" id="165">
+							<ContextMenu name="ДекорацияНаименованиеБанкаКонтекстноеМеню" id="166"/>
+							<ExtendedTooltip name="ДекорацияНаименованиеБанкаРасширеннаяПодсказка" id="167"/>
+						</LabelDecoration>
 						<UsualGroup name="ГруппаЛогинПароль" id="71">
 							<Title>
 								<v8:item>
@@ -170,11 +174,16 @@
 									<DataPath>ПарольПользователя</DataPath>
 									<Wrap>false</Wrap>
 									<PasswordMode>true</PasswordMode>
+									<ChoiceButton>true</ChoiceButton>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ChoiceButtonPicture>
+										<xr:Ref>CommonPicture.ВводимыеСимволыВидны</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</ChoiceButtonPicture>
 									<ContextMenu name="ПарольАвторизацииКонтекстноеМеню" id="46"/>
 									<ExtendedTooltip name="ПарольАвторизацииРасширеннаяПодсказка" id="58"/>
 									<Events>
-										<Event name="TextEditEnd">ПарольАвторизацииОкончаниеВводаТекста</Event>
+										<Event name="StartChoice">ПарольАвторизацииНачалоВыбора</Event>
 									</Events>
 								</InputField>
 								<UsualGroup name="ГруппаСрокХраненияПароляИстек" id="95">

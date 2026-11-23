@@ -810,7 +810,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование территориального органа ФСС</v8:content>
+							<v8:content>Наименование территориального органа ОСС</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1017,7 +1017,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистрационный номер ФСС</v8:content>
+							<v8:content>Регистрационный номер ОСС</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

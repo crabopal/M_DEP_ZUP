@@ -158,7 +158,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Получить сообщения СЭДО ФСС за период с</v8:content>
+							<v8:content>Получить сообщения СЭДО за период с</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="35"/>
@@ -196,9 +196,6 @@
 			<ChildItems>
 				<CheckBoxField name="Принудительно" id="49">
 					<DataPath>Принудительно</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
 					<TitleLocation>Right</TitleLocation>
 					<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 					<CheckBoxType>Auto</CheckBoxType>

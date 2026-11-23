@@ -64,7 +64,6 @@
 					<Group>AlwaysHorizontal</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
-					<United>false</United>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОтборГоловнаяОрганизацияГруппаРасширеннаяПодсказка" id="620"/>
 					<ChildItems>
@@ -72,7 +71,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Головная организация:</v8:content>
+									<v8:content>Организация:</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ГоловнаяОрганизацияЗаголовокКонтекстноеМеню" id="622"/>
@@ -107,7 +106,6 @@
 					<Group>AlwaysHorizontal</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
-					<United>false</United>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОтборОрганизацияГруппаРасширеннаяПодсказка" id="628"/>
 					<ChildItems>
@@ -115,7 +113,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Организация:</v8:content>
+									<v8:content>Филиал:</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ОрганизацияЗаголовокКонтекстноеМеню" id="630"/>
@@ -164,7 +162,6 @@
 					<Group>AlwaysHorizontal</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
-					<United>false</United>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОтборОрганизацииГруппаРасширеннаяПодсказка" id="640"/>
 					<ChildItems>
@@ -172,7 +169,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Организации:</v8:content>
+									<v8:content>Филиалы:</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ОрганизацииЗаголовокКонтекстноеМеню" id="642"/>
@@ -1324,7 +1321,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Вернуться к выбору одной организации</v8:content>
+					<v8:content>Вернуться к выбору одного филиала</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1337,13 +1334,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать несколько организаций</v8:content>
+					<v8:content>Выбрать несколько филиалов</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выбрать несколько организаций</v8:content>
+					<v8:content>Выбрать несколько филиалов</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1356,13 +1353,13 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить список организаций</v8:content>
+					<v8:content>Очистить список филиалов</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Очистить список организаций</v8:content>
+					<v8:content>Очистить список филиалов</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>

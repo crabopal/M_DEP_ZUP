@@ -228,6 +228,7 @@
 				<v8:Type>cfg:DocumentRef.НаправлениеНаВнешнююАттестацию</v8:Type>
 				<v8:Type>cfg:CatalogRef.НастройкиРасчетаРезервовПоОплатеТруда</v8:Type>
 				<v8:Type>cfg:CatalogRef.ТарифыПлатежныхАгентов</v8:Type>
+				<v8:Type>cfg:DocumentRef.УведомлениеОбОтсутствииОтветаСЭДО</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПачкаДокументовСПВ_1</v8:Type>
 				<v8:Type>cfg:DocumentRef.ТабельУчетаРабочегоВремени</v8:Type>
 				<v8:Type>cfg:DocumentRef.РегистрацияСведенийОЗастрахованномЛицеФСС</v8:Type>

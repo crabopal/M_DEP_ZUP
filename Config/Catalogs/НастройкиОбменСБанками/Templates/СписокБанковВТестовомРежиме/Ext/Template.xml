@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>14</size>
+		<size>16</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -418,6 +418,72 @@ https://bank1.ru/1c
 					</note>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Интегратор</v8:content>
+						</v8:item>
+					</tl>
+					<note>
+						<drawingType>Comment</drawingType>
+						<id>0</id>
+						<formatIndex>20</formatIndex>
+						<text>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Интегратор - это банк, который позволяет загружать выписки других банков.
+Номер интегратора задается произвольно, но должен быть уникальным.</v8:content>
+							</v8:item>
+						</text>
+						<beginRow>1</beginRow>
+						<beginRowOffset>-21</beginRowOffset>
+						<endRow>0</endRow>
+						<endRowOffset>207</endRowOffset>
+						<beginColumn>1</beginColumn>
+						<beginColumnOffset>-177</beginColumnOffset>
+						<endColumn>14</endColumn>
+						<endColumnOffset>945</endColumnOffset>
+						<autoSize>false</autoSize>
+						<pictureSize>Stretch</pictureSize>
+					</note>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДоступныеИнтеграторы</v8:content>
+						</v8:item>
+					</tl>
+					<note>
+						<drawingType>Comment</drawingType>
+						<id>0</id>
+						<formatIndex>20</formatIndex>
+						<text>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Номера банков-интеграторов перечисляются через запятую. Это банки, через которые загружается банковская выписка для текущего БИК.
+Номер банка-интегратора указан в колонке "Интегратор"</v8:content>
+							</v8:item>
+						</text>
+						<beginRow>1</beginRow>
+						<beginRowOffset>-21</beginRowOffset>
+						<endRow>0</endRow>
+						<endRowOffset>300</endRowOffset>
+						<beginColumn>1</beginColumn>
+						<beginColumnOffset>21</beginColumnOffset>
+						<endColumn>15</endColumn>
+						<endColumnOffset>741</endColumnOffset>
+						<autoSize>false</autoSize>
+						<pictureSize>Stretch</pictureSize>
+					</note>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -458,7 +524,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -513,7 +579,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -556,7 +622,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -600,7 +666,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -622,7 +688,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -638,7 +704,7 @@ https://bank1.ru/1c
 		<row>
 			<c>
 				<c>
-					<f>26</f>
+					<f>28</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -660,7 +726,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>26</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -682,7 +748,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>27</f>
+					<f>29</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -704,7 +770,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -726,7 +792,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -786,7 +852,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -797,7 +863,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>28</f>
+					<f>30</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -841,7 +907,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -890,7 +956,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -979,7 +1045,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1034,7 +1100,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1083,7 +1149,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl/>
 				</c>
 			</c>
@@ -1140,7 +1206,7 @@ https://bank1.ru/1c
 		<row>
 			<c>
 				<c>
-					<f>29</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1173,7 +1239,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1206,7 +1272,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1217,7 +1283,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1228,7 +1294,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1244,7 +1310,7 @@ https://bank1.ru/1c
 		<row>
 			<c>
 				<c>
-					<f>31</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1255,7 +1321,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1266,7 +1332,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1277,7 +1343,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1288,7 +1354,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1299,7 +1365,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1310,7 +1376,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1321,88 +1387,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>36</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>1</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>23</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>37</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>10</index>
-		<row>
-			<c>
-				<c>
 					<f>38</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>БАНК "ВБРР" (АО)</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>23</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>044525880</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>32</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>АсинхронныйОбмен</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>33</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ПоСертификату</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>34</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>https://c1.vbrr.ru:3443/</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1414,17 +1399,76 @@ https://bank1.ru/1c
 			<c>
 				<c>
 					<f>25</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>39</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<c>
+					<f>40</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>https://www.vbrr.ru/corporate/information/1cdirectbank/</v8:content>
+							<v8:content>БАНК "ВБРР" (АО)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>25</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>044525880</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>АсинхронныйОбмен</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>35</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПоСертификату</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>36</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>https://c1.vbrr.ru:3443/</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1435,7 +1479,29 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>https://www.vbrr.ru/corporate/information/1cdirectbank/</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
 				</c>
 			</c>
 		</row>
@@ -1467,7 +1533,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1478,7 +1544,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1585,7 +1651,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1596,7 +1662,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1658,7 +1724,7 @@ https://bank1.ru/1c
 		<row>
 			<c>
 				<c>
-					<f>38</f>
+					<f>40</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1669,7 +1735,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1680,7 +1746,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>41</f>
+					<f>43</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1691,7 +1757,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1702,7 +1768,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>44</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1713,7 +1779,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1724,7 +1790,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>25</f>
+					<f>27</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1735,7 +1801,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1746,7 +1812,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>45</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1757,7 +1823,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>25</f>
 				</c>
 			</c>
 		</row>
@@ -1789,7 +1855,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1800,7 +1866,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1864,7 +1930,7 @@ https://bank1.ru/1c
 		<row>
 			<c>
 				<c>
-					<f>29</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1886,7 +1952,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1897,7 +1963,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1908,17 +1974,17 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>44</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>45</f>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1977,7 +2043,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1988,7 +2054,7 @@ https://bank1.ru/1c
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2123,6 +2189,24 @@ https://bank1.ru/1c
 		<border>0</border>
 		<width>59</width>
 		<backColor>style:FormBackColor</backColor>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>89</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<backColor>style:FormBackColor</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>176</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<backColor>style:FormBackColor</backColor>
+		<textPlacement>Auto</textPlacement>
 	</format>
 	<format>
 		<width>167</width>

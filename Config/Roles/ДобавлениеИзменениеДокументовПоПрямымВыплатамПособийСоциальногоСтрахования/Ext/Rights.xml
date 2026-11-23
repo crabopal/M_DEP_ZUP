@@ -3602,6 +3602,102 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.УведомлениеОбОтсутствииОтветаСЭДО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+#ПоЗначениям("Документ.УведомлениеОбОтсутствииОтветаСЭДО", "Чтение", "",
+"ГруппыФизическихЛиц", "ФизическоеЛицо",
+"Организации", "Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "",  "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+#ПоЗначениям("Документ.УведомлениеОбОтсутствииОтветаСЭДО", "Добавление", "",
+"ГруппыФизическихЛиц", "ФизическоеЛицо",
+"Организации", "Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "",  "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+#ПоЗначениям("Документ.УведомлениеОбОтсутствииОтветаСЭДО", "Изменение", "",
+"ГруппыФизическихЛиц", "ФизическоеЛицо",
+"Организации", "Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "",  "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.РегистрацииЗапросовСреднегоЗаработкаСЭДО</name>
 		<right>
 			<name>Read</name>
@@ -4851,6 +4947,78 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("ВладелецФайла")
+#Иначе
+#ПоЗначениям("Справочник.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы", "Чтение", "",
+"ГруппыФизическихЛиц", "ВладелецФайла.ФизическоеЛицо",
+"Организации", "ВладелецФайла.Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("ВладелецФайла")
+#Иначе
+#ПоЗначениям("Справочник.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы", "Добавление", "",
+"ГруппыФизическихЛиц", "ВладелецФайла.ФизическоеЛицо",
+"Организации", "ВладелецФайла.Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("ВладелецФайла")
+#Иначе
+#ПоЗначениям("Справочник.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы", "Изменение", "",
+"ГруппыФизическихЛиц", "ВладелецФайла.ФизическоеЛицо",
+"Организации", "ВладелецФайла.Организация",
+"", "",
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

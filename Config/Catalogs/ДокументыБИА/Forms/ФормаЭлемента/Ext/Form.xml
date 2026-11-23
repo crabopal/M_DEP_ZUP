@@ -970,7 +970,7 @@
 													<ExtendedTooltip name="ВизыСогласованияНомерСтрокиРасширеннаяПодсказка" id="257"/>
 												</LabelField>
 												<InputField name="ВизыСогласованияАвтор" id="258">
-													<DataPath>Объект.ВизыСогласования.Автор</DataPath>
+													<DataPath>Объект.ВизыСогласования.Согласовал</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ВизыСогласованияАвторКонтекстноеМеню" id="259"/>
 													<ExtendedTooltip name="ВизыСогласованияАвторРасширеннаяПодсказка" id="260"/>

@@ -473,9 +473,10 @@
 						<CalendarField name="КалендарьСобытий" id="28">
 							<DataPath>ДатаКалендаряНаФорме</DataPath>
 							<TitleLocation>None</TitleLocation>
-							<Width>18</Width>
+							<Width>1</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<HorizontalStretch>false</HorizontalStretch>
+							<Height>1</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
 							<ContextMenu name="КалендарьСобытийКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="КалендарьСобытийExtendedTooltip" id="128"/>
 							<Events>

@@ -2849,6 +2849,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ПорядокОбрабатываемыхДанных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</name>
 		<right>
 			<name>Read</name>

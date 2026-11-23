@@ -162,6 +162,14 @@
 			</Visibility>
 		</Item>
 		<Item>
+			<Form>CommonForm.Приглашение1СПерсонал</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
 			<Form>Task.ЗадачаИсполнителя.Form.МоиЗадачиДляРабочегоСтола</Form>
 			<Height>10</Height>
 			<Visibility>

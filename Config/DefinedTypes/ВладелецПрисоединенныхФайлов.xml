@@ -205,6 +205,7 @@
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>
 				<v8:Type>cfg:DocumentRef.СведенияДляИсчисленияДоплатыКПенсииСЗВ_ДСО</v8:Type>
 				<v8:Type>cfg:DocumentRef.НаправлениеНаВнешнююАттестацию</v8:Type>
+				<v8:Type>cfg:DocumentRef.УведомлениеОбОтсутствииОтветаСЭДО</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПачкаДокументовСПВ_1</v8:Type>
 				<v8:Type>cfg:DocumentRef.ТабельУчетаРабочегоВремени</v8:Type>
 				<v8:Type>cfg:DocumentRef.ИзвещениеФСС</v8:Type>

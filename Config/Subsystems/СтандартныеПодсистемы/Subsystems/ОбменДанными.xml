@@ -53,7 +53,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ИсточникиПравилДляОбменаДанными</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.ExchangeMessage</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УниверсальныйОбменДаннымиXML</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьУстранениеПроблемыДокумента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.Синхронизировать</xr:Item>
@@ -193,6 +192,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_22_1</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиКлиентПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_23_1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.EnterpriseData_1_25_1</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

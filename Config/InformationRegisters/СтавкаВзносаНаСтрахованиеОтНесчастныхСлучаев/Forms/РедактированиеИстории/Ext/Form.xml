@@ -100,26 +100,6 @@
 				<Event name="OnStartEdit">НаборЗаписейПриНачалеРедактирования</Event>
 			</Events>
 			<ChildItems>
-				<InputField name="НаборЗаписейСтавка" id="35">
-					<DataPath>НаборЗаписей.Ставка</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="НаборЗаписейСтавкаКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="НаборЗаписейСтавкаExtendedTooltip" id="42"/>
-				</InputField>
-				<InputField name="НаборЗаписейНадбавка" id="53">
-					<DataPath>НаборЗаписей.Надбавка</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="НаборЗаписейНадбавкаКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="НаборЗаписейНадбавкаРасширеннаяПодсказка" id="55"/>
-				</InputField>
-				<InputField name="НаборЗаписейСкидка" id="56">
-					<DataPath>НаборЗаписей.Скидка</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="НаборЗаписейСкидкаКонтекстноеМеню" id="57"/>
-					<ExtendedTooltip name="НаборЗаписейСкидкаРасширеннаяПодсказка" id="58"/>
-				</InputField>
 				<InputField name="НаборЗаписейПериод" id="21">
 					<DataPath>НаборЗаписей.ПериодСтрокой</DataPath>
 					<Title>
@@ -145,6 +125,40 @@
 						<Event name="Tuning">НаборЗаписейПериодСтрокойРегулирование</Event>
 						<Event name="TextEditEnd">НаборЗаписейПериодСтрокойОкончаниеВводаТекста</Event>
 					</Events>
+				</InputField>
+				<InputField name="НаборЗаписейСтавка" id="35">
+					<DataPath>НаборЗаписей.Ставка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейСтавкаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="НаборЗаписейСтавкаExtendedTooltip" id="42"/>
+				</InputField>
+				<InputField name="НаборЗаписейНадбавка" id="53">
+					<DataPath>НаборЗаписей.Надбавка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаборЗаписейНадбавкаКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="НаборЗаписейНадбавкаРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="НаборЗаписейСкидка" id="56">
+					<DataPath>НаборЗаписей.Скидка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаборЗаписейСкидкаКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="НаборЗаписейСкидкаРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="НаборЗаписейНадбавкаБюджетная" id="59">
+					<DataPath>НаборЗаписей.НадбавкаБюджетная</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаборЗаписейНадбавкаБюджетнаяКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="НаборЗаписейНадбавкаБюджетнаяРасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="НаборЗаписейСкидкаБюджетная" id="62">
+					<DataPath>НаборЗаписей.СкидкаБюджетная</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаборЗаписейСкидкаБюджетнаяКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="НаборЗаписейСкидкаБюджетнаяРасширеннаяПодсказка" id="64"/>
 				</InputField>
 			</ChildItems>
 		</Table>

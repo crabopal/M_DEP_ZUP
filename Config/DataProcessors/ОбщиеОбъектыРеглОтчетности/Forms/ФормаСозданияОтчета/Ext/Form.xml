@@ -35,7 +35,7 @@
 				<Font ref="sys:DefaultGUIFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 				<Picture>
 					<xr:Ref>CommonPicture.Информация32</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Title>
 					<v8:item>
@@ -321,8 +321,7 @@
 							<RowPictureDataPath>ДеревоОтчетов.ИндексКартинки</RowPictureDataPath>
 							<RowsPicture>
 								<xr:Ref>CommonPicture.РазделыОтчета</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
-								<xr:TransparentPixel x="31" y="15"/>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</RowsPicture>
 							<SearchStringLocation>CommandBar</SearchStringLocation>
 							<SearchControlLocation>CommandBar</SearchControlLocation>
@@ -448,7 +447,7 @@
 									<VerticalStretch>false</VerticalStretch>
 									<ValuesPicture>
 										<xr:Ref>CommonPicture.ИзбранноеБРО</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</ValuesPicture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="ДеревоОтчетовПометкаКонтекстноеМеню" id="119"/>

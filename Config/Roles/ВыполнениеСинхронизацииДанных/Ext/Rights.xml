@@ -898,13 +898,6 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.УниверсальныйОбменДаннымиXML</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ТранспортСообщенийОбменаCOM</name>
 		<right>
 			<name>Use</name>

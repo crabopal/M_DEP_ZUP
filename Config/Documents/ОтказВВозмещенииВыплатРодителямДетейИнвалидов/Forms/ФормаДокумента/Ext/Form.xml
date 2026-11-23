@@ -460,17 +460,18 @@
 											<ContextMenu name="НадписьПодтверждениеОтправленоНоНеПолученоКонтекстноеМеню" id="194"/>
 											<ExtendedTooltip name="НадписьПодтверждениеОтправленоНоНеПолученоРасширеннаяПодсказка" id="195"/>
 										</LabelDecoration>
-										<Button name="КнопкаПроверитьПолучение" id="201">
+										<Button name="КнопкаПроверитьПолучение" id="692">
 											<Type>Hyperlink</Type>
 											<Representation>Text</Representation>
-											<CommandName>Form.Command.ПолучитьИзФСС</CommandName>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьНовыеСообщенияСЭДОФСС</CommandName>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Проверить получение</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="КнопкаПроверитьПолучениеРасширеннаяПодсказка" id="202"/>
+											<ExtendedTooltip name="КнопкаПроверитьПолучениеРасширеннаяПодсказка" id="693"/>
 										</Button>
 									</ChildItems>
 								</UsualGroup>
@@ -1043,6 +1044,17 @@
 				<Event name="OnChange">ОбработанПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="694">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дополнительные реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="695"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаРезультат" id="409">
 			<Title>
 				<v8:item>
@@ -1342,20 +1354,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
-		</Command>
-		<Command name="ПолучитьИзФСС" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить из ФСС</v8:content>
-				</v8:item>
-			</Title>
-			<Picture>
-				<xr:Ref>CommonPicture.ВКонвертПодписатьИОтправить</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>ПолучитьИзФСС</Action>
-			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ВопросВПоддержку" id="6">
 			<Title>

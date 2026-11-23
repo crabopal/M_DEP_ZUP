@@ -421,6 +421,11 @@
 					<xr:ConditionalSeparation/>
 				</xr:Item>
 				<xr:Item>
+					<xr:Metadata>Constant.ПорядокОбрабатываемыхДанных</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
 					<xr:Metadata>InformationRegister.СведенияОПользователяхСервиса</xr:Metadata>
 					<xr:Use>Use</xr:Use>
 					<xr:ConditionalSeparation/>
@@ -452,6 +457,11 @@
 				</xr:Item>
 				<xr:Item>
 					<xr:Metadata>InformationRegister.ИспользованиеПоставляемыхРасширенийВОбластяхДанных</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
+					<xr:Metadata>InformationRegister.Отчетность24БРОПараметрыШины</xr:Metadata>
 					<xr:Use>Use</xr:Use>
 					<xr:ConditionalSeparation/>
 				</xr:Item>

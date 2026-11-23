@@ -71,7 +71,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>"1С:Персонал" это Веб-ориентированное приложение для HR-службы, позволяющее закрыть все задачи от публикации вакансий до анализа причин увольнения сотрудников.</v8:content>
+											<v8:content>"1С:Персонал" позволяет HR-отделу выполнять полный цикл найма: от поиска кандидатов до их приема на работу. Приложение помогает адаптировать новых сотрудников, оценивать их компетенции, проводить опросы и организовывать обучение.</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="ДекорацияКраткаяИнформацияОСервисеКонтекстноеМеню" id="2"/>
@@ -128,114 +128,6 @@
 													<CommandName>Form.Command.ПодключитьИнтернетПоддержку</CommandName>
 													<ExtendedTooltip name="ПодключитьИнтернетПоддержкуРасширеннаяПодсказка" id="243"/>
 												</Button>
-											</ChildItems>
-										</UsualGroup>
-										<UsualGroup name="Этап0" id="552">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Этап0</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Этап0</v8:content>
-												</v8:item>
-											</ToolTip>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="Этап0РасширеннаяПодсказка" id="553"/>
-											<ChildItems>
-												<PictureDecoration name="ДекорацияЭтап0" id="567">
-													<Title formatted="false">
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Декорация этап0</v8:content>
-														</v8:item>
-													</Title>
-													<Picture>
-														<xr:Ref>CommonPicture.ИнформацияНовости16Статичная</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</Picture>
-													<ContextMenu name="ДекорацияЭтап0КонтекстноеМеню" id="568"/>
-													<ExtendedTooltip name="ДекорацияЭтап0РасширеннаяПодсказка" id="569"/>
-												</PictureDecoration>
-												<UsualGroup name="ГруппаЭтап0" id="570">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Загрузите настройки подключения</v8:content>
-														</v8:item>
-													</Title>
-													<Group>Vertical</Group>
-													<ExtendedTooltip name="ГруппаЭтап0РасширеннаяПодсказка" id="571"/>
-													<ChildItems>
-														<UsualGroup name="ГруппаЗагрузкаНастроекМенеджера" id="560">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа загрузка настроек менеджера</v8:content>
-																</v8:item>
-															</Title>
-															<Group>AlwaysHorizontal</Group>
-															<Representation>None</Representation>
-															<ShowTitle>false</ShowTitle>
-															<ExtendedTooltip name="ГруппаЗагрузкаНастроекМенеджераРасширеннаяПодсказка" id="561"/>
-															<ChildItems>
-																<LabelDecoration name="ДекорацияПояснениеЗагрузкиНастроекМенеджера" id="562">
-																	<AutoMaxWidth>false</AutoMaxWidth>
-																	<MaxWidth>47</MaxWidth>
-																	<Title formatted="false">
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Загрузите настройки из файла, который получен в ответ на регистрацию вашей заявки на подключение приложения 1С:Персонал.</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ContextMenu name="ДекорацияПояснениеЗагрузкиНастроекМенеджераКонтекстноеМеню" id="563"/>
-																	<ExtendedTooltip name="ДекорацияПояснениеЗагрузкиНастроекМенеджераРасширеннаяПодсказка" id="564"/>
-																</LabelDecoration>
-																<Button name="ЗагрузитьНастройкиМенеджераИзФайла" id="565">
-																	<Type>UsualButton</Type>
-																	<CommandName>Form.Command.ЗагрузитьНастройкиМенеджераИзФайла</CommandName>
-																	<ExtendedTooltip name="ЗагрузитьНастройкиМенеджераИзФайлаРасширеннаяПодсказка" id="566"/>
-																</Button>
-															</ChildItems>
-														</UsualGroup>
-														<InputField name="АдресМенеджера" id="574">
-															<DataPath>АдресМенеджера</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Адрес для подключения</v8:content>
-																</v8:item>
-															</Title>
-															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-															<AutoMarkIncomplete>true</AutoMarkIncomplete>
-															<ContextMenu name="АдресМенеджераКонтекстноеМеню" id="575"/>
-															<ExtendedTooltip name="АдресМенеджераРасширеннаяПодсказка" id="576"/>
-														</InputField>
-														<InputField name="КлючИдентификаторКлиентаМ" id="554">
-															<DataPath>КлючИдентификаторКлиентаМ</DataPath>
-															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-															<AutoMarkIncomplete>true</AutoMarkIncomplete>
-															<ContextMenu name="КлючИдентификаторКлиентаМКонтекстноеМеню" id="555"/>
-															<ExtendedTooltip name="КлючИдентификаторКлиентаМРасширеннаяПодсказка" id="556"/>
-														</InputField>
-														<InputField name="КлючСекретКлиентаМ" id="557">
-															<DataPath>КлючСекретКлиентаМ</DataPath>
-															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-															<AutoMarkIncomplete>true</AutoMarkIncomplete>
-															<ContextMenu name="КлючСекретКлиентаМКонтекстноеМеню" id="558"/>
-															<ExtendedTooltip name="КлючСекретКлиентаМРасширеннаяПодсказка" id="559"/>
-														</InputField>
-														<Button name="ЗаписатьКлючиМенеджера" id="572">
-															<Type>UsualButton</Type>
-															<CommandName>Form.Command.ЗаписатьКлючиМенеджера</CommandName>
-															<ExtendedTooltip name="ЗаписатьКлючиМенеджераРасширеннаяПодсказка" id="573"/>
-														</Button>
-													</ChildItems>
-												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ГруппаНастройкиПодключения" id="244">
@@ -853,6 +745,9 @@
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
 															<ContextMenu name="АдресПриложенияКонтекстноеМеню" id="73"/>
 															<ExtendedTooltip name="АдресПриложенияРасширеннаяПодсказка" id="74"/>
+															<Events>
+																<Event name="OnChange">АдресПриложенияПриИзменении</Event>
+															</Events>
 														</InputField>
 														<InputField name="КлючИдентификаторКлиента" id="75">
 															<DataPath>КлючИдентификаторКлиента</DataPath>
@@ -891,12 +786,6 @@
 																	<ChildItems>
 																		<CheckBoxField name="ИспользоватьАдресСервисаАвторизации" id="588">
 																			<DataPath>ИспользоватьАдресСервисаАвторизации</DataPath>
-																			<Title>
-																				<v8:item>
-																					<v8:lang>ru</v8:lang>
-																					<v8:content>Адрес сервиса авторизации</v8:content>
-																				</v8:item>
-																			</Title>
 																			<TitleLocation>None</TitleLocation>
 																			<CheckBoxType>Auto</CheckBoxType>
 																			<ContextMenu name="ИспользоватьАдресСервисаАвторизацииКонтекстноеМеню" id="589"/>
@@ -920,7 +809,8 @@
 																				<Title formatted="false">
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
-																						<v8:content>Правила указания адреса
+																						<v8:content>На этот ресурс будет выполняться запрос для получения токена аутентификации.
+Правила указания адреса:
 при использовании - auth/oidc/token
 - &lt;host&gt;/auth/oidc/token, например http://serverhost:port/auth/oidc/token 
 или
@@ -933,18 +823,71 @@
 																		</InputField>
 																	</ChildItems>
 																</UsualGroup>
-																<LabelDecoration name="ДекорацияИспользоватьАдресСервисаАвторизации" id="594">
-																	<AutoMaxWidth>false</AutoMaxWidth>
-																	<TextColor>style:ПоясняющийТекст</TextColor>
-																	<Title formatted="false">
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="ГруппаАдресРесурсовAPI" id="619">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Адрес ресурсов API</v8:content>
+																</v8:item>
+															</Title>
+															<Group>Vertical</Group>
+															<VerticalSpacing>None</VerticalSpacing>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаАдресРесурсовAPIРасширеннаяПодсказка" id="620"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаИспользоватьАдресРесурсовAPI" id="621">
+																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Укажите, если приложение и сервис аутентификации размещены на разных хостах</v8:content>
+																			<v8:content>Группа использовать адрес ресурсов API</v8:content>
 																		</v8:item>
 																	</Title>
-																	<ContextMenu name="ДекорацияИспользоватьАдресСервисаАвторизацииКонтекстноеМеню" id="595"/>
-																	<ExtendedTooltip name="ДекорацияИспользоватьАдресСервисаАвторизацииРасширеннаяПодсказка" id="596"/>
-																</LabelDecoration>
+																	<Group>AlwaysHorizontal</Group>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаИспользоватьАдресРесурсовAPIРасширеннаяПодсказка" id="622"/>
+																	<ChildItems>
+																		<CheckBoxField name="ИспользоватьАдресРесурсовAPI" id="623">
+																			<DataPath>ИспользоватьАдресРесурсовAPI</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Адрес ресурсов API</v8:content>
+																				</v8:item>
+																			</Title>
+																			<TitleLocation>None</TitleLocation>
+																			<CheckBoxType>Auto</CheckBoxType>
+																			<ContextMenu name="ИспользоватьАдресРесурсовAPIКонтекстноеМеню" id="624"/>
+																			<ExtendedTooltip name="ИспользоватьАдресРесурсовAPIРасширеннаяПодсказка" id="625"/>
+																			<Events>
+																				<Event name="OnChange">ИспользоватьАдресРесурсовAPIПриИзменении</Event>
+																			</Events>
+																		</CheckBoxField>
+																		<InputField name="АдресРесурсовAPI" id="626">
+																			<DataPath>Объект.АдресРесурсовAPI</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Адрес ресурсов API</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTipRepresentation>Button</ToolTipRepresentation>
+																			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+																			<ContextMenu name="АдресРесурсовAPIКонтекстноеМеню" id="627"/>
+																			<ExtendedTooltip name="АдресРесурсовAPIРасширеннаяПодсказка" id="628">
+																				<Title formatted="false">
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Эта настройка позволяет использовать "внутренний" адрес приложения при обмене.</v8:content>
+																					</v8:item>
+																				</Title>
+																			</ExtendedTooltip>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
 															</ChildItems>
 														</UsualGroup>
 													</ChildItems>
@@ -1948,6 +1891,34 @@
 																	<CommandName>Form.Command.ИзменитьПривязкуАбонента</CommandName>
 																	<ExtendedTooltip name="ИзменитьПривязкуАбонентаРасширеннаяПодсказка" id="503"/>
 																</Button>
+																<LabelDecoration name="ДекорацияСостояниеОплаты" id="611">
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Декорация состояние оплаты</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ДекорацияСостояниеОплатыКонтекстноеМеню" id="612"/>
+																	<ExtendedTooltip name="ДекорацияСостояниеОплатыРасширеннаяПодсказка" id="613"/>
+																</LabelDecoration>
+																<LabelDecoration name="ДекорацияБлокировка" id="614">
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<TextColor>style:ТекстИнформационнойНадписи</TextColor>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Доступ к приложению ограничен: закончился оплаченный (тестовый) период</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="ДекорацияБлокировкаКонтекстноеМеню" id="615"/>
+																	<ExtendedTooltip name="ДекорацияБлокировкаРасширеннаяПодсказка" id="616"/>
+																</LabelDecoration>
+																<Button name="ОбновитьСведенияОбОплате" id="617">
+																	<Type>UsualButton</Type>
+																	<CommandName>Form.Command.ОбновитьСведенияОбОплате</CommandName>
+																	<ExtendedTooltip name="ОбновитьСведенияОбОплатеРасширеннаяПодсказка" id="618"/>
+																</Button>
 															</ChildItems>
 														</UsualGroup>
 													</ChildItems>
@@ -1969,6 +1940,11 @@
 															<Type>Hyperlink</Type>
 															<CommandName>Form.Command.ИзменитьАдресСервисаАвторизации</CommandName>
 															<ExtendedTooltip name="ИзменитьАдресСервисаАвторизацииРасширеннаяПодсказка" id="583"/>
+														</Button>
+														<Button name="ИзменитьАдресРесурсовAPI" id="632">
+															<Type>Hyperlink</Type>
+															<CommandName>Form.Command.ИзменитьАдресРесурсовAPI</CommandName>
+															<ExtendedTooltip name="ИзменитьАдресРесурсовAPIРасширеннаяПодсказка" id="633"/>
 														</Button>
 														<Button name="ИзменитьНастройкиПодключения" id="201">
 															<Type>Hyperlink</Type>
@@ -2584,7 +2560,18 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Использовать адрес сервиса авторизации</v8:content>
+					<v8:content>Использовать адрес сервиса аутентификации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользоватьАдресРесурсовAPI" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать адрес ресурсов API</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2817,29 +2804,11 @@
 			</Title>
 			<Action>ИзменитьПривязкуАбонента</Action>
 		</Command>
-		<Command name="ЗагрузитьНастройкиМенеджераИзФайла" id="20">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить настройки из файла</v8:content>
-				</v8:item>
-			</Title>
-			<Action>ЗагрузитьНастройкиМенеджераИзФайла</Action>
-		</Command>
-		<Command name="ЗаписатьКлючиМенеджера" id="23">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить настройки</v8:content>
-				</v8:item>
-			</Title>
-			<Action>ЗаписатьКлючиМенеджера</Action>
-		</Command>
 		<Command name="ИзменитьАдресСервисаАвторизации" id="24">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Изменить адрес сервиса авторизации</v8:content>
+					<v8:content>Изменить адрес сервиса аутентификации</v8:content>
 				</v8:item>
 			</Title>
 			<Action>ИзменитьАдресСервисаАвторизации</Action>
@@ -2872,6 +2841,36 @@
 			</Picture>
 			<Action>ВыключитьНапоминаниеАдминистраторНеУстановлен</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ОбновитьСведенияОбОплате" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить сведения об оплате</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьСведенияОбОплате</Action>
+		</Command>
+		<Command name="ИзменитьАдресРесурсовAPI" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить адрес ресурсов API</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить адрес ресурсов API</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьАдресРесурсовAPI</Action>
 		</Command>
 	</Commands>
 </Form>

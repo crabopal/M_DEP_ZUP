@@ -116,6 +116,11 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКадровыйРезервРасширеннаяПодсказка" id="519"/>
 				</UsualGroup>
+				<UsualGroup name="ГруппаДисциплинарныеВзыскания" id="663">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДисциплинарныеВзысканияРасширеннаяПодсказка" id="664"/>
+				</UsualGroup>
 				<Button name="ТрудоваяДеятельность" id="483">
 					<Type>Hyperlink</Type>
 					<CommandName>Form.Command.ТрудоваяДеятельность</CommandName>

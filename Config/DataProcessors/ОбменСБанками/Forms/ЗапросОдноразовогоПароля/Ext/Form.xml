@@ -26,7 +26,7 @@
 						<v8:content>ОК</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаКнопкаГотовоExtendedTooltip" id="52"/>
+				<ExtendedTooltip name="ФормаКнопкаГотовоРасширеннаяПодсказка" id="52"/>
 			</Button>
 			<Button name="ФормаКнопкаОтмена" id="14">
 				<Type>CommandBarButton</Type>
@@ -38,7 +38,7 @@
 						<v8:content>Отмена</v8:content>
 					</v8:item>
 				</Title>
-				<ExtendedTooltip name="ФормаКнопкаОтменаExtendedTooltip" id="53"/>
+				<ExtendedTooltip name="ФормаКнопкаОтменаРасширеннаяПодсказка" id="53"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -46,6 +46,11 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<LabelDecoration name="ДекорацияНаименованиеБанка" id="65">
+			<Visible>false</Visible>
+			<ContextMenu name="ДекорацияНаименованиеБанкаКонтекстноеМеню" id="66"/>
+			<ExtendedTooltip name="ДекорацияНаименованиеБанкаРасширеннаяПодсказка" id="67"/>
+		</LabelDecoration>
 		<LabelField name="ИдентификаторСессии" id="37">
 			<DataPath>ИдентификаторСессии</DataPath>
 			<Title>
@@ -55,12 +60,12 @@
 				</v8:item>
 			</Title>
 			<ContextMenu name="ИдентификаторСессииКонтекстноеМеню" id="38"/>
-			<ExtendedTooltip name="ИдентификаторСессииExtendedTooltip" id="54"/>
+			<ExtendedTooltip name="ИдентификаторСессииРасширеннаяПодсказка" id="54"/>
 		</LabelField>
 		<LabelField name="Телефон" id="62">
 			<DataPath>Телефон</DataPath>
 			<ContextMenu name="ТелефонКонтекстноеМеню" id="63"/>
-			<ExtendedTooltip name="ТелефонExtendedTooltip" id="64"/>
+			<ExtendedTooltip name="ТелефонРасширеннаяПодсказка" id="64"/>
 		</LabelField>
 		<InputField name="Пароль" id="50">
 			<DataPath>Пароль</DataPath>
@@ -72,7 +77,7 @@
 				</v8:item>
 			</Title>
 			<ContextMenu name="ПарольКонтекстноеМеню" id="51"/>
-			<ExtendedTooltip name="ПарольExtendedTooltip" id="55"/>
+			<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="55"/>
 		</InputField>
 		<LabelDecoration name="Информация" id="59">
 			<AutoMaxWidth>false</AutoMaxWidth>

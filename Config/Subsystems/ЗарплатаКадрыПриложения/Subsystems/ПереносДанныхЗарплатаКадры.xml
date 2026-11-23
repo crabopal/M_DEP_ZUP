@@ -43,6 +43,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПереносДанныхУспехПроверка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПереносДанныхИзПрежнихПрограмм</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ШрифтЗаголовкиСтраницПереносДанныхЗарплатаКадры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ОбработчикиЗагрузкиИзБП3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УниверсальныйОбменДаннымиXML</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

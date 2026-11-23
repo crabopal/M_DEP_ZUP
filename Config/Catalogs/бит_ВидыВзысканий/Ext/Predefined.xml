@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="5e849cfe-84ab-48eb-aa50-f37576793f8d">
+		<Name>Выговор</Name>
+		<Code>000000002</Code>
+		<Description>Выговор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c15c06a2-2893-4b93-8639-2a141065cc25">
+		<Name>Замечание</Name>
+		<Code>000000001</Code>
+		<Description>Замечание</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -155,6 +155,10 @@
 									<v8:content>Ожидание</v8:content>
 								</v8:item>
 							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.ДлительнаяОперация32ОбменСБанками</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
 							<FileDragMode>AsFile</FileDragMode>
 							<ContextMenu name="СтраницаОжидание_КартинкаОжиданиеКонтекстноеМеню" id="22"/>
 							<ExtendedTooltip name="СтраницаОжидание_КартинкаОжиданиеРасширеннаяПодсказка" id="23"/>
@@ -841,6 +845,10 @@
 															<v8:content>Ожидание</v8:content>
 														</v8:item>
 													</Title>
+													<Picture>
+														<xr:Ref>CommonPicture.ДлительнаяОперация32ОбменСБанками</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
 													<ContextMenu name="ДекорацияКартинкаОжиданиеКонтекстноеМеню" id="190"/>
 													<ExtendedTooltip name="ДекорацияКартинкаОжиданиеРасширеннаяПодсказка" id="191"/>
 												</PictureDecoration>
@@ -1566,6 +1574,10 @@
 											<v8:content>Ожидание</v8:content>
 										</v8:item>
 									</Title>
+									<Picture>
+										<xr:Ref>CommonPicture.ДлительнаяОперация32ОбменСБанками</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
 									<ContextMenu name="СтраницаПодтверждение_ОжиданиеКартинкаКонтекстноеМеню" id="315"/>
 									<ExtendedTooltip name="СтраницаПодтверждение_ОжиданиеКартинкаРасширеннаяПодсказка" id="316"/>
 								</PictureDecoration>
@@ -1932,6 +1944,10 @@
 																	<v8:content>Ожидание</v8:content>
 																</v8:item>
 															</Title>
+															<Picture>
+																<xr:Ref>CommonPicture.ДлительнаяОперация32ОбменСБанками</xr:Ref>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
+															</Picture>
 															<ContextMenu name="СтраницаЗаявкаНаДепозит_ОжиданиеКартинкаКонтекстноеМеню" id="396"/>
 															<ExtendedTooltip name="СтраницаЗаявкаНаДепозит_ОжиданиеКартинкаРасширеннаяПодсказка" id="397"/>
 														</PictureDecoration>

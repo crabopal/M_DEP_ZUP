@@ -383,6 +383,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПредупреждениеБРОВектор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ГоризонтальныйРазделительБРО</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.СерыйКрестикБРО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ЖелтыйКругСГосорганамиБРО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.БуллетЖелтыйКругБРО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОткрытьВПолномРазмере</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КолоколЕстьСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.КолоколБезСообшений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ВертикальнаяЛинияБРО</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ВыборВариантаПолученияСообщенийОбмена</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

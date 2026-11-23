@@ -52,6 +52,14 @@
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ГруппаКнопкиКоманднойПанелиРасширеннаяПодсказка" id="1091"/>
+				<ChildItems>
+					<Button name="ФормаОтключитьПроверкиПроведения" id="1282">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОтключитьПроверкиПроведения</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаОтключитьПроверкиПроведенияРасширеннаяПодсказка" id="1283"/>
+					</Button>
+				</ChildItems>
 			</ButtonGroup>
 			<Button name="ФормаСправка" id="1092">
 				<Type>CommandBarButton</Type>
@@ -3930,6 +3938,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>УдалитьВыходныеДни</Action>
+		</Command>
+		<Command name="ОтключитьПроверкиПроведения" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить проверки проведения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отключить проверки проведения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтключитьПроверкиПроведения</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>

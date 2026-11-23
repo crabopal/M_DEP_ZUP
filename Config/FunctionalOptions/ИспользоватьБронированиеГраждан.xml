@@ -32,6 +32,7 @@
 				<xr:Object>Document.ПриказОБронированииРаботников</xr:Object>
 				<xr:Object>Document.ПриказОПрекращенииБронирования</xr:Object>
 				<xr:Object>InformationRegister.ПараметрыБронированияСотрудниковОрганизаций</xr:Object>
+				<xr:Object>InformationRegister.ДанныеВоинскогоУчетаОрганизаций.Resource.ВедетсяТолькоВоинскийУчет</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

@@ -293,6 +293,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Catalog.РучныеЗадачиБухгалтера</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ОграничениеВзысканий</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -790,6 +794,10 @@
 	</Item>
 	<Item>
 		<Metadata>Document.ВедомостьУплатыАДВ_11</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -1314,6 +1322,10 @@
 	</Item>
 	<Item>
 		<Metadata>Catalog.НаградыПрисоединенныеФайлы</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>InformationRegister.ДанныеВоинскогоУчетаОрганизаций</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -2193,6 +2205,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ДанныеРаботниковДляВоенкоматов</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Catalog.НачальнаяШтатнаяРасстановкаПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -3021,6 +3037,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>Constant.ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>Document.ПриказОбАттестацииСотрудников</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
@@ -3246,6 +3266,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ЗначенияПоказателейСреднегоЗаработкаСотрудников</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.ПравилаРучныхЗадачБухгалтера</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -3846,6 +3870,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.УдалитьИсторияОбменаС1САрхивом</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Document.УведомлениеОбОтсутствииОтветаСЭДО</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
@@ -4950,6 +4978,10 @@
 	</Item>
 	<Item>
 		<Metadata>InformationRegister.ДокументыОплаченныеБезУдержанияНДФЛ</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
+		<Metadata>Catalog.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>

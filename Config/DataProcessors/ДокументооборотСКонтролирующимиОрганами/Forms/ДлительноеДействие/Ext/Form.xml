@@ -992,7 +992,14 @@
 						</v8:item>
 					</Title>
 					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДокументовВЖурнале</v8:Type>
+						<v8:Type>cfg:EnumRef.СтраницыЖурналаОтчетность</v8:Type>
 						<v8:Type>cfg:EnumRef.ГруппыНовыхСобытийДокументооборотаСКонтролирующимиОрганами</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 				<Column name="ЕстьКритическиеОшибкиОтправки" id="18">
@@ -1004,6 +1011,32 @@
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИсходнаяГруппа" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исходная группа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыНовыхСобытийДокументооборотаСКонтролирующимиОрганами</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПредставлениеПериода" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
@@ -1443,6 +1476,17 @@
 				</v8:item>
 			</Title>
 			<Type/>
+		</Attribute>
+		<Attribute name="ВопросПоказан" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос показан</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>

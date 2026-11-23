@@ -261,8 +261,10 @@
 				<v8:Type>cfg:CatalogObject.НачислениеОценочныхОбязательствПоОтпускамПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ОбразованиеФизическихЛиц</v8:Type>
 				<v8:Type>cfg:CatalogObject.СведенияОТрудовойДеятельностиРаботникаСТД_РПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ПакетыДокументовДля1САрхива</v8:Type>
 				<v8:Type>cfg:CatalogObject.ТерриторииСПовышающимКоэффициентомПоКоронавирусу</v8:Type>
+				<v8:Type>cfg:DocumentObject.УведомлениеОбОтсутствииОтветаСЭДО</v8:Type>
 				<v8:Type>cfg:CatalogObject.ТерриторииИПомещения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВидыПрочихДоходовФизическихЛиц</v8:Type>
 				<v8:Type>cfg:DocumentObject.СведенияОШтатномРасписанииДляМедРегистра</v8:Type>
@@ -314,6 +316,7 @@
 				<v8:Type>cfg:CatalogObject.ЗаявлениеИЗапросВПФРОЗаработкеПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.СведенияДляФРМОПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:DocumentObject.РегистрацияСведенийОЗастрахованномЛицеФСС</v8:Type>
+				<v8:Type>cfg:CatalogObject.РучныеЗадачиБухгалтера</v8:Type>
 				<v8:Type>cfg:CatalogObject.СтепениРодстваФизическихЛиц</v8:Type>
 				<v8:Type>cfg:CatalogObject.РезультатыАттестацииСотрудниковПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:DocumentObject.ПереносЗатратНаПерсоналМеждуСтатьями</v8:Type>
@@ -624,6 +627,7 @@
 				<v8:Type>cfg:DocumentObject.РегламентированныйОтчет</v8:Type>
 				<v8:Type>cfg:CatalogObject.УведомлениеОбИзмененииРасчетаПособияПрисоединенныеФайлы</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВозвратИзОтпускаПоУходуЗаРебенкомПрисоединенныеФайлы</v8:Type>
+				<v8:Type>cfg:CatalogObject.ПравилаРучныхЗадачБухгалтера</v8:Type>
 				<v8:Type>cfg:DocumentObject.ЗапросНедостающихСведенийПособияСФР</v8:Type>
 				<v8:Type>cfg:DocumentObject.УведомлениеОСпецрежимахНалогообложения</v8:Type>
 				<v8:Type>cfg:CatalogObject.ВосстановлениеВДолжностиПрисоединенныеФайлы</v8:Type>

@@ -1411,7 +1411,6 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ОплатыСправкаСерияКонтекстноеМеню" id="652"/>
 											<ExtendedTooltip name="ОплатыСправкаСерияРасширеннаяПодсказка" id="653"/>
 										</InputField>
@@ -1424,7 +1423,6 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<AutoMarkIncomplete>true</AutoMarkIncomplete>
 											<ContextMenu name="ОплатыСправкаНомерКонтекстноеМеню" id="410"/>
 											<ExtendedTooltip name="ОплатыСправкаНомерРасширеннаяПодсказка" id="411"/>
 										</InputField>
@@ -1437,7 +1435,6 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<ContextMenu name="ОплатыСправкаДатаВыдачиКонтекстноеМеню" id="413"/>
 											<ExtendedTooltip name="ОплатыСправкаДатаВыдачиРасширеннаяПодсказка" id="414"/>
 										</InputField>
@@ -1450,7 +1447,6 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
-											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<ContextMenu name="ОплатыСправкаДатаОкончанияКонтекстноеМеню" id="416"/>
 											<ExtendedTooltip name="ОплатыСправкаДатаОкончанияРасширеннаяПодсказка" id="417"/>
 										</InputField>
@@ -1462,8 +1458,13 @@
 													<v8:content>Дата установления инвалидности</v8:content>
 												</v8:item>
 											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата установления инвалидности</v8:content>
+												</v8:item>
+											</ToolTip>
 											<EditMode>EnterOnInput</EditMode>
-											<AutoMarkIncomplete>false</AutoMarkIncomplete>
 											<ContextMenu name="ОплатыСправкаДатаУстановленияКонтекстноеМеню" id="419"/>
 											<ExtendedTooltip name="ОплатыСправкаДатаУстановленияРасширеннаяПодсказка" id="420"/>
 										</InputField>

@@ -135,6 +135,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Этап1ОбменСБанками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Этап2ОбменСБанками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Этап3ОбменСБанками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДлительнаяОперация32ОбменСБанками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДиректБанкПолныйОбмен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ДиректБанкОбменЧерезБанкПосредник</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменСБанкамиЦифровойРубль</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

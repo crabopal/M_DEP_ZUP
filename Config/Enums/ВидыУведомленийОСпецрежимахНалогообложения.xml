@@ -1636,7 +1636,7 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Использование (отказ) организацией, зарегистрированной на Курильских острововах, права на освобождение от налога на прибыль</v8:content>
+							<v8:content>Использование (отказ) организацией, зарегистрированной на Курильских островах, права на освобождение от налога на прибыль</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -2765,6 +2765,54 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Сообщение об утрате права на применение ЕСХН</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7b6bdecb-958b-4a87-9fa3-19b794033462">
+				<Properties>
+					<Name>ПродлениеСрокаПредставленияДокументов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявление о продлении срока представления документов и информации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5b01b87e-d052-4a2d-87b8-84351ed10dda">
+				<Properties>
+					<Name>ВозвратОбеспечительногоПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявление о возврате обеспечительного платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0c01016-4b38-436b-ad67-2f3d6c8a30c0">
+				<Properties>
+					<Name>ЛьготаТранспортЗемляФЛ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявление о предоставлении льготы по транспортному/земельному налогу физлиц</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5143ddf4-dfce-4ac1-b46b-4b10802af4ba">
+				<Properties>
+					<Name>Возражения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возражения и подтверждающие документы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

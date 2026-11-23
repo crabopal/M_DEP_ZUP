@@ -308,12 +308,6 @@
 							<Type>CommandBarButton</Type>
 							<Representation>PictureAndText</Representation>
 							<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьНовыеСообщенияСЭДОФСС</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Получить из ФСС</v8:content>
-								</v8:item>
-							</Title>
 							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 							<ExtendedTooltip name="ПолучитьНовыеСообщенияСЭДОРасширеннаяПодсказка" id="172"/>
 						</Button>

@@ -500,6 +500,52 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаДокументВоинскогоУчетаПериод" id="150">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа документ воинского учета период</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа документ воинского учета период</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ThroughAlign>DontUse</ThroughAlign>
+											<ExtendedTooltip name="ГруппаДокументВоинскогоУчетаПериодРасширеннаяПодсказка" id="151"/>
+											<ChildItems>
+												<InputField name="ДокументыФизическихЛицПериод" id="147">
+													<DataPath>ДокументыФизическихЛиц.Period</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Сведения действуют с</v8:content>
+														</v8:item>
+													</Title>
+													<Width>10</Width>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<ContextMenu name="ДокументыФизическихЛицПериодКонтекстноеМеню" id="148"/>
+													<ExtendedTooltip name="ДокументыФизическихЛицПериодРасширеннаяПодсказка" id="149"/>
+												</InputField>
+												<Button name="ВсеДокументыФизическогоЛица" id="152">
+													<Type>Hyperlink</Type>
+													<CommandName>Form.Command.ВсеДокументыФизическогоЛица</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Все документы</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ВсеДокументыФизическогоЛицаРасширеннаяПодсказка" id="153"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ГруппаДанныеДокументаПравая" id="143">
@@ -548,47 +594,14 @@
 											<ContextMenu name="ДокументыФизическихЛицКемВыданКонтекстноеМеню" id="139"/>
 											<ExtendedTooltip name="ДокументыФизическихЛицКемВыданРасширеннаяПодсказка" id="140"/>
 										</InputField>
+										<Button name="ВидыДокументовВоинскогоУчета" id="275">
+											<Type>Hyperlink</Type>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<CommandName>Form.Command.ВидыДокументовВоинскогоУчета</CommandName>
+											<ExtendedTooltip name="ВидыДокументовВоинскогоУчетаРасширеннаяПодсказка" id="276"/>
+										</Button>
 									</ChildItems>
 								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаДокументВоинскогоУчетаПериод" id="150">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа документ воинского учета период</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа документ воинского учета период</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>AlwaysHorizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаДокументВоинскогоУчетаПериодРасширеннаяПодсказка" id="151"/>
-							<ChildItems>
-								<InputField name="ДокументыФизическихЛицПериод" id="147">
-									<DataPath>ДокументыФизическихЛиц.Period</DataPath>
-									<Width>10</Width>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<AutoMarkIncomplete>true</AutoMarkIncomplete>
-									<ContextMenu name="ДокументыФизическихЛицПериодКонтекстноеМеню" id="148"/>
-									<ExtendedTooltip name="ДокументыФизическихЛицПериодРасширеннаяПодсказка" id="149"/>
-								</InputField>
-								<Button name="ВсеДокументыФизическогоЛица" id="152">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ВсеДокументыФизическогоЛица</CommandName>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Все документы</v8:content>
-										</v8:item>
-									</Title>
-									<ExtendedTooltip name="ВсеДокументыФизическогоЛицаРасширеннаяПодсказка" id="153"/>
-								</Button>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -959,6 +972,367 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаАдреса" id="277">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адреса</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаАдресаРасширеннаяПодсказка" id="278"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаМестоЖительства" id="283">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа место жительства</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>DontUse</ThroughAlign>
+					<ExtendedTooltip name="ГруппаМестоЖительстваРасширеннаяПодсказка" id="284"/>
+					<ChildItems>
+						<InputField name="АдресРегистрацииПоМестуЖительства" id="285">
+							<DataPath>АдресРегистрацииПоМестуЖительства</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Место жительства</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АдресРегистрацииПоМестуЖительстваКонтекстноеМеню" id="286"/>
+							<ExtendedTooltip name="АдресРегистрацииПоМестуЖительстваРасширеннаяПодсказка" id="287"/>
+						</InputField>
+						<InputField name="ДатаРегистрацииПоМестуЖительства" id="288">
+							<DataPath>ДатаРегистрацииПоМестуЖительства</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Действует с</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаРегистрацииПоМестуЖительстваКонтекстноеМеню" id="289"/>
+							<ExtendedTooltip name="ДатаРегистрацииПоМестуЖительстваРасширеннаяПодсказка" id="290"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаМестоПребывания" id="307">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа место пребывания</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаМестоПребыванияРасширеннаяПодсказка" id="308"/>
+					<ChildItems>
+						<Pages name="МестоПребыванияСтраницы" id="279">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Место пребывания страницы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Место пребывания страницы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="МестоПребыванияСтраницыРасширеннаяПодсказка" id="280"/>
+							<ChildItems>
+								<Page name="МестоПребыванияКадровыеДанныеСтраница" id="291">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Место пребывания кадровые данные страница</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По умолчанию используется адрес места проживания сотрудника. Можно изменить адрес, он будет использоваться только в документах и отчетах воинского учета.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="МестоПребыванияКадровыеДанныеСтраницаРасширеннаяПодсказка" id="292"/>
+									<ChildItems>
+										<CheckBoxField name="ИспользоватьМестоПребыванияКадровыеДанные" id="327">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ИспользоватьМестоПребывания</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьМестоПребыванияКадровыеДанныеКонтекстноеМеню" id="328"/>
+											<ExtendedTooltip name="ИспользоватьМестоПребыванияКадровыеДанныеРасширеннаяПодсказка" id="329"/>
+											<Events>
+												<Event name="OnChange">ИспользоватьМестоПребыванияКадровыеДанныеПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="АдресРегистрацииПоМестуПребывания" id="301">
+											<DataPath>АдресРегистрацииПоМестуПребывания</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Место пребывания</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="АдресРегистрацииПоМестуПребыванияКонтекстноеМеню" id="302"/>
+											<ExtendedTooltip name="АдресРегистрацииПоМестуПребыванияРасширеннаяПодсказка" id="303"/>
+										</InputField>
+										<InputField name="ДатаРегистрацииПоМестуПребывания" id="298">
+											<DataPath>ДатаРегистрацииПоМестуПребывания</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действует с</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДатаРегистрацииПоМестуПребыванияКонтекстноеМеню" id="299"/>
+											<ExtendedTooltip name="ДатаРегистрацииПоМестуПребыванияРасширеннаяПодсказка" id="300"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+								<Page name="МестоПребыванияИзмененныеДанныеСтраница" id="311">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Место пребывания измененные данные страница</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По умолчанию используется адрес места проживания сотрудника. Можно изменить адрес, он будет использоваться только в документах и отчетах воинского учета.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="МестоПребыванияИзмененныеДанныеСтраницаРасширеннаяПодсказка" id="312"/>
+									<ChildItems>
+										<CheckBoxField name="ИспользоватьМестоПребыванияИзмененныеДанные" id="330">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ИспользоватьМестоПребывания</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьМестоПребыванияИзмененныеДанныеКонтекстноеМеню" id="331"/>
+											<ExtendedTooltip name="ИспользоватьМестоПребыванияИзмененныеДанныеРасширеннаяПодсказка" id="332"/>
+											<Events>
+												<Event name="OnChange">ИспользоватьМестоПребыванияИзмененныеДанныеПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставление" id="333">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.МестоПребыванияПредставление</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Место пребывания</v8:content>
+												</v8:item>
+											</Title>
+											<ChoiceButton>true</ChoiceButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеКонтекстноеМеню" id="334"/>
+											<ExtendedTooltip name="ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеРасширеннаяПодсказка" id="335"/>
+											<Events>
+												<Event name="OnChange">ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеПриИзменении</Event>
+												<Event name="StartChoice">ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеНачалоВыбора</Event>
+												<Event name="Clearing">ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеОчистка</Event>
+												<Event name="ChoiceProcessing">ДанныеРаботниковДляВоенкоматовМестоПребыванияПредставлениеОбработкаВыбора</Event>
+											</Events>
+										</InputField>
+										<InputField name="ДанныеРаботниковДляВоенкоматовМестоПребыванияНачалоПроживания" id="336">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.МестоПребыванияНачалоПроживания</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действует с</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ДанныеРаботниковДляВоенкоматовМестоПребыванияНачалоПроживанияКонтекстноеМеню" id="337"/>
+											<ExtendedTooltip name="ДанныеРаботниковДляВоенкоматовМестоПребыванияНачалоПроживанияРасширеннаяПодсказка" id="338"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаФактическийАдрес" id="309">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа фактический адрес</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаФактическийАдресРасширеннаяПодсказка" id="310"/>
+					<ChildItems>
+						<Pages name="ФактическийАдресСтраницы" id="281">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Фактический адрес страницы</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Фактический адрес страницы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="ФактическийАдресСтраницыРасширеннаяПодсказка" id="282"/>
+							<ChildItems>
+								<Page name="ФактическийАдресКадровыеДанныеСтраница" id="293">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Фактический адрес кадровые данные страница</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По умолчанию используется адрес для информирования сотрудника. Можно изменить адрес, он будет использоваться только в документах и отчетах воинского учета.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="ФактическийАдресКадровыеДанныеСтраницаРасширеннаяПодсказка" id="294"/>
+									<ChildItems>
+										<CheckBoxField name="ИспользоватьФактическийАдресКадровыеДанные" id="324">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ИспользоватьФактическийАдрес</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьФактическийАдресКадровыеДанныеКонтекстноеМеню" id="325"/>
+											<ExtendedTooltip name="ИспользоватьФактическийАдресКадровыеДанныеРасширеннаяПодсказка" id="326"/>
+											<Events>
+												<Event name="OnChange">ИспользоватьФактическийАдресКадровыеДанныеПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="АдресФактическогоПроживания" id="304">
+											<DataPath>АдресФактическогоПроживания</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Фактический адрес</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="АдресФактическогоПроживанияКонтекстноеМеню" id="305"/>
+											<ExtendedTooltip name="АдресФактическогоПроживанияРасширеннаяПодсказка" id="306"/>
+										</InputField>
+										<InputField name="ДатаФактическогоПроживания" id="295">
+											<DataPath>ДатаФактическогоПроживания</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действует с</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДатаФактическогоПроживанияКонтекстноеМеню" id="296"/>
+											<ExtendedTooltip name="ДатаФактическогоПроживанияРасширеннаяПодсказка" id="297"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+								<Page name="ФактическийАдресИзмененныеДанныеСтраница" id="313">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Фактический адрес измененные данные страница</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>По умолчанию используется адрес для информирования сотрудника. Можно изменить адрес, он будет использоваться только в документах и отчетах воинского учета.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="ФактическийАдресИзмененныеДанныеСтраницаРасширеннаяПодсказка" id="314"/>
+									<ChildItems>
+										<CheckBoxField name="ИспользоватьФактическийАдресИзмененныеДанные" id="321">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ИспользоватьФактическийАдрес</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ИспользоватьФактическийАдресИзмененныеДанныеКонтекстноеМеню" id="322"/>
+											<ExtendedTooltip name="ИспользоватьФактическийАдресИзмененныеДанныеРасширеннаяПодсказка" id="323"/>
+											<Events>
+												<Event name="OnChange">ИспользоватьФактическийАдресИзмененныеДанныеПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<InputField name="ДанныеРаботниковДляВоенкоматовФактическийАдресПредставление" id="315">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ФактическийАдресПредставление</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Фактический адрес</v8:content>
+												</v8:item>
+											</Title>
+											<ChoiceButton>true</ChoiceButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеКонтекстноеМеню" id="316"/>
+											<ExtendedTooltip name="ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеРасширеннаяПодсказка" id="317"/>
+											<Events>
+												<Event name="OnChange">ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеПриИзменении</Event>
+												<Event name="StartChoice">ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеНачалоВыбора</Event>
+												<Event name="Clearing">ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеОчистка</Event>
+												<Event name="ChoiceProcessing">ДанныеРаботниковДляВоенкоматовФактическийАдресПредставлениеОбработкаВыбора</Event>
+											</Events>
+										</InputField>
+										<InputField name="ДанныеРаботниковДляВоенкоматовФактическийАдресНачалоПроживания" id="318">
+											<DataPath>ДанныеРаботниковДляВоенкоматов.ФактическийАдресНачалоПроживания</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Действует с</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ДанныеРаботниковДляВоенкоматовФактическийАдресНачалоПроживанияКонтекстноеМеню" id="319"/>
+											<ExtendedTooltip name="ДанныеРаботниковДляВоенкоматовФактическийАдресНачалоПроживанияРасширеннаяПодсказка" id="320"/>
+										</InputField>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарий" id="260">
 			<Title>
 				<v8:item>
@@ -1314,6 +1688,105 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АдресРегистрацииПоМестуЖительства" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес регистрации по месту жительства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаРегистрацииПоМестуЖительства" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата регистрации по месту жительства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресРегистрацииПоМестуПребывания" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес регистрации по месту пребывания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаФактическогоПроживания" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата фактического проживания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаРегистрацииПоМестуПребывания" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата регистрации по месту пребывания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресФактическогоПроживания" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес фактического проживания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДанныеРаботниковДляВоенкоматов" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные работников для военкоматов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ДанныеРаботниковДляВоенкоматов</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВоинскийУчетИстория" id="1">
@@ -1459,6 +1932,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьИзвещениеОПриемеИлиУвольнении</Action>
+		</Command>
+		<Command name="ВидыДокументовВоинскогоУчета" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды документов воинского учета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды документов воинского учета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВидыДокументовВоинскогоУчета</Action>
 		</Command>
 	</Commands>
 	<Parameters>

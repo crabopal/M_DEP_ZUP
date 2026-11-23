@@ -802,7 +802,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Проверить наличие ответов ФСС</v8:content>
+									<v8:content>Проверить наличие ответов</v8:content>
 								</v8:item>
 							</Title>
 							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
@@ -928,7 +928,7 @@
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ожидается 5 сообщений ФСС о регистрации сведений о застрахованных лицах</v8:content>
+							<v8:content>Ожидается 5 сообщений о регистрации сведений о застрахованных лицах</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="НадписьСообщенияОжидаемыеОтФССКонтекстноеМеню" id="377"/>
@@ -941,7 +941,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Проверить наличие ответов ФСС</v8:content>
+							<v8:content>Проверить наличие ответов</v8:content>
 						</v8:item>
 					</Title>
 					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>

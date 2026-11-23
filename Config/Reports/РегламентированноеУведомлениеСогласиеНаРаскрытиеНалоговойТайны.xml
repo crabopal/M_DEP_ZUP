@@ -35,20 +35,22 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма2023_1</Form>
-			<Template>Печать_Форма2017_1_Титульная</Template>
-			<Template>Печать_Форма2017_1_Лист002</Template>
-			<Template>Печать_Форма2022_1_Титульная</Template>
-			<Template>Печать_Форма2022_1_Лист001</Template>
-			<Template>Печать_Форма2022_1_Лист002</Template>
+			<Form>Форма2026_1</Form>
 			<Template>СхемаВыгрузкиФорма2023_1</Template>
 			<Template>СпискиВыбора2023_1</Template>
 			<Template>Титульная_2023</Template>
 			<Template>Лист001_2023</Template>
 			<Template>Лист002_2023</Template>
-			<Template>Печать_Форма2023_1_Титульная</Template>
-			<Template>Печать_Форма2023_1_Лист001</Template>
-			<Template>Печать_Форма2023_1_Лист002</Template>
 			<Template>TIFF_2023_1</Template>
+			<Template>БланкиПечати</Template>
+			<Template>СхемаВыгрузкиФорма2026_1</Template>
+			<Template>СпискиВыбора2026_1</Template>
+			<Template>Титульная_2026</Template>
+			<Template>Лист001_2026</Template>
+			<Template>Лист002_2026</Template>
+			<Template>Печать_Форма2026_1_Титульная</Template>
+			<Template>Печать_Форма2026_1_Лист001</Template>
+			<Template>Печать_Форма2026_1_Лист002</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

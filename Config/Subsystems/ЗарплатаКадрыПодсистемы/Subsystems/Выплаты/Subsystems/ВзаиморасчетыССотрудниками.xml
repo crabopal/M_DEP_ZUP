@@ -55,6 +55,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ВедомостьНаВыплатуЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОплатаВедомостейНаВыплатуЗарплаты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ПФ_MXL_СписокПеречисленийПоЗарплатномуПроекту</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ПФ_MXL_СписокЗачисленийПоЗарплатномуПроекту</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

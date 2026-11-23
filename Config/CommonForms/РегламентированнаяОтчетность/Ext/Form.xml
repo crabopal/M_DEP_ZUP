@@ -399,6 +399,109 @@
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаСФРИспользованиеКлюча1СО" id="2981">
+					<Visible>false</Visible>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ЦветФонаОшибкиОтправки</BackColor>
+					<ExtendedTooltip name="ГруппаСФРИспользованиеКлюча1СОРасширеннаяПодсказка" id="2982"/>
+					<ChildItems>
+						<PictureDecoration name="ВниманиеСФРИспользованиеКлюча1СО" id="2983">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Внимание</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.КрасныйВосклицательныйЗнак</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ВниманиеСФРИспользованиеКлюча1СОКонтекстноеМеню" id="2984"/>
+							<ExtendedTooltip name="ВниманиеСФРИспользованиеКлюча1СОРасширеннаяПодсказка" id="2985"/>
+						</PictureDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлюча1СО" id="2986">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификаты 1С-Отчетности&lt;/&gt; не соответствуют новым требованиям СФР. Получите новые сертификаты и зарегистрируйте их в программе до 1 сентября. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлюча1СОКонтекстноеМеню" id="2987"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлюча1СОРасширеннаяПодсказка" id="2988"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаСрокНаступил1СО" id="3004">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификаты 1С-Отчетности&lt;/&gt; не соответствуют новым требованиям СФР. Получите новые сертификаты и зарегистрируйте их в программе. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаСрокНаступил1СОКонтекстноеМеню" id="3005"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаСрокНаступил1СОРасширеннаяПодсказка" id="3006"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаОднаОрганизация1СО" id="2995">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваш &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификат 1С-Отчетности&lt;/&gt; не соответствует новым требованиям СФР. Получите новый сертификат и зарегистрируйте его в программе до 1 сентября. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаОднаОрганизация1СОКонтекстноеМеню" id="2996"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаОднаОрганизация1СОРасширеннаяПодсказка" id="2997"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступил1СО" id="3007">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваш &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификат 1С-Отчетности&lt;/&gt; не соответствует новым требованиям СФР. Получите новый сертификат и зарегистрируйте его в программе. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступил1СОКонтекстноеМеню" id="3008"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступил1СОРасширеннаяПодсказка" id="3009"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ЗакрытьПанельСФРИспользованиеКлюча1СО" id="2989">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ЗакрытьПанельСФРИспользованиеКлюча1СОКонтекстноеМеню" id="2990"/>
+							<ExtendedTooltip name="ЗакрытьПанельСФРИспользованиеКлюча1СОРасширеннаяПодсказка" id="2991"/>
+							<Events>
+								<Event name="Click">ЗакрытьПанельСФРИспользованиеКлючаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ИнформационныеПанели" id="2718">
@@ -478,6 +581,109 @@
 							<ExtendedTooltip name="ЗакрытьПанельГОСТ34122018ДляФНСРасширеннаяПодсказка" id="2956"/>
 							<Events>
 								<Event name="Click">ЗакрытьПанельГОСТ34122018ДляФНСНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСФРИспользованиеКлюча" id="2970">
+					<Visible>false</Visible>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<BackColor>style:ЦветФонаОшибкиОтправки</BackColor>
+					<ExtendedTooltip name="ГруппаСФРИспользованиеКлючаРасширеннаяПодсказка" id="2971"/>
+					<ChildItems>
+						<PictureDecoration name="ВниманиеСФРИспользованиеКлюча" id="2972">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Внимание</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.КрасныйВосклицательныйЗнак</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ВниманиеСФРИспользованиеКлючаКонтекстноеМеню" id="2973"/>
+							<ExtendedTooltip name="ВниманиеСФРИспользованиеКлючаРасширеннаяПодсказка" id="2974"/>
+						</PictureDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлюча" id="2975">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификаты 1С-Отчетности&lt;/&gt; не соответствуют новым требованиям СФР. Получите новые сертификаты и зарегистрируйте их в программе до 1 сентября. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаКонтекстноеМеню" id="2976"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаРасширеннаяПодсказка" id="2977"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаСрокНаступил" id="2998">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваши &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификаты 1С-Отчетности&lt;/&gt; не соответствуют новым требованиям СФР. Получите новые сертификаты и зарегистрируйте их в программе. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаСрокНаступилКонтекстноеМеню" id="2999"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаСрокНаступилРасширеннаяПодсказка" id="3000"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаОднаОрганизация" id="2992">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваш &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификат 1С-Отчетности&lt;/&gt; не соответствует новым требованиям СФР. Получите новый сертификат и зарегистрируйте его в программе до 1 сентября. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаОднаОрганизацияКонтекстноеМеню" id="2993"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаОднаОрганизацияРасширеннаяПодсказка" id="2994"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступил" id="3001">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ваш &lt;link СФРИспользованиеКлючаПодготовитьЗаявления&gt;сертификат 1С-Отчетности&lt;/&gt; не соответствует новым требованиям СФР. Получите новый сертификат и зарегистрируйте его в программе. &lt;link https://sfr.gov.ru/employers/general_information/eflow/&gt;Подробнее&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступилКонтекстноеМеню" id="3002"/>
+							<ExtendedTooltip name="ПанельСФРИспользованиеКлючаОднаОрганизацияСрокНаступилРасширеннаяПодсказка" id="3003"/>
+							<Events>
+								<Event name="URLProcessing">ПанельСФРИспользованиеКлючаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ЗакрытьПанельСФРИспользованиеКлюча" id="2978">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ЗакрытьПанельСФРИспользованиеКлючаКонтекстноеМеню" id="2979"/>
+							<ExtendedTooltip name="ЗакрытьПанельСФРИспользованиеКлючаРасширеннаяПодсказка" id="2980"/>
+							<Events>
+								<Event name="Click">ЗакрытьПанельСФРИспользованиеКлючаНажатие</Event>
 							</Events>
 						</LabelDecoration>
 					</ChildItems>
@@ -1357,31 +1563,6 @@
 									<ButtonGroup name="ОтчетыГруппа3" id="123">
 										<ExtendedTooltip name="ОтчетыГруппа3РасширеннаяПодсказка" id="124"/>
 										<ChildItems>
-											<ButtonGroup name="ОтчетыГруппаВыполнитьОбмен" id="2815">
-												<Visible>false</Visible>
-												<Representation>Compact</Representation>
-												<ExtendedTooltip name="ОтчетыГруппаВыполнитьОбменРасширеннаяПодсказка" id="2816"/>
-												<ChildItems>
-													<Button name="ОтчетыВыполнитьОбмен" id="2817">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-														<Title>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Получить и отправить</v8:content>
-															</v8:item>
-														</Title>
-														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-														<ExtendedTooltip name="ОтчетыВыполнитьОбменРасширеннаяПодсказка" id="2818"/>
-													</Button>
-													<Button name="ОтчетыНастройкиОбновления" id="2819">
-														<Type>CommandBarButton</Type>
-														<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-														<ExtendedTooltip name="ОтчетыНастройкиОбновленияРасширеннаяПодсказка" id="2820"/>
-													</Button>
-												</ChildItems>
-											</ButtonGroup>
 											<Popup name="ОтчетыГруппаПроверка" id="916">
 												<Title>
 													<v8:item>
@@ -1507,6 +1688,31 @@
 														</Picture>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ОтчетыОтправитьПакетСДопДокументамиДляФНСРасширеннаяПодсказка" id="2225"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<ButtonGroup name="ОтчетыГруппаВыполнитьОбмен" id="2815">
+												<Visible>false</Visible>
+												<Representation>Compact</Representation>
+												<ExtendedTooltip name="ОтчетыГруппаВыполнитьОбменРасширеннаяПодсказка" id="2816"/>
+												<ChildItems>
+													<Button name="ОтчетыВыполнитьОбмен" id="2817">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Получить сообщения</v8:content>
+															</v8:item>
+														</Title>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ОтчетыВыполнитьОбменРасширеннаяПодсказка" id="2818"/>
+													</Button>
+													<Button name="ОтчетыНастройкиОбновления" id="2819">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ОтчетыНастройкиОбновленияРасширеннаяПодсказка" id="2820"/>
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
@@ -2367,31 +2573,6 @@
 											<ButtonGroup name="УведомленияГруппаКП1" id="1060">
 												<ExtendedTooltip name="УведомленияГруппаКП1РасширеннаяПодсказка" id="1061"/>
 												<ChildItems>
-													<ButtonGroup name="УведомленияГруппаВыполнитьОбмен" id="2890">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="УведомленияГруппаВыполнитьОбменРасширеннаяПодсказка" id="2891"/>
-														<ChildItems>
-															<Button name="УведомленияВыполнитьОбмен" id="2892">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="УведомленияВыполнитьОбменРасширеннаяПодсказка" id="2893"/>
-															</Button>
-															<Button name="УведомленияНастройкиОбновления" id="2894">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="УведомленияНастройкиОбновленияРасширеннаяПодсказка" id="2895"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 													<Popup name="УведомленияГруппаПроверка" id="1038">
 														<Title>
 															<v8:item>
@@ -2498,6 +2679,31 @@
 																<CommandName>Form.Command.ОтправитьПакетСДопДокументамиДляФНС</CommandName>
 																<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="УведомленияОтправитьПакетСДопДокументамиДляФНСРасширеннаяПодсказка" id="2227"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="УведомленияГруппаВыполнитьОбмен" id="2890">
+														<Visible>false</Visible>
+														<Representation>Compact</Representation>
+														<ExtendedTooltip name="УведомленияГруппаВыполнитьОбменРасширеннаяПодсказка" id="2891"/>
+														<ChildItems>
+															<Button name="УведомленияВыполнитьОбмен" id="2892">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Получить сообщения</v8:content>
+																	</v8:item>
+																</Title>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="УведомленияВыполнитьОбменРасширеннаяПодсказка" id="2893"/>
+															</Button>
+															<Button name="УведомленияНастройкиОбновления" id="2894">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="УведомленияНастройкиОбновленияРасширеннаяПодсказка" id="2895"/>
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
@@ -2968,36 +3174,6 @@
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="ПисьмаУдалитьРасширеннаяПодсказка" id="1213"/>
 													</Button>
-													<ButtonGroup name="ПисьмаГруппаВыполнитьОбмен" id="2896">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="ПисьмаГруппаВыполнитьОбменРасширеннаяПодсказка" id="2897"/>
-														<ChildItems>
-															<Button name="ПисьмаВыполнитьОбмен" id="2898">
-																<Type>CommandBarButton</Type>
-																<Representation>PictureAndText</Representation>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Picture>
-																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
-																</Picture>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ПисьмаВыполнитьОбменРасширеннаяПодсказка" id="2899"/>
-															</Button>
-															<Button name="ПисьмаНастройкиОбновления" id="2900">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ПисьмаНастройкиОбновленияРасширеннаяПодсказка" id="2901"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 												</ChildItems>
 											</ButtonGroup>
 											<Popup name="ГруппаПисьмаПечатьПисьма" id="1920">
@@ -3045,6 +3221,36 @@
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ОтправитьПисьма</CommandName>
 														<ExtendedTooltip name="ПисьмаКнопкаОтправитьРасширеннаяПодсказка" id="879"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<ButtonGroup name="ПисьмаГруппаВыполнитьОбмен" id="2896">
+												<Visible>false</Visible>
+												<Representation>Compact</Representation>
+												<ExtendedTooltip name="ПисьмаГруппаВыполнитьОбменРасширеннаяПодсказка" id="2897"/>
+												<ChildItems>
+													<Button name="ПисьмаВыполнитьОбмен" id="2898">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+														<Picture>
+															<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</Picture>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Получить сообщения</v8:content>
+															</v8:item>
+														</Title>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ПисьмаВыполнитьОбменРасширеннаяПодсказка" id="2899"/>
+													</Button>
+													<Button name="ПисьмаНастройкиОбновления" id="2900">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ПисьмаНастройкиОбновленияРасширеннаяПодсказка" id="2901"/>
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
@@ -3604,36 +3810,6 @@
 														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="СверкиСкопироватьРасширеннаяПодсказка" id="1191"/>
 													</Button>
-													<ButtonGroup name="СверкиГруппаВыполнитьОбмен" id="2902">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="СверкиГруппаВыполнитьОбменРасширеннаяПодсказка" id="2903"/>
-														<ChildItems>
-															<Button name="СверкиВыполнитьОбмен" id="2904">
-																<Type>CommandBarButton</Type>
-																<Representation>PictureAndText</Representation>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Picture>
-																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
-																</Picture>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="СверкиВыполнитьОбменРасширеннаяПодсказка" id="2905"/>
-															</Button>
-															<Button name="СверкиНастройкиОбновления" id="2906">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="СверкиНастройкиОбновленияРасширеннаяПодсказка" id="2907"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 													<Button name="СверкиИзменить" id="1214">
 														<Type>CommandBarButton</Type>
 														<Representation>Picture</Representation>
@@ -3738,6 +3914,36 @@
 																<CommandName>Form.Command.ВыгрузитьСверку</CommandName>
 																<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="СверкиВыгрузитьСверкуРасширеннаяПодсказка" id="1527"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="СверкиГруппаВыполнитьОбмен" id="2902">
+														<Visible>false</Visible>
+														<Representation>Compact</Representation>
+														<ExtendedTooltip name="СверкиГруппаВыполнитьОбменРасширеннаяПодсказка" id="2903"/>
+														<ChildItems>
+															<Button name="СверкиВыполнитьОбмен" id="2904">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+																<Picture>
+																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Получить сообщения</v8:content>
+																	</v8:item>
+																</Title>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="СверкиВыполнитьОбменРасширеннаяПодсказка" id="2905"/>
+															</Button>
+															<Button name="СверкиНастройкиОбновления" id="2906">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="СверкиНастройкиОбновленияРасширеннаяПодсказка" id="2907"/>
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
@@ -4353,36 +4559,6 @@
 												</ButtonGroup>
 											</ChildItems>
 										</ButtonGroup>
-										<ButtonGroup name="ЕГРЮЛГруппаВыполнитьОбмен" id="2908">
-											<Visible>false</Visible>
-											<Representation>Compact</Representation>
-											<ExtendedTooltip name="ЕГРЮЛГруппаВыполнитьОбменРасширеннаяПодсказка" id="2909"/>
-											<ChildItems>
-												<Button name="ЕГРЮЛВыполнитьОбмен" id="2910">
-													<Type>CommandBarButton</Type>
-													<Representation>PictureAndText</Representation>
-													<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-													<Picture>
-														<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
-													</Picture>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Получить и отправить</v8:content>
-														</v8:item>
-													</Title>
-													<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-													<ExtendedTooltip name="ЕГРЮЛВыполнитьОбменРасширеннаяПодсказка" id="2911"/>
-												</Button>
-												<Button name="ЕГРЮЛНастройкиОбновления" id="2912">
-													<Type>CommandBarButton</Type>
-													<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-													<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-													<ExtendedTooltip name="ЕГРЮЛНастройкиОбновленияРасширеннаяПодсказка" id="2913"/>
-												</Button>
-											</ChildItems>
-										</ButtonGroup>
 										<ButtonGroup name="ЕГРЮЛГруппаОтправить" id="1522">
 											<ExtendedTooltip name="ЕГРЮЛГруппаОтправитьРасширеннаяПодсказка" id="1523"/>
 											<ChildItems>
@@ -4415,6 +4591,36 @@
 													<CommandName>Form.Command.ОткрытьПрисоединенныеФайлыУведомления</CommandName>
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="ОткрытьПрисоединенныеФайлыУведомленияРасширеннаяПодсказка" id="2689"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+										<ButtonGroup name="ЕГРЮЛГруппаВыполнитьОбмен" id="2908">
+											<Visible>false</Visible>
+											<Representation>Compact</Representation>
+											<ExtendedTooltip name="ЕГРЮЛГруппаВыполнитьОбменРасширеннаяПодсказка" id="2909"/>
+											<ChildItems>
+												<Button name="ЕГРЮЛВыполнитьОбмен" id="2910">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+													<Picture>
+														<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Получить сообщения</v8:content>
+														</v8:item>
+													</Title>
+													<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+													<ExtendedTooltip name="ЕГРЮЛВыполнитьОбменРасширеннаяПодсказка" id="2911"/>
+												</Button>
+												<Button name="ЕГРЮЛНастройкиОбновления" id="2912">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+													<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+													<ExtendedTooltip name="ЕГРЮЛНастройкиОбновленияРасширеннаяПодсказка" id="2913"/>
 												</Button>
 											</ChildItems>
 										</ButtonGroup>
@@ -5289,36 +5495,6 @@
 														<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
 														<ExtendedTooltip name="ТребованияИзменитьФормуРасширеннаяПодсказка" id="2554"/>
 													</Button>
-													<ButtonGroup name="ТребованияГруппаВыполнитьОбмен" id="2914">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="ТребованияГруппаВыполнитьОбменРасширеннаяПодсказка" id="2915"/>
-														<ChildItems>
-															<Button name="ТребованияВыполнитьОбмен" id="2916">
-																<Type>CommandBarButton</Type>
-																<Representation>PictureAndText</Representation>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Picture>
-																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
-																</Picture>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ТребованияВыполнитьОбменРасширеннаяПодсказка" id="2917"/>
-															</Button>
-															<Button name="ТребованияНастройкиОбновления" id="2918">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ТребованияНастройкиОбновленияРасширеннаяПодсказка" id="2919"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 													<Popup name="КнопкиТребованийПечать" id="2555">
 														<Title>
 															<v8:item>
@@ -5356,6 +5532,36 @@
 														</Title>
 														<ExtendedTooltip name="ТребованияПодтвердитьПриемРасширеннаяПодсказка" id="2626"/>
 													</Button>
+													<ButtonGroup name="ТребованияГруппаВыполнитьОбмен" id="2914">
+														<Visible>false</Visible>
+														<Representation>Compact</Representation>
+														<ExtendedTooltip name="ТребованияГруппаВыполнитьОбменРасширеннаяПодсказка" id="2915"/>
+														<ChildItems>
+															<Button name="ТребованияВыполнитьОбмен" id="2916">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+																<Picture>
+																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Получить сообщения</v8:content>
+																	</v8:item>
+																</Title>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="ТребованияВыполнитьОбменРасширеннаяПодсказка" id="2917"/>
+															</Button>
+															<Button name="ТребованияНастройкиОбновления" id="2918">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="ТребованияНастройкиОбновленияРасширеннаяПодсказка" id="2919"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
 												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="ТребованияРасширеннаяПодсказка" id="2431"/>
@@ -5951,36 +6157,6 @@
 														<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
 														<ExtendedTooltip name="ВходящиеИзменитьФормуРасширеннаяПодсказка" id="838"/>
 													</Button>
-													<ButtonGroup name="ВходящиеГруппаВыполнитьОбмен" id="2920">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="ВходящиеГруппаВыполнитьОбменРасширеннаяПодсказка" id="2921"/>
-														<ChildItems>
-															<Button name="ВходящиеВыполнитьОбмен" id="2922">
-																<Type>CommandBarButton</Type>
-																<Representation>PictureAndText</Representation>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Picture>
-																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
-																</Picture>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ВходящиеВыполнитьОбменРасширеннаяПодсказка" id="2923"/>
-															</Button>
-															<Button name="ВходящиеНастройкиОбновления" id="2924">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="ВходящиеНастройкиОбновленияРасширеннаяПодсказка" id="2925"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 													<Popup name="ВходящиеГруппа4" id="2201">
 														<Title>
 															<v8:item>
@@ -6025,6 +6201,36 @@
 															</ButtonGroup>
 														</ChildItems>
 													</Popup>
+													<ButtonGroup name="ВходящиеГруппаВыполнитьОбмен" id="2920">
+														<Visible>false</Visible>
+														<Representation>Compact</Representation>
+														<ExtendedTooltip name="ВходящиеГруппаВыполнитьОбменРасширеннаяПодсказка" id="2921"/>
+														<ChildItems>
+															<Button name="ВходящиеВыполнитьОбмен" id="2922">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+																<Picture>
+																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Получить сообщения</v8:content>
+																	</v8:item>
+																</Title>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="ВходящиеВыполнитьОбменРасширеннаяПодсказка" id="2923"/>
+															</Button>
+															<Button name="ВходящиеНастройкиОбновления" id="2924">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="ВходящиеНастройкиОбновленияРасширеннаяПодсказка" id="2925"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
 												</ChildItems>
 											</AutoCommandBar>
 											<ExtendedTooltip name="ВходящиеПисьмаРасширеннаяПодсказка" id="1069"/>
@@ -6419,36 +6625,6 @@
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
-													<ButtonGroup name="КнопкиРассылкаВыполнитьОбмен" id="2926">
-														<Visible>false</Visible>
-														<Representation>Compact</Representation>
-														<ExtendedTooltip name="КнопкиРассылкаВыполнитьОбменРасширеннаяПодсказка" id="2927"/>
-														<ChildItems>
-															<Button name="РассылкаВходящиеВыполнитьОбмен" id="2928">
-																<Type>CommandBarButton</Type>
-																<Representation>PictureAndText</Representation>
-																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
-																<Picture>
-																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
-																	<xr:LoadTransparent>true</xr:LoadTransparent>
-																</Picture>
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Получить и отправить</v8:content>
-																	</v8:item>
-																</Title>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="РассылкаВходящиеВыполнитьОбменРасширеннаяПодсказка" id="2929"/>
-															</Button>
-															<Button name="РассылкаНастройкиОбновления" id="2930">
-																<Type>CommandBarButton</Type>
-																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
-																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
-																<ExtendedTooltip name="РассылкаНастройкиОбновленияРасширеннаяПодсказка" id="2931"/>
-															</Button>
-														</ChildItems>
-													</ButtonGroup>
 													<ButtonGroup name="КнопкиРассылкаРазное" id="2063">
 														<Title>
 															<v8:item>
@@ -6490,6 +6666,36 @@
 																</Picture>
 																<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="РассылкаОчисткаРассылокРасширеннаяПодсказка" id="2090"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<ButtonGroup name="КнопкиРассылкаВыполнитьОбмен" id="2926">
+														<Visible>false</Visible>
+														<Representation>Compact</Representation>
+														<ExtendedTooltip name="КнопкиРассылкаВыполнитьОбменРасширеннаяПодсказка" id="2927"/>
+														<ChildItems>
+															<Button name="РассылкаВходящиеВыполнитьОбмен" id="2928">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ОбновитьДанныеОО</CommandName>
+																<Picture>
+																	<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Получить сообщения</v8:content>
+																	</v8:item>
+																</Title>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="РассылкаВходящиеВыполнитьОбменРасширеннаяПодсказка" id="2929"/>
+															</Button>
+															<Button name="РассылкаНастройкиОбновления" id="2930">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.НастройкиОбновленияКоманднаяПанель</CommandName>
+																<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+																<ExtendedTooltip name="РассылкаНастройкиОбновленияРасширеннаяПодсказка" id="2931"/>
 															</Button>
 														</ChildItems>
 													</ButtonGroup>
@@ -8087,6 +8293,34 @@
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="ГруппаНастройкиОбменаСОтчетность24" id="3010">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа индексирования</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="ГруппаНастройкиОбменаСОтчетность24РасширеннаяПодсказка" id="3011"/>
+											<ChildItems>
+												<LabelDecoration name="ПодключенияКОтчетность24" id="3012">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Подключения к приложению "1С:Отчетность 24"</v8:content>
+														</v8:item>
+													</Title>
+													<Hyperlink>true</Hyperlink>
+													<ContextMenu name="ПодключенияКОтчетность24КонтекстноеМеню" id="3013"/>
+													<ExtendedTooltip name="ПодключенияКОтчетность24РасширеннаяПодсказка" id="3014"/>
+													<Events>
+														<Event name="Click">ПодключенияКОтчетность24Нажатие</Event>
+													</Events>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="ГруппаИндексирования" id="1267">
 											<ToolTip>
 												<v8:item>
@@ -8202,7 +8436,7 @@
 															<Height>1</Height>
 															<CommandName>Form.Command.ОбновитьДанныеСЭДО</CommandName>
 															<Picture>
-																<xr:Ref>CommonPicture.ПолучитьСообщенияСЭДО</xr:Ref>
+																<xr:Ref>CommonPicture.ПолучитьИОтправить</xr:Ref>
 																<xr:LoadTransparent>true</xr:LoadTransparent>
 															</Picture>
 															<Title>
@@ -11602,7 +11836,14 @@
 						</v8:item>
 					</Title>
 					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДокументовВЖурнале</v8:Type>
+						<v8:Type>cfg:EnumRef.СтраницыЖурналаОтчетность</v8:Type>
 						<v8:Type>cfg:EnumRef.ГруппыНовыхСобытийДокументооборотаСКонтролирующимиОрганами</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 				<Column name="ЕстьКритическиеОшибкиОтправки" id="18">
@@ -11614,6 +11855,32 @@
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ИсходнаяГруппа" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исходная группа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыНовыхСобытийДокументооборотаСКонтролирующимиОрганами</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПредставлениеПериода" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>
@@ -12242,6 +12509,28 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>ГОСТ 34.12-2018 ViPNet CSP доступен</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НовыеСобытияПоСтраницамЖурнала" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новые события по страницам журнала</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИспользуетсяОднаОрганизация" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используется одна организация</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -14237,7 +14526,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выплаты и пособия регистр сведений сведения об ЭЛНОткрыть список</v8:content>
+					<v8:content>Сведения о больничных листах по заболеваниям, травмам и по беременности и родам</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ВыплатыИПособияРегистрСведенийСведенияОбЭЛНОткрытьСписок</Action>
@@ -14479,7 +14768,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подключения к базам данных</v8:content>
+					<v8:content>Подключения к учетным базам</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>

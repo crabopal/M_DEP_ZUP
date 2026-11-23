@@ -53,7 +53,7 @@
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Получить из ФСС</v8:content>
+						<v8:content>Получить из СЭДО</v8:content>
 					</v8:item>
 				</Title>
 				<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
@@ -238,8 +238,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Открыть
-извещение
-ФСС</v8:content>
+извещение</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ФормаОткрытьИзвещениеФССРасширеннаяПодсказка" id="72"/>
@@ -396,24 +395,25 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Подтверждение получения отправлено 14.04.2020, 
-однако, нет информации что оно получено ФСС.</v8:content>
+однако, нет информации что оно получено СФР.</v8:content>
 												</v8:item>
 											</Title>
 											<BackColor>style:ЦветФонаСлабогоПредупрежденияБЗК</BackColor>
 											<ContextMenu name="НадписьПодтверждениеОтправленоНоНеПолученоФССКонтекстноеМеню" id="194"/>
 											<ExtendedTooltip name="НадписьПодтверждениеОтправленоНоНеПолученоФССРасширеннаяПодсказка" id="195"/>
 										</LabelDecoration>
-										<Button name="КнопкаПроверитьПолучение" id="201">
+										<Button name="КнопкаПроверитьПолучение" id="568">
 											<Type>Hyperlink</Type>
 											<Representation>Text</Representation>
-											<CommandName>Form.Command.ПолучитьИзФСС</CommandName>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<CommandName>DataProcessor.ОбщиеФормыСЭДОФСС.Command.ПолучитьНовыеСообщенияСЭДОФСС</CommandName>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Проверить получение</v8:content>
 												</v8:item>
 											</Title>
-											<ExtendedTooltip name="КнопкаПроверитьПолучениеРасширеннаяПодсказка" id="202"/>
+											<ExtendedTooltip name="КнопкаПроверитьПолучениеРасширеннаяПодсказка" id="569"/>
 										</Button>
 									</ChildItems>
 								</UsualGroup>
@@ -421,7 +421,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Осталось 3 дня для отправки недостающих сведений в ФСС</v8:content>
+											<v8:content>Осталось 3 дня для отправки недостающих сведений в СФР</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьОсталосьДней1КонтекстноеМеню" id="476"/>
@@ -444,7 +444,7 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Подтверждение получения отправлено 14.04.2020
-и получено ФСС.</v8:content>
+и получено СФР.</v8:content>
 										</v8:item>
 									</Title>
 									<BackColor>style:ЦветФонаУспешнойОперацииБЗК</BackColor>
@@ -455,7 +455,7 @@
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Осталось 3 дня для отправки недостающих сведений в ФСС</v8:content>
+											<v8:content>Осталось 3 дня для отправки недостающих сведений в СФР</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьОсталосьДней2КонтекстноеМеню" id="473"/>
@@ -1112,7 +1112,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Извещение обработано, сведения отправлены в ФСС</v8:content>
+							<v8:content>Извещение обработано, сведения отправлены в СФР</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Right</TitleLocation>
@@ -1137,6 +1137,17 @@
 			<ContextMenu name="ОбработаноВШапкеКонтекстноеМеню" id="426"/>
 			<ExtendedTooltip name="ОбработаноВШапкеРасширеннаяПодсказка" id="427"/>
 		</CheckBoxField>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="570">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дополнительные реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="571"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаРезультат" id="409">
 			<Title>
 				<v8:item>
@@ -1278,7 +1289,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Получено ФСС</v8:content>
+									<v8:content>Получено СФР</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Right</TitleLocation>
@@ -1413,20 +1424,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗаписатьИЗакрыть</Action>
-		</Command>
-		<Command name="ПолучитьИзФСС" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Получить из ФСС</v8:content>
-				</v8:item>
-			</Title>
-			<Picture>
-				<xr:Ref>CommonPicture.ВКонвертПодписатьИОтправить</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Action>ПолучитьИзФСС</Action>
-			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ВопросВПоддержку" id="6">
 			<Title>

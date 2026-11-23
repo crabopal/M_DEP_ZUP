@@ -447,6 +447,7 @@
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="ПодписиПредставление" id="10">
 			<Title>
@@ -785,8 +786,7 @@
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.Сертификат</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-				<xr:TransparentPixel x="8" y="14"/>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>КомандаПоказатьСертификат</Action>
 			<Representation>TextPicture</Representation>

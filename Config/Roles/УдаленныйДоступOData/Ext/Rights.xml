@@ -635,17 +635,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьИнтеграциюСПриложением1СПерсонал</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ЗаявлениеОПодтвержденииПраваНаЗачетАвансовПоНДФЛ</name>
 		<right>
 			<name>Read</name>
@@ -1648,6 +1637,25 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.РучныеЗадачиБухгалтера</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3756,17 +3764,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.АдресМенеджера1СПерсонал</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.УдалитьОтветыНаЗапросыИОН</name>
 		<right>
 			<name>Read</name>
@@ -4242,6 +4239,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ПоказыватьПриглашение1СПерсонал</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПлановыеНачисленияПоДоговорам</name>
 		<right>
 			<name>Read</name>
@@ -4499,6 +4507,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.СтатьиФинансированияБазыСреднегоЗаработка</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ВидыДокументовВоинскогоУчетаРаботников</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -7516,6 +7535,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДанныеВоинскогоУчетаОрганизаций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.СведенияДляФРМОПрисоединенныеФайлы</name>
 		<right>
 			<name>Read</name>
@@ -9179,7 +9209,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СекретШиныОтчетности</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ЗанятостьПозицийШтатногоРасписанияИспр</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.КлиентШиныОтчетности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -9269,6 +9321,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЗаявленияОВеденииТрудовыхКнижекПереданныеИспр</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьПолучениеСообщенийИзШиныОтчетность24</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -11741,6 +11804,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ДанныеРаботниковДляВоенкоматов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СостояниеПодключенияКЭДОсПФР</name>
 		<right>
 			<name>Read</name>
@@ -13985,6 +14059,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.СклоненияПредставленийОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.Отчетность24БРОСоответствиеСсылок</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -16421,6 +16506,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ПрекращатьДополнительныеОтпускаПриПриостановкеТрудовогоДоговора</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПакетОбменСБанками</name>
 		<right>
 			<name>Read</name>
@@ -16627,17 +16723,6 @@
 		<name>SessionParameter.РазрешенныйНаборГруппПользователей</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДлительныеОперации</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -17576,6 +17661,25 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПравилаРучныхЗадачБухгалтера</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -20727,6 +20831,33 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УведомлениеОбОтсутствииОтветаСЭДО</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -26011,6 +26142,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.НастройкиСбораГрафиковОтпусковКабинетСотрудника</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АвансовыйПлатежИностранцаПоНДФЛ</name>
 		<right>
 			<name>Read</name>
@@ -26134,6 +26276,25 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.УведомлениеОбОтсутствииОтветаСЭДОПрисоединенныеФайлы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -28345,6 +28506,17 @@
 	</object>
 	<object>
 		<name>Constant.ДокументооборотСКонтролирующимиОрганами_СертификатСервераОнлайнПроверки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ПорядокОбрабатываемыхДанных</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

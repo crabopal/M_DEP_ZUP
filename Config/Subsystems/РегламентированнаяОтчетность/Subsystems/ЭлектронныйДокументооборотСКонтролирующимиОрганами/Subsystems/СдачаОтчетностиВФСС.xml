@@ -117,7 +117,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтветСтрахователяНаОбращениеСФР</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОбращениеСФРКСтрахователюПрисоединенныеФайлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОтветСтрахователяНаОбращениеСФРПрисоединенныеФайлы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПолучитьСообщенияСЭДО</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЭлектронныйДокументооборотСФССКлиентПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СодержимоеРассылокКонтролирующихОрганов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СобытияОбменаСЭДО</xr:Item>
