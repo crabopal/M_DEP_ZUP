@@ -436,106 +436,106 @@
 								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="бит_ДисциплинарныеВзысканияГруппа" id="10000">
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="бит_ДисциплинарныеВзысканияГруппа" id="10000">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дисциплинарные взыскания</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>NormalSeparation</Representation>
+					<ExtendedTooltip name="бит_ДисциплинарныеВзысканияГруппаРасширеннаяПодсказка" id="10001"/>
+					<ChildItems>
+						<Table name="бит_Взыскания" id="10002">
+							<Representation>List</Representation>
+							<HeightInTableRows>4</HeightInTableRows>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>бит_Взыскания</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дисциплинарные взыскания</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>NormalSeparation</Representation>
-							<ExtendedTooltip name="бит_ДисциплинарныеВзысканияГруппаРасширеннаяПодсказка" id="10001"/>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="бит_ВзысканияКонтекстноеМеню" id="10003"/>
+							<AutoCommandBar name="бит_ВзысканияКоманднаяПанель" id="10004"/>
+							<ExtendedTooltip name="бит_ВзысканияРасширеннаяПодсказка" id="10005"/>
+							<SearchStringAddition name="бит_ВзысканияСтрокаПоиска" id="10006">
+								<AdditionSource>
+									<Item>бит_Взыскания</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="бит_ВзысканияСтрокаПоискаКонтекстноеМеню" id="10007"/>
+								<ExtendedTooltip name="бит_ВзысканияСтрокаПоискаРасширеннаяПодсказка" id="10008"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="бит_ВзысканияСостояниеПросмотра" id="10009">
+								<AdditionSource>
+									<Item>бит_Взыскания</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="бит_ВзысканияСостояниеПросмотраКонтекстноеМеню" id="10010"/>
+								<ExtendedTooltip name="бит_ВзысканияСостояниеПросмотраРасширеннаяПодсказка" id="10011"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="бит_ВзысканияУправлениеПоиском" id="10012">
+								<AdditionSource>
+									<Item>бит_Взыскания</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="бит_ВзысканияУправлениеПоискомКонтекстноеМеню" id="10013"/>
+								<ExtendedTooltip name="бит_ВзысканияУправлениеПоискомРасширеннаяПодсказка" id="10014"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnStartEdit" callType="Before">бит_ВзысканияПриНачалеРедактирования</Event>
+								<Event name="AfterDeleteRow" callType="Before">бит_ВзысканияПослеУдаления</Event>
+								<Event name="OnChange" callType="Before">бит_ВзысканияПриИзменении</Event>
+							</Events>
 							<ChildItems>
-								<Table name="бит_Взыскания" id="10002">
-									<Representation>List</Representation>
-									<HeightInTableRows>4</HeightInTableRows>
-									<AutoInsertNewRow>true</AutoInsertNewRow>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
-									<DataPath>бит_Взыскания</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Дисциплинарные взыскания</v8:content>
-										</v8:item>
-									</Title>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="бит_ВзысканияКонтекстноеМеню" id="10003"/>
-									<AutoCommandBar name="бит_ВзысканияКоманднаяПанель" id="10004"/>
-									<ExtendedTooltip name="бит_ВзысканияРасширеннаяПодсказка" id="10005"/>
-									<SearchStringAddition name="бит_ВзысканияСтрокаПоиска" id="10006">
-										<AdditionSource>
-											<Item>бит_Взыскания</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="бит_ВзысканияСтрокаПоискаКонтекстноеМеню" id="10007"/>
-										<ExtendedTooltip name="бит_ВзысканияСтрокаПоискаРасширеннаяПодсказка" id="10008"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="бит_ВзысканияСостояниеПросмотра" id="10009">
-										<AdditionSource>
-											<Item>бит_Взыскания</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="бит_ВзысканияСостояниеПросмотраКонтекстноеМеню" id="10010"/>
-										<ExtendedTooltip name="бит_ВзысканияСостояниеПросмотраРасширеннаяПодсказка" id="10011"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="бит_ВзысканияУправлениеПоиском" id="10012">
-										<AdditionSource>
-											<Item>бит_Взыскания</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="бит_ВзысканияУправлениеПоискомКонтекстноеМеню" id="10013"/>
-										<ExtendedTooltip name="бит_ВзысканияУправлениеПоискомРасширеннаяПодсказка" id="10014"/>
-									</SearchControlAddition>
-									<Events>
-										<Event name="OnStartEdit" callType="Before">бит_ВзысканияПриНачалеРедактирования</Event>
-										<Event name="AfterDeleteRow" callType="Before">бит_ВзысканияПослеУдаления</Event>
-										<Event name="OnChange" callType="Before">бит_ВзысканияПриИзменении</Event>
-									</Events>
-									<ChildItems>
-										<InputField name="бит_ВзысканияВидВзыскания" id="10020">
-											<DataPath>бит_Взыскания.ВидВзыскания</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияВидВзысканияКонтекстноеМеню" id="10021"/>
-											<ExtendedTooltip name="бит_ВзысканияВидВзысканияРасширеннаяПодсказка" id="10022"/>
-										</InputField>
-										<InputField name="бит_ВзысканияДата" id="10023">
-											<DataPath>бит_Взыскания.Дата</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияДатаКонтекстноеМеню" id="10024"/>
-											<ExtendedTooltip name="бит_ВзысканияДатаРасширеннаяПодсказка" id="10025"/>
-										</InputField>
-										<InputField name="бит_ВзысканияНомерПриказа" id="10026">
-											<DataPath>бит_Взыскания.НомерПриказа</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияНомерПриказаКонтекстноеМеню" id="10027"/>
-											<ExtendedTooltip name="бит_ВзысканияНомерПриказаРасширеннаяПодсказка" id="10028"/>
-										</InputField>
-										<InputField name="бит_ВзысканияДатаПриказа" id="10029">
-											<DataPath>бит_Взыскания.ДатаПриказа</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияДатаПриказаКонтекстноеМеню" id="10030"/>
-											<ExtendedTooltip name="бит_ВзысканияДатаПриказаРасширеннаяПодсказка" id="10031"/>
-										</InputField>
-										<InputField name="бит_ВзысканияКомментарий" id="10032">
-											<DataPath>бит_Взыскания.Комментарий</DataPath>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияКомментарийКонтекстноеМеню" id="10033"/>
-											<ExtendedTooltip name="бит_ВзысканияКомментарийРасширеннаяПодсказка" id="10034"/>
-										</InputField>
-										<InputField name="бит_ВзысканияСтатус" id="10035">
-											<DataPath>бит_Взыскания.Статус</DataPath>
-											<ReadOnly>true</ReadOnly>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="бит_ВзысканияСтатусКонтекстноеМеню" id="10036"/>
-											<ExtendedTooltip name="бит_ВзысканияСтатусРасширеннаяПодсказка" id="10037"/>
-										</InputField>
-									</ChildItems>
-								</Table>
+								<InputField name="бит_ВзысканияВидВзыскания" id="10020">
+									<DataPath>бит_Взыскания.ВидВзыскания</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияВидВзысканияКонтекстноеМеню" id="10021"/>
+									<ExtendedTooltip name="бит_ВзысканияВидВзысканияРасширеннаяПодсказка" id="10022"/>
+								</InputField>
+								<InputField name="бит_ВзысканияДата" id="10023">
+									<DataPath>бит_Взыскания.Дата</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияДатаКонтекстноеМеню" id="10024"/>
+									<ExtendedTooltip name="бит_ВзысканияДатаРасширеннаяПодсказка" id="10025"/>
+								</InputField>
+								<InputField name="бит_ВзысканияНомерПриказа" id="10026">
+									<DataPath>бит_Взыскания.НомерПриказа</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияНомерПриказаКонтекстноеМеню" id="10027"/>
+									<ExtendedTooltip name="бит_ВзысканияНомерПриказаРасширеннаяПодсказка" id="10028"/>
+								</InputField>
+								<InputField name="бит_ВзысканияДатаПриказа" id="10029">
+									<DataPath>бит_Взыскания.ДатаПриказа</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияДатаПриказаКонтекстноеМеню" id="10030"/>
+									<ExtendedTooltip name="бит_ВзысканияДатаПриказаРасширеннаяПодсказка" id="10031"/>
+								</InputField>
+								<InputField name="бит_ВзысканияКомментарий" id="10032">
+									<DataPath>бит_Взыскания.Комментарий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияКомментарийКонтекстноеМеню" id="10033"/>
+									<ExtendedTooltip name="бит_ВзысканияКомментарийРасширеннаяПодсказка" id="10034"/>
+								</InputField>
+								<InputField name="бит_ВзысканияСтатус" id="10035">
+									<DataPath>бит_Взыскания.Статус</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="бит_ВзысканияСтатусКонтекстноеМеню" id="10036"/>
+									<ExtendedTooltip name="бит_ВзысканияСтатусРасширеннаяПодсказка" id="10037"/>
+								</InputField>
 							</ChildItems>
-						</UsualGroup>
+						</Table>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
