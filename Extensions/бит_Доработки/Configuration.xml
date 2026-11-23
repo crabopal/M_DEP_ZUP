@@ -67,10 +67,17 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>бит_ОсновнаяРоль</Role>
+			<Role>бит_КадровикВзыскания</Role>
+			<Role>бит_УчетШтрафовПДД</Role>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
+			<Catalog>бит_ВидыВзысканий</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Report>СостоянияСотрудников</Report>
 			<Report>бит_ШтрафыПДД</Report>
 			<Report>бит_ДисциплинарныеВзысканияСотрудников</Report>
+			<InformationRegister>бит_ВзысканияСотрудников</InformationRegister>
+			<InformationRegister>бит_ШтрафыПДД</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

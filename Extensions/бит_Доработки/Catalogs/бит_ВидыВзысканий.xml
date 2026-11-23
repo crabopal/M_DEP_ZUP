@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2195b1d3-f393-4fe3-b0cc-577887c1d82a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.бит_ВидыВзысканий" category="Object">
+				<xr:TypeId>096a9482-d3fd-4350-a2a0-14323bb1bfcc</xr:TypeId>
+				<xr:ValueId>10ac432f-50d0-4e59-9933-5806b5ec51d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.бит_ВидыВзысканий" category="Ref">
+				<xr:TypeId>fdaf2ee0-6666-411c-b9cd-9f6b493bb763</xr:TypeId>
+				<xr:ValueId>0dd592c5-4c56-44b4-b588-c287e0d4c3fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.бит_ВидыВзысканий" category="Selection">
+				<xr:TypeId>0bf88071-3a46-42df-88ec-b492782f5150</xr:TypeId>
+				<xr:ValueId>b0e6be79-fe6f-4f21-b871-b721896fa8fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.бит_ВидыВзысканий" category="List">
+				<xr:TypeId>d30b3fd4-f0f9-4747-9a62-77a3b273b0cd</xr:TypeId>
+				<xr:ValueId>9ba5dea9-3bca-4483-8474-aadab99d690a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.бит_ВидыВзысканий" category="Manager">
+				<xr:TypeId>65af3930-7723-45f5-b0db-5707398aea27</xr:TypeId>
+				<xr:ValueId>4ac925d7-1c6a-4e20-8a70-b67afd0d29f0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>бит_ВидыВзысканий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c3ed1a7-761f-494c-9967-61e588206914</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

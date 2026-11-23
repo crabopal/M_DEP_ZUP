@@ -2,18 +2,39 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="Catalog.ВидыИспользованияРабочегоВремени" id="b68cea08-ba43-48dd-b838-7529e2ae6f9d" configVersion="23b5630b2495e1430025504f5fe24a4d2e191c5f"/>
-		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="c0bf508223c5e31b2d46dbe880a303bb88134edb"/>
+		<Metadata name="Catalog.Сотрудники" id="ed6ed935-85f4-4567-8cd9-20aa45be48e3" configVersion="105262ce4b2aa170bb2f319b6e855b0ff6db1607"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента" id="6b54523a-5ec5-40f2-8121-1aa89609ecbf" configVersion="411a81204991db67c1e9b5cc505fe081c9606fb7"/>
+		<Metadata name="Catalog.Сотрудники.Form.ФормаЭлемента.Form" id="6b54523a-5ec5-40f2-8121-1aa89609ecbf.0" configVersion="67d6b33b6fc5195aa6a82b2ae1a067bd33c8ed12"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="64329d21-e351-4d2a-816b-9d8fb22d3a35" configVersion="9ee1701683442061af2c35dd1eedd53fdc9209d0"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e" configVersion="165d0c8f5319b4ed36b204023e735246c5bc1895"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ТрудоваяДеятельность.Form" id="b92dac74-ec75-4f4f-a29c-20dd809dd96e.0" configVersion="555bb2db322478c04d83db8cd0934fcddaf77a66"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды" id="991c7066-de25-4b2e-be32-6e3466650362" configVersion="2eb688b68700f518a7db78ceaf8db573ed807a86"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.бит_Награды.Form" id="991c7066-de25-4b2e-be32-6e3466650362.0" configVersion="c754bcf2a94a16b93b8687e715d56ecd16146b84"/>
+		<Metadata name="Catalog.бит_ВидыВзысканий" id="2195b1d3-f393-4fe3-b0cc-577887c1d82a" configVersion="09179d36271f8533ad66191c9b99df32111b59c8"/>
+		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="919bd07c245c81bf049bc641a206957950f5e5e5"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников" id="0c51ffcd-bbb5-4097-9f1c-38ca5d190b08" configVersion="b6daaf91ac723e5f99f60a87823f3df4b32079ba"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи" id="77967f3b-544f-42ff-9066-1963fdc44695" configVersion="dc670ba109816ab41144a01c358b7ec3a9e2393f"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаЗаписи.Form" id="77967f3b-544f-42ff-9066-1963fdc44695.0" configVersion="6e0b934c9929dbc2ac8a57fe5132e32cb4b72351"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка" id="81b01f67-1653-4213-b3ea-90e861365de6" configVersion="48af4ea0c8839150dc41895938f103dd0320d9cd"/>
+		<Metadata name="InformationRegister.бит_ВзысканияСотрудников.Form.ФормаСписка.Form" id="81b01f67-1653-4213-b3ea-90e861365de6.0" configVersion="7a69fe06e13222ddfa357f60b04fb8388d619a72"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД" id="e1a7ca15-9ad9-4c62-9feb-4002072586de" configVersion="945be6847fb73ed02da4c513c5b02bfd72e32303"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи" id="c865bfa9-99d4-4c08-b1c2-9cf62dd6ec7f" configVersion="2212ade0af25eecaa3fcc4f909933c6635b06d32"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаЗаписи.Form" id="c865bfa9-99d4-4c08-b1c2-9cf62dd6ec7f.0" configVersion="fff8481214eaa284239f852e77049fbcb4f3d836"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка" id="e40967f2-6dc2-4412-84d4-ed30794c7b23" configVersion="c0e63a24b663fd25ce6180e4c4f775222219c43a"/>
+		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка.Form" id="e40967f2-6dc2-4412-84d4-ed30794c7b23.0" configVersion="2aa9796cac14f3571e71d42599ca7724be3b7d60"/>
 		<Metadata name="Language.Русский" id="3eb79667-914e-4156-99f6-949c2142c140" configVersion="76cb2eda4b4203616af5851d821e8203bda847fa"/>
 		<Metadata name="Report.СостоянияСотрудников" id="6e55b2f6-07ef-4b2c-a0e5-6e4a343015b8" configVersion="b9f5e700da65f244e6fb583c586599f5b25fbd89"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21" configVersion="27bc378ff5ac2943a60bb8e6e3f2c7abac27d195"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21.0" configVersion="a2d8e491394cb45100952f103c2d199f135cbbaa"/>
 		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников" id="2471d3bc-6546-46ed-b91f-a465271fefa0" configVersion="98542acc1e1f3ed5214525148a246a894accbaaa"/>
-		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="98f1081c-e067-4cdf-8bf8-fc1345f77581" configVersion="5303c43aeadd85bbd30d7c247cb1c8ba57828a7c"/>
-		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="98f1081c-e067-4cdf-8bf8-fc1345f77581.0" configVersion="943efb6b8f603550ac2714deae570df7834e4c5c"/>
+		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="98f1081c-e067-4cdf-8bf8-fc1345f77581" configVersion="bebb22d85c947ab653666e9678c4e03b74ae42ef"/>
+		<Metadata name="Report.бит_ДисциплинарныеВзысканияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="98f1081c-e067-4cdf-8bf8-fc1345f77581.0" configVersion="902b7e2cbff1083aaea37126b9de0d131913b61e"/>
 		<Metadata name="Report.бит_ШтрафыПДД" id="a6932e28-dbd0-4f62-b8e1-9d7a624c381f" configVersion="6a7552bf542ec929db08e876de9ecfb683c028f5"/>
-		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных" id="568ef00a-00b4-41db-96cd-53f3c05b1343" configVersion="7313207e77ba4b6289c7ef723ad7db65ed03d623"/>
-		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="568ef00a-00b4-41db-96cd-53f3c05b1343.0" configVersion="943efb6b8f603550ac2714deae570df7834e4c5c"/>
+		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных" id="568ef00a-00b4-41db-96cd-53f3c05b1343" configVersion="202680c19b3c9992499eba2fbd195d3d6ab63182"/>
+		<Metadata name="Report.бит_ШтрафыПДД.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="568ef00a-00b4-41db-96cd-53f3c05b1343.0" configVersion="832aa2f23efc9b81b7b168eec71824b7a9932924"/>
+		<Metadata name="Role.бит_КадровикВзыскания" id="b7ee54ab-2fa0-4c61-bbb9-45087edf5302" configVersion="326ad3653cb2ae80ae17cc9b14d3e95e918ee3d6"/>
 		<Metadata name="Role.бит_ОсновнаяРоль" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a" configVersion="44f7f84eb804e070cd97ce210bbaf632283ff3c4"/>
 		<Metadata name="Role.бит_ОсновнаяРоль.Rights" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a.0" configVersion="de36ab6224b61698c1c3a31026e61cc87cea648a"/>
+		<Metadata name="Role.бит_УчетШтрафовПДД" id="98170c2e-dadf-441b-9926-9cb9b733c78d" configVersion="9a5b8257f3ee34e549d6117ea435edc027f4b719"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

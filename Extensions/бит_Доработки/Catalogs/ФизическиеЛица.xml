@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="64329d21-e351-4d2a-816b-9d8fb22d3a35">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
+				<xr:TypeId>cb18aad4-d6ec-4637-88bf-e7077ca653e5</xr:TypeId>
+				<xr:ValueId>d203dca9-2f5d-47f3-b2b1-93859632b3b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
+				<xr:TypeId>ad4c842c-eb61-4ba3-b78e-134d19d2bc4e</xr:TypeId>
+				<xr:ValueId>0cf55ff8-ee4d-4d20-aee8-2c3c3bb0209a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
+				<xr:TypeId>cfda65c9-ad07-43a3-bb1b-3d6c88948a8f</xr:TypeId>
+				<xr:ValueId>cf4b9f57-c7ce-40b1-88e3-d51ecd14c015</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
+				<xr:TypeId>6778bbbf-644e-4d05-84f0-34d6c0f6e2c6</xr:TypeId>
+				<xr:ValueId>abbe102d-b259-4262-b310-246ce418bab7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
+				<xr:TypeId>363c1be1-61e8-4470-b173-b4a0ac7169cb</xr:TypeId>
+				<xr:ValueId>f5a1f4ff-decf-49e7-9e8c-9b9b81d48730</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФизическиеЛица</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>33e0072d-7d5b-4298-ae77-31a7cb358f5d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ТрудоваяДеятельность</Form>
+			<Form>бит_Награды</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
