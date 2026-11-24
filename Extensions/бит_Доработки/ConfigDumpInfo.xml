@@ -47,6 +47,7 @@
 		<Metadata name="Role.бит_ОсновнаяРоль" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a" configVersion="44f7f84eb804e070cd97ce210bbaf632283ff3c4"/>
 		<Metadata name="Role.бит_ОсновнаяРоль.Rights" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a.0" configVersion="b5dc58c31da0189cc43977c9d483ecae8b5e8705"/>
 		<Metadata name="Role.бит_УчетШтрафовПДД" id="98170c2e-dadf-441b-9926-9cb9b733c78d" configVersion="4515c6785e0bc6bb1e73f6be305470d364cea8c4"/>
+		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов" id="467295c1-a46a-4aa3-a1c5-d5f9d915cedf" configVersion="3d7afcd4a1974de820dc0c322c02e2d5b0e81e91"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="bdea64b0-4691-43ee-abf1-b2a20d50850c" configVersion="aba6b36487982353fbdbbb6567f8e3d1269c6f34"/>
 		<Metadata name="Subsystem.Кадры" id="a7b2bfee-bc02-4428-b9c5-a00d90bb0919" configVersion="f3c94edcbf4e9756e5ccef0e9615346dd3598cfb"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="c2d359ad-0952-4017-8387-7472fc0d4a60" configVersion="8fd660577c5c1136fdc1504596ef037ed4bd5a65"/>

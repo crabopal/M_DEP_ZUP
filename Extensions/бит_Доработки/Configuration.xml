@@ -75,6 +75,7 @@
 			<Role>бит_ОсновнаяРоль</Role>
 			<Role>бит_КадровикВзыскания</Role>
 			<Role>бит_УчетШтрафовПДД</Role>
+			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
 			<Catalog>бит_ВидыВзысканий</Catalog>
 			<Catalog>Сотрудники</Catalog>

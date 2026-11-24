@@ -16,6 +16,7 @@
 			<Name>бит_ШтрафыПДД</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>f305886a-e433-46fc-8158-12debc58aa4f</ExtendedConfigurationObject>
+			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
 		</Properties>
 		<ChildObjects>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
