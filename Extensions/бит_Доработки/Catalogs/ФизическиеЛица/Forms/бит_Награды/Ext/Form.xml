@@ -16,6 +16,11 @@
 				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="2"/>
 			</Button>
+			<Button name="ФормаЗаписать" id="45">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Записать</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="46"/>
+			</Button>
 			<Button name="ФормаОтмена" id="3">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Отмена</CommandName>
@@ -129,6 +134,15 @@
 				</v8:item>
 			</Title>
 			<Action>ЗаписатьИЗакрыть</Action>
+		</Command>
+		<Command name="Записать" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Записать</Action>
 		</Command>
 		<Command name="Отмена" id="2">
 			<Title>
