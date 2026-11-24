@@ -72,6 +72,7 @@
 					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="18"/>
 				</LabelField>
 				<LabelField name="НомерПоПорядку" id="19">
+					<Visible>false</Visible>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="НомерПоПорядкуКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="НомерПоПорядкуРасширеннаяПодсказка" id="21"/>

@@ -16,6 +16,7 @@
 			<Name>бит_ДисциплинарныеВзысканияСотрудников</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>45cfbc4d-e7d8-4e71-a02a-7314edffcee8</ExtendedConfigurationObject>
+			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
 		</Properties>
 		<ChildObjects>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>

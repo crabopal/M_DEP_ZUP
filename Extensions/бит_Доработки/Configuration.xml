@@ -66,11 +66,24 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Кадры</Subsystem>
+			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
+			<Subsystem>юцТабельщик</Subsystem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>КоллекцияСостоянийРасчетаСтажей</CommonPicture>
 			<Role>бит_ОсновнаяРоль</Role>
+			<Role>бит_КадровикВзыскания</Role>
+			<Role>бит_УчетШтрафовПДД</Role>
+			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<Catalog>ВидыИспользованияРабочегоВремени</Catalog>
+			<Catalog>бит_ВидыВзысканий</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Report>СостоянияСотрудников</Report>
 			<Report>бит_ШтрафыПДД</Report>
 			<Report>бит_ДисциплинарныеВзысканияСотрудников</Report>
+			<InformationRegister>НаградыФизическихЛиц</InformationRegister>
 			<InformationRegister>бит_ВзысканияСотрудников</InformationRegister>
 			<InformationRegister>бит_ШтрафыПДД</InformationRegister>
 		</ChildObjects>
