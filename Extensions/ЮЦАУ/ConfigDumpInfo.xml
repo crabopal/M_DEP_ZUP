@@ -10,7 +10,7 @@
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам" id="87b53010-83ef-4d75-a382-085afbd5d583" configVersion="c97425b64f22a5b2d0f1ffeb4834391ae5c84843"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам.Module" id="87b53010-83ef-4d75-a382-085afbd5d583.0" configVersion="a207dfce49d4008bd94c370c8803f1182523d532"/>
 		<Metadata name="CommonModule.ПодписиДокументов" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c" configVersion="96fb5efc69f49f82b9aeb02c0f77be8f01ab3d9b"/>
-		<Metadata name="CommonModule.ПодписиДокументов.Module" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c.0" configVersion="d405522d5ae7af5e55f40e6dd1140727f964800a"/>
+		<Metadata name="CommonModule.ПодписиДокументов.Module" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c.0" configVersion="0ada8ad2f51b9d276ea9ee59ac8dc9e9c672f22e"/>
 		<Metadata name="CommonModule.ПодписиДокументовКлиент" id="987d9d70-20d6-4db7-bd7f-8933e2914edd" configVersion="d7941af28d42274f9095fba9e402e06bfc5fd96e"/>
 		<Metadata name="CommonModule.ПодписиДокументовКлиент.Module" id="987d9d70-20d6-4db7-bd7f-8933e2914edd.0" configVersion="726f53265f1f82a48f8448b82b964364f16fe076"/>
 		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7" configVersion="efbf58cfeb2d062c056677b65d04e0fecc3551b1"/>
@@ -38,8 +38,10 @@
 		<Metadata name="Document.ИндивидуальныйГрафик.ManagerModule" id="eb6f38a3-5ff6-4081-9535-2bfc20a76ae1.2" configVersion="258e6f45e65410af1d183284d85b2579eb896063"/>
 		<Metadata name="Document.ИндивидуальныйГрафик.Template.ПФ_MXL_ГрафикСменности" id="f782ed0a-a843-4b14-beb4-61978517d171" configVersion="528916cc5b8227c1d0c9494aa3e511fd99bc5662"/>
 		<Metadata name="Document.ИндивидуальныйГрафик.Template.ПФ_MXL_ГрафикСменности.Template" id="f782ed0a-a843-4b14-beb4-61978517d171.0" configVersion="dae2fa97f2932624d7bbad8133ab3bce700df3dc"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8" configVersion="6c6149ad244368a4c6746f73d3101c75c08aacca"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.2" configVersion="5f57b4633d07be51310ad559baa0c4a1a5e2f34b"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8" configVersion="5fb8f1a7b1f34be889e0baac12b1caf889d7da7f">
+			<Metadata name="Document.ТабельУчетаРабочегоВремени.Attribute.ИсполнительОтБухгалтерии" id="a7c3e1d4-5b28-4f6a-9e10-2c8d7b6a4f31"/>
+		</Metadata>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.2" configVersion="253e10111816bfb062f584b04e00a8a347245ac0"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.ObjectModule" id="bc723ab8-43a9-4f9a-b747-c2e8040b64f8.0" configVersion="da426473870044bb5de96e6f01550120cd562c07"/>
 		<Metadata name="Enum.ПериодыВводаДанныхОВремени" id="b22c2b30-7f60-478a-ae32-81c9126bab75" configVersion="20379fd4d750f42773c1b76fa29457aed69fe56e"/>
 		<Metadata name="Language.Русский" id="52638dd4-990e-43cb-9ab1-52ae144a9774" configVersion="7ece505b6b52ff77be8642c05530873b7354edf0"/>

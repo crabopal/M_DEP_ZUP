@@ -38,6 +38,24 @@
 			<ExtendedConfigurationObject>277a8466-59bd-4734-9e62-beafce0b4dd7</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="a7c3e1d4-5b28-4f6a-9e10-2c8d7b6a4f31">
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИсполнительОтБухгалтерии</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Работник ПЭО</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ExtendedConfigurationObject>c925c884-dc00-4521-907f-166c8b129620</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
