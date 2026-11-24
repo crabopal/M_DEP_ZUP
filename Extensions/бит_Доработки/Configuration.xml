@@ -66,6 +66,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>юцТабельщик</Subsystem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<CommonPicture>Напоминание</CommonPicture>
 			<CommonPicture>КоллекцияСостоянийРасчетаСтажей</CommonPicture>

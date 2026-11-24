@@ -48,5 +48,6 @@
 		<Metadata name="Role.бит_ОсновнаяРоль.Rights" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a.0" configVersion="b5dc58c31da0189cc43977c9d483ecae8b5e8705"/>
 		<Metadata name="Role.бит_УчетШтрафовПДД" id="98170c2e-dadf-441b-9926-9cb9b733c78d" configVersion="4515c6785e0bc6bb1e73f6be305470d364cea8c4"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="bdea64b0-4691-43ee-abf1-b2a20d50850c" configVersion="aba6b36487982353fbdbbb6567f8e3d1269c6f34"/>
+		<Metadata name="Subsystem.юцТабельщик" id="9cafa4b9-6d95-4b94-8c99-8805a152730b" configVersion="da11bb80085e400feab9c909a103d5436d4868c0"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
