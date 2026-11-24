@@ -12,12 +12,14 @@
 		<Metadata name="CommonModule.ПодписиДокументов" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c" configVersion="96fb5efc69f49f82b9aeb02c0f77be8f01ab3d9b"/>
 		<Metadata name="CommonModule.ПодписиДокументов.Module" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c.0" configVersion="d405522d5ae7af5e55f40e6dd1140727f964800a"/>
 		<Metadata name="CommonModule.ПодписиДокументовКлиент" id="987d9d70-20d6-4db7-bd7f-8933e2914edd" configVersion="d7941af28d42274f9095fba9e402e06bfc5fd96e"/>
-		<Metadata name="CommonModule.ПодписиДокументовКлиент.Module" id="987d9d70-20d6-4db7-bd7f-8933e2914edd.0" configVersion="95784073dc2cda53994c6df3ebf9801f0484446d"/>
+		<Metadata name="CommonModule.ПодписиДокументовКлиент.Module" id="987d9d70-20d6-4db7-bd7f-8933e2914edd.0" configVersion="726f53265f1f82a48f8448b82b964364f16fe076"/>
 		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7" configVersion="efbf58cfeb2d062c056677b65d04e0fecc3551b1"/>
 		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый.Module" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7.0" configVersion="c2f1d29cd85d5afd7093a5f20960063c8c602d83"/>
+		<Metadata name="CommonModule.юцау_ПодписиДокументовВызовСервера" id="c4a1e7b2-6d58-4f0a-9c31-8b7e2d4f1a90" configVersion="d3897c5f751a1063eeb203a3617292a43cdd647e"/>
+		<Metadata name="CommonModule.юцау_ПодписиДокументовВызовСервера.Module" id="c4a1e7b2-6d58-4f0a-9c31-8b7e2d4f1a90.0" configVersion="3cb655ffd41353fa3526df05ac0a59b1f4bf122c"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13" id="e1f7687a-f221-4a5e-8a98-f13226154f04" configVersion="239622ebe8082790ca9c2abcc8f8c7e442007363"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13.Template" id="e1f7687a-f221-4a5e-8a98-f13226154f04.0" configVersion="37b27002e14b47eddd806fae94763b2752cff200"/>
-		<Metadata name="Configuration.ЮЦАУ" id="dd371008-2113-44dc-911c-1b0a6830ab12" configVersion="0f10d638db858a6456bd0b5d281c6d2e946ad6c0"/>
+		<Metadata name="Configuration.ЮЦАУ" id="dd371008-2113-44dc-911c-1b0a6830ab12" configVersion="6c2ee3df533c6d23b00ae8c1ab469ef41f2f64df"/>
 		<Metadata name="Document.ИндивидуальныйГрафик" id="eb6f38a3-5ff6-4081-9535-2bfc20a76ae1" configVersion="6e5dd400a8aa235312f2ee417e8e6f98b011702f">
 			<Metadata name="Document.ИндивидуальныйГрафик.Attribute.юцау_Профсоюз" id="3828ceb8-d18c-47e9-95fb-59e66ab177c2"/>
 			<Metadata name="Document.ИндивидуальныйГрафик.Attribute.Комментарий" id="4615b9b9-dab6-4f5b-9a40-f04634901aa5"/>

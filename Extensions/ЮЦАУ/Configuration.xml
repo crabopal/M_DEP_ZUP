@@ -80,6 +80,7 @@
 			<CommonModule>ПодписиДокументов</CommonModule>
 			<CommonModule>ПодписиДокументовКлиент</CommonModule>
 			<CommonModule>ПодписиДокументовПереопределяемый</CommonModule>
+			<CommonModule>юцау_ПодписиДокументовВызовСервера</CommonModule>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
