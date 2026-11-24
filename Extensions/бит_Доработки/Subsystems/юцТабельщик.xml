@@ -8,6 +8,7 @@
 			<ExtendedConfigurationObject>bf76fc8b-1b50-4967-8498-297d714800dd</ExtendedConfigurationObject>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.бит_ШтрафыПДД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.бит_ШтрафыПДД</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
