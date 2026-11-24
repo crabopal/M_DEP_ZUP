@@ -66,6 +66,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>юцТабельщик</Subsystem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<CommonPicture>Напоминание</CommonPicture>
