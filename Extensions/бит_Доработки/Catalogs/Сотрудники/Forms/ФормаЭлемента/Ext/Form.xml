@@ -133,16 +133,6 @@
 							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ТрудоваяДеятельностьРасширеннаяПодсказка" id="1476"/>
 						</Button>
-						<Button name="бит_Награды" id="10021">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.бит_Награды</CommandName>
-							<ExtendedTooltip name="бит_НаградыРасширеннаяПодсказка" id="10022"/>
-						</Button>
-						<Button name="бит_Взыскания" id="10024">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.бит_Взыскания</CommandName>
-							<ExtendedTooltip name="бит_ВзысканияРасширеннаяПодсказка" id="10025"/>
-						</Button>
 						<Button name="Страхование" id="1469">
 							<Type>Hyperlink</Type>
 							<CommandName>0</CommandName>
@@ -1190,46 +1180,6 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<Commands>
-		<Command name="бит_Награды" id="10020">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Награды</v8:content>
-				</v8:item>
-			</Title>
-			<Use>
-				<xr:Common>false</xr:Common>
-				<xr:Value name="19a849cc-6303-43d0-b7d4-3701ea26e4cc">true</xr:Value>
-				<xr:Value name="c10c7dbf-ff13-41e2-bb4b-9379c8ded4bf">true</xr:Value>
-				<xr:Value name="fdb012c9-583a-42af-95da-070e75a58078">true</xr:Value>
-				<xr:Value name="94d0f4de-a2a8-43df-b879-fc5b8d439c0b">true</xr:Value>
-				<xr:Value name="5acfd30d-df42-4984-b305-ce882070f922">true</xr:Value>
-			</Use>
-			<Action callType="Before">бит_Награды</Action>
-			<FunctionalOptions>
-				<Item>6abd9041-dea3-4ee1-8f57-acd6e460b58d</Item>
-			</FunctionalOptions>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="бит_Взыскания" id="10023">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Взыскания</v8:content>
-				</v8:item>
-			</Title>
-			<Use>
-				<xr:Common>false</xr:Common>
-				<xr:Value name="Role.бит_КадровикВзыскания">true</xr:Value>
-			</Use>
-			<Action callType="Before">бит_Взыскания</Action>
-			<FunctionalOptions>
-				<Item>6abd9041-dea3-4ee1-8f57-acd6e460b58d</Item>
-			</FunctionalOptions>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-	</Commands>
 	<BaseForm version="2.20">
 		<VerticalScroll>useIfNecessary</VerticalScroll>
 		<CommandSet>
