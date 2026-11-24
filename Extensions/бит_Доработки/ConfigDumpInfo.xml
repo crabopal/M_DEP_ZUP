@@ -13,7 +13,7 @@
 		<Metadata name="Catalog.бит_ВидыВзысканий" id="2195b1d3-f393-4fe3-b0cc-577887c1d82a" configVersion="2802a007275ba45ddbe964164607065482170797"/>
 		<Metadata name="CommonPicture.КоллекцияСостоянийРасчетаСтажей" id="3b9f50fd-7ca1-423a-9ed9-e4158b9cb215" configVersion="de63eefc380da771aaf3376980ae8ea376ad3ab5"/>
 		<Metadata name="CommonPicture.Напоминание" id="d64d9d67-d43a-4a29-9abc-d8acfcc47177" configVersion="f671a1994fa47f1fb33f29750f828532589b1833"/>
-		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="aa7bc1193ca51ec668a2b9a08e3516fa7c84e88b"/>
+		<Metadata name="Configuration.бит_Доработки" id="228c2699-4bd7-4f0a-97f5-ea45c009eccb" configVersion="ae43d2254927dbaf090a82a2cd06c96ffd00cc86"/>
 		<Metadata name="InformationRegister.НаградыФизическихЛиц" id="23b18de9-ac17-45cb-94c7-0c2d5113dd5d" configVersion="72e279866abbed564b91a9fa9a5485f0e3008a37">
 			<Metadata name="InformationRegister.НаградыФизическихЛиц.Resource.ДатаПриказа" id="17b8bb0b-7fb9-46e8-a8b9-dbecbf244ec0"/>
 			<Metadata name="InformationRegister.НаградыФизическихЛиц.Dimension.НомерПоПорядку" id="3d6afb67-f54c-4932-9249-4b4960e1baf7"/>
@@ -34,6 +34,7 @@
 		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка" id="20d5b58a-3288-4664-a58d-aa6f704da6dc" configVersion="ae50d225ed48fad5ba50d5e79fdb571138b8b5a7"/>
 		<Metadata name="InformationRegister.бит_ШтрафыПДД.Form.ФормаСписка.Form" id="20d5b58a-3288-4664-a58d-aa6f704da6dc.0" configVersion="fc2707d5e4791269bf75927d40915a6d2dc06e04"/>
 		<Metadata name="Language.Русский" id="3eb79667-914e-4156-99f6-949c2142c140" configVersion="76cb2eda4b4203616af5851d821e8203bda847fa"/>
+		<Metadata name="Subsystem.Кадры.Subsystem.ДисциплинарныеВзыскания" id="b3f3a4e0-093a-4b17-bbf1-deb7d1fc7689" configVersion="996d5b39b2f3b5be82fa013bf1aa26874d1ec9ef"/>
 		<Metadata name="Report.СостоянияСотрудников" id="6e55b2f6-07ef-4b2c-a0e5-6e4a343015b8" configVersion="b9f5e700da65f244e6fb583c586599f5b25fbd89"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21" configVersion="27bc378ff5ac2943a60bb8e6e3f2c7abac27d195"/>
 		<Metadata name="Report.СостоянияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="446435e4-35d8-4eb1-97c2-7150a5ab3f21.0" configVersion="1f745220573853b625181b40bbefa47dc4347229"/>
@@ -48,7 +49,7 @@
 		<Metadata name="Role.бит_ОсновнаяРоль.Rights" id="441c9bee-42b7-47d4-a61c-3af8a9ed4a3a.0" configVersion="b5dc58c31da0189cc43977c9d483ecae8b5e8705"/>
 		<Metadata name="Role.бит_УчетШтрафовПДД" id="98170c2e-dadf-441b-9926-9cb9b733c78d" configVersion="4515c6785e0bc6bb1e73f6be305470d364cea8c4"/>
 		<Metadata name="StyleItem.ПоясняющийТекст" id="bdea64b0-4691-43ee-abf1-b2a20d50850c" configVersion="aba6b36487982353fbdbbb6567f8e3d1269c6f34"/>
-		<Metadata name="Subsystem.Кадры" id="a7b2bfee-bc02-4428-b9c5-a00d90bb0919" configVersion="f3c94edcbf4e9756e5ccef0e9615346dd3598cfb"/>
+		<Metadata name="Subsystem.Кадры" id="a7b2bfee-bc02-4428-b9c5-a00d90bb0919" configVersion="b1bd3fe23c1d488f43953d3397cca42b93b94e5f"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="c2d359ad-0952-4017-8387-7472fc0d4a60" configVersion="8fd660577c5c1136fdc1504596ef037ed4bd5a65"/>
 		<Metadata name="Subsystem.юцТабельщик" id="9cafa4b9-6d95-4b94-8c99-8805a152730b" configVersion="2e3ccfd49c9a47cfc3de779039cb13c5b8b86524"/>
 	</ConfigVersions>
