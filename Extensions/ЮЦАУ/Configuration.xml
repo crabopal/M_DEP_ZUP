@@ -77,6 +77,8 @@
 			<Role>юцау_ОсновнаяРоль</Role>
 			<CommonTemplate>ПФ_MXL_УнифицированнаяФормаТ13</CommonTemplate>
 			<CommonModule>ОбменСБанкамиПоЗарплатнымПроектам</CommonModule>
+			<CommonModule>ПодписиДокументов</CommonModule>
+			<CommonModule>ПодписиДокументовКлиент</CommonModule>
 			<CommonModule>ПодписиДокументовПереопределяемый</CommonModule>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Пользователи</Catalog>
