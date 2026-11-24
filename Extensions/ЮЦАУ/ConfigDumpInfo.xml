@@ -9,10 +9,10 @@
 		<Metadata name="Catalog.Сотрудники" id="b7d3b634-2b23-453e-a16c-2d9d7c60881c" configVersion="5555926eb800bf89177e4a613c53f0e5335710a9"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам" id="87b53010-83ef-4d75-a382-085afbd5d583" configVersion="c97425b64f22a5b2d0f1ffeb4834391ae5c84843"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектам.Module" id="87b53010-83ef-4d75-a382-085afbd5d583.0" configVersion="a207dfce49d4008bd94c370c8803f1182523d532"/>
-		<Metadata name="CommonModule.ПодписиДокументов" id="6481ffdd-59d4-4d92-98a2-98bf92340ec3" configVersion="96fb5efc69f49f82b9aeb02c0f77be8f01ab3d9b"/>
-		<Metadata name="CommonModule.ПодписиДокументов.Module" id="6481ffdd-59d4-4d92-98a2-98bf92340ec3.0" configVersion="d405522d5ae7af5e55f40e6dd1140727f964800a"/>
-		<Metadata name="CommonModule.ПодписиДокументовКлиент" id="7c7842e3-49c4-47ff-b11e-463eb8432dd6" configVersion="d7941af28d42274f9095fba9e402e06bfc5fd96e"/>
-		<Metadata name="CommonModule.ПодписиДокументовКлиент.Module" id="7c7842e3-49c4-47ff-b11e-463eb8432dd6.0" configVersion="95784073dc2cda53994c6df3ebf9801f0484446d"/>
+		<Metadata name="CommonModule.ПодписиДокументов" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c" configVersion="96fb5efc69f49f82b9aeb02c0f77be8f01ab3d9b"/>
+		<Metadata name="CommonModule.ПодписиДокументов.Module" id="e17e8332-eb99-4e1c-949f-5c642f60eb2c.0" configVersion="d405522d5ae7af5e55f40e6dd1140727f964800a"/>
+		<Metadata name="CommonModule.ПодписиДокументовКлиент" id="987d9d70-20d6-4db7-bd7f-8933e2914edd" configVersion="d7941af28d42274f9095fba9e402e06bfc5fd96e"/>
+		<Metadata name="CommonModule.ПодписиДокументовКлиент.Module" id="987d9d70-20d6-4db7-bd7f-8933e2914edd.0" configVersion="95784073dc2cda53994c6df3ebf9801f0484446d"/>
 		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7" configVersion="efbf58cfeb2d062c056677b65d04e0fecc3551b1"/>
 		<Metadata name="CommonModule.ПодписиДокументовПереопределяемый.Module" id="dde56090-afdb-4ae1-bf82-a7edc4c47bd7.0" configVersion="c2f1d29cd85d5afd7093a5f20960063c8c602d83"/>
 		<Metadata name="CommonTemplate.ПФ_MXL_УнифицированнаяФормаТ13" id="e1f7687a-f221-4a5e-8a98-f13226154f04" configVersion="239622ebe8082790ca9c2abcc8f8c7e442007363"/>
