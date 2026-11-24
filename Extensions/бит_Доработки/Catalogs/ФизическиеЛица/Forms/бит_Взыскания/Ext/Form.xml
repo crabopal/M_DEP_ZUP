@@ -256,6 +256,11 @@
 				<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="бит_ФизическоеЛицо" id="4">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗаписатьИЗакрыть" id="1">
